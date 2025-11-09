@@ -39,11 +39,11 @@ Solved a capacitated vehicle routing problem (CVRP) using OR-Tools; cut delivery
 ## 📚 Education
 
 **M.S. in Industrial Engineering**  
-[Centrale Nantes], [2026]  
+Centrale Nantes, 2026  
 Focus: Operations Research, Enterprise Modeling, Discrete Event Simulation, Product Management, Innovation Engineering, Finance & Economics for Engineering, Project Management.
 
 **M.S. in Computer Science**  
-[Università degli studi di trento], [2026]  
+Università degli studi di trento, 2026  
 Focus: HPC for Data Science, AI & Innovation, Service Design & Engineering, Innovation & Entrepreneurship studies in ICT. 
 
 ---
