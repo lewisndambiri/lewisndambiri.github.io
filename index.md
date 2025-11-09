@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+# 👋 Hi, I'm Lewis
+
+Dual Master's student in **Industrial Engineering** and **Computer Science**.  
+I bridge systems optimization with scalable software to solve real-world inefficiencies.
+
+🔍 **I focus on**:  
+- Process optimization & simulation  
+- Data-driven decision systems  
+- Automation & algorithmic efficiency  
+- Human-centered system design
+
+[📧 Email me](mailto:your.email@example.com) | [🔗 LinkedIn](https://linkedin.com/in/yourprofile) | [💻 GitHub](https://github.com/lewis)
+
+---
+
+## 🚀 Featured Projects
+
+### 1. Smart Factory Workflow Optimizer  
+*Industrial Engineering + Python*  
+Used discrete-event simulation to reduce bottlenecks in a semiconductor assembly line by 22%.  
+→ [View Project](projects/factory-optimizer.md)
+
+### 2. Real-Time Anomaly Detection in Manufacturing  
+*Computer Science + Machine Learning*  
+Built a lightweight LSTM model to flag equipment failures from sensor streams.  
+→ [View Project](projects/anomaly-detection.md)
+
+### 3. Logistics Route Planner with Constraint Programming  
+*IE + CS Synergy*  
+Solved a capacitated vehicle routing problem (CVRP) using OR-Tools; cut delivery costs by 15%.  
+→ [View Project](projects/route-planner.md)
+
+---
+
+## 📚 Education
+
+**M.S. in Industrial Engineering**  
+[Your University], [Expected Graduation]  
+Focus: Operations Research, Stochastic Modeling, Human Factors
+
+**M.S. in Computer Science**  
+[Your University], [Expected Graduation]  
+Focus: Algorithms, Distributed Systems, Machine Learning
+
+---
+
+© 2025 Lewis. Built with ❤️ and GitHub Pages.
