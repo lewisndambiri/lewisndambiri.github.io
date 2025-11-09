@@ -44,7 +44,8 @@ Focus: Operations Research, Enterprise Modeling, Discrete Event Simulation, Prod
 
 **M.S. in Computer Science**  
 [Università degli studi di trento], [2026]  
-Focus: HPC for Data Science, AI & Innovation, Service Design & Engineering, Innovation & Entrepreneurship studies in ICT.
+Focus: HPC for Data Science, AI & Innovation, Service Design & Engineering, Innovation & Entrepreneurship studies in ICT. 
+
 ---
 
 © 2025 Lewis. Built with ❤️ and GitHub Pages.
