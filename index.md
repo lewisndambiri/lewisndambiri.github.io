@@ -22,7 +22,7 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 ### 1. Smart Factory Workflow Optimizer  
 *Industrial Engineering + Python*  
 Used discrete-event simulation to reduce bottlenecks in a semiconductor assembly line by 22%.  
-→ [View Project](projects/factory-optimizer.md)
+→ [View Project](projects/factory-optimizer/factory-optimizer.md)
 
 ### 2. Real-Time Anomaly Detection in Manufacturing  
 *Computer Science + Machine Learning*  
