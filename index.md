@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# 👋 Hi, I'm Lewis
+# 👋 Hi, I'm Lewis NDAMBIRI
 
 Dual Master's student in **Industrial Engineering** and **Computer Science**.  
 I bridge systems optimization with scalable software to solve real-world inefficiencies.
@@ -39,13 +39,12 @@ Solved a capacitated vehicle routing problem (CVRP) using OR-Tools; cut delivery
 ## 📚 Education
 
 **M.S. in Industrial Engineering**  
-[Your University], [Expected Graduation]  
-Focus: Operations Research, Stochastic Modeling, Human Factors
+[Centrale Nantes], [2026]  
+Focus: Operations Research, Enterprise Modeling, Discrete Event Simulation, Product Management, Innovation Engineering, Finance & Economics for Engineering, Project Management.
 
 **M.S. in Computer Science**  
-[Your University], [Expected Graduation]  
-Focus: Algorithms, Distributed Systems, Machine Learning
-
+[Università degli studi di trento], [2026]  
+Focus: HPC for Data Science, AI & Innovation, Service Design & Engineering, Innovation & Entrepreneurship studies in ICT.
 ---
 
 © 2025 Lewis. Built with ❤️ and GitHub Pages.
