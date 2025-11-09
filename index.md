@@ -13,7 +13,7 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 - Automation & algorithmic efficiency  
 - Human-centered system design
 
-[📧 Email me](mailto:ndambirilewis@gmail.com) | [🔗 LinkedIn](https://linkedin.com/in/lewisndambiri/) | [💻 GitHub](https://github.com/lewisndambiri)
+[📧 Email me](mailto:ndambirilewis@gmail.com) | [🔗 LinkedIn](https://linkedin.com/in/lewisndambiri/) | [💻 GitHub](https://github.com/lewisndambiri) | 📥 [**View My Resume**](Lewis_Ndambiri_Resume.pdf) 
 
 ---
 
