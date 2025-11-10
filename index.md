@@ -34,7 +34,7 @@ I bridge systems optimization with scalable software to solve real-world ineffic
     🔍 View on GitHub
   </a>
   &nbsp;|&nbsp;
-  <a href="/projects/maintenance-mode-predictor/README.md" target="_blank" rel="noopener">
+  <a href="/projects/maintenance-mode-predictor/README.md">
     📖 Read Case Study
   </a>
 </div>
