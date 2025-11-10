@@ -2,7 +2,8 @@
 layout: default
 ---
 
-# 👋 Hi, I'm Lewis NDAMBIRI
+# My Portfolio
+👋 Hi, I'm Lewis NDAMBIRI
 
 Dual Master's student in **Industrial Engineering** and **Computer Science**.  
 I bridge systems optimization with scalable software to solve real-world inefficiencies.
