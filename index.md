@@ -20,7 +20,24 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 
 ## 🚀 Featured Projects
 
-Coming soon!
+<!-- Maintenance Mode Prediction Project -->
+<div class="project">
+  <h3>1. Maintenance Mode Prediction</h3>
+  <p>
+    Built a Decision Tree classifier to predict industrial machine operational states
+    (<strong>Failure</strong> vs. <strong>Production</strong>) using sensor and maintenance data.
+    Achieved <strong>96% accuracy</strong> after hyperparameter tuning.
+    Key predictors: <code>Sensor5</code>, <code>Age</code>, and <code>Sensor2</code>.
+  </p>
+  <p><em>Statistics & Data Analysis Course Project | Python, Scikit-learn, Pandas</em></p>
+  <a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener">
+    🔍 View on GitHub
+  </a>
+  &nbsp;|&nbsp;
+  <a href="/projects/maintenance-mode-predictor/README.md" target="_blank" rel="noopener">
+    📖 Read Case Study
+  </a>
+</div>
 
 ---
 
