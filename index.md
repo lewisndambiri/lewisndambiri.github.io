@@ -21,7 +21,7 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 
 ### 1. Smart Factory Workflow Optimizer  
 *Discrete-Event Simulation | Python, SimPy*  
-Modeled a 5-station production line and reduced average cycle time by **22%** through arrival rate optimization.  
+Reduced production cycle time by **89%** (492 → 54 min) by aligning input rate with bottleneck capacity.   
 → [Case Study](projects/factory-optimizer/factory-optimizer.md)
 → [View Project](projects/factory-optimizer/)
 
