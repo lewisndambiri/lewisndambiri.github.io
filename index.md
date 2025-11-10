@@ -22,7 +22,7 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 ### 1. Smart Factory Workflow Optimizer  
 *Discrete-Event Simulation | Python, SimPy*  
 Reduced production cycle time by **89%** (492 → 54 min) by aligning input rate with bottleneck capacity.   
-→ [View GitHub Repo](https://github.com/lewisndambiri/lewisndambiri.github.io/projects/factory-optimizer)  
+→ [View GitHub Repo](→ (https://github.com/lewisndambiri/factory-optimizer))  
 → [Case Study](projects/factory-optimizer/factory-optimizer.md)
 
 ### 2. Real-Time Anomaly Detection in Manufacturing  
