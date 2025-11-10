@@ -19,21 +19,7 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 
 ## 🚀 Featured Projects
 
-### 1. Smart Factory Workflow Optimizer  
-*Discrete-Event Simulation | Python, SimPy*  
-Reduced production cycle time by **89%** (492 → 54 min) by aligning input rate with bottleneck capacity.  
-→ [View GitHub Repo](/projects/factory-optimizer)  
-→ [Case Study](/projects/factory-optimizer/factory-optimizer.md)
-
-### 2. Real-Time Anomaly Detection in Manufacturing  
-*Computer Science + Machine Learning*  
-Built a lightweight LSTM model to flag equipment failures from sensor streams.  
-→ [View Project](projects/anomaly-detection.md)
-
-### 3. Logistics Route Planner with Constraint Programming  
-*IE + CS Synergy*  
-Solved a capacitated vehicle routing problem (CVRP) using OR-Tools; cut delivery costs by 15%.  
-→ [View Project](projects/route-planner.md)
+Coming soon!
 
 ---
 
