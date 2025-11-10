@@ -23,7 +23,7 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 *Discrete-Event Simulation | Python, SimPy*  
 Reduced production cycle time by **89%** (492 → 54 min) by aligning input rate with bottleneck capacity.   
 → [Case Study](projects/factory-optimizer/factory-optimizer.md)
-→ [View Project](projects/factory-optimizer/)projects/factory-optimizer
+→ [View Project](projects/factory-optimizer)
 
 ### 2. Real-Time Anomaly Detection in Manufacturing  
 *Computer Science + Machine Learning*  
