@@ -1,13 +1,37 @@
-title: Lewis NDAMBIRI| Industrial Engineer & Computer Scientist
+title: Lewis NDAMBIRI | Industrial Engineer & Computer Scientist
 description: Dual Master's in Industrial Engineering & Computer Science | Optimization, Data, Automation
 theme: jekyll-theme-minimal
 show_downloads: false
+
 plugins:
   - jekyll-relative-links
+
 relative_links:
   enabled: true
 
 style: |
-  .header { background-color: #f8f9fa; }
-  a { color: #0d6efd; text-decoration: none; }
-  h1, h2 { color: #212529; }
+  /* Header styling */
+  .header { 
+    background-color: #f8f9fa; 
+  }
+
+  /* Link styling */
+  a { 
+    color: #0d6efd; 
+    text-decoration: none; 
+  }
+
+  /* Heading styling */
+  h1, h2 { 
+    color: #212529; 
+  }
+
+  /* Project image styling */
+  img.project-preview {
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    display: block;
+  }
+
