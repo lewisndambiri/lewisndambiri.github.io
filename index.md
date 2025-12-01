@@ -42,7 +42,6 @@ Parallelized Romberg integration - a high-accuracy numerical method - using MPI,
 - Achieved 31.77× speedup on 32 cores with 99.3% efficiency (near-perfect scaling!)
 - Analyzed 50+ benchmark configurations across multiple problem sizes
 - Validated theoretical limits using Amdahl's Law (4.8% serial fraction)
-
 → [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/romberg-hpc4ds)  → [Case Study](romberg-hpc4ds/)
 
 ---
