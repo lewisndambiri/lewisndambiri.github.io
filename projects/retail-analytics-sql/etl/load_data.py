@@ -6,11 +6,11 @@ from urllib.parse import quote_plus # To handle special characters in password i
 
 # --- Configuration ---
 
-DB_USER = 'postgres' 
+DB_USER = 'user' 
 DB_PASSWORD = 'password'
-DB_HOST = 'localhost'      # Or your server address
+DB_HOST = 'localhost'      # Or server address
 DB_PORT = '5432'           # Default PostgreSQL port
-DB_NAME = 'retail_analytics' # Use the name of the database you created
+DB_NAME = 'retail_analytics' # Name of the database you created
 
 # Construct the connection string for SQLAlchemy
 # Using quote_plus is good practice if your password has special characters
