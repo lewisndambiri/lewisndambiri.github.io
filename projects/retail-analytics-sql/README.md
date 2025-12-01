@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 🎯 Business Problem Statement
-"Retail executives lack real-time, granular visibility into performance drivers—making it difficult to optimize inventory, allocate marketing spend, and retain high-value customers. Without an integrated analytics pipeline that transforms raw transactional data into actionable insights, decisions are reactive, inefficient, and often based on incomplete information."
+"Retail executives lack real-time, granular visibility into performance drivers - making it difficult to optimize inventory, allocate marketing spend, and retain high-value customers. Without an integrated analytics pipeline that transforms raw transactional data into actionable insights, decisions are reactive, inefficient, and often based on incomplete information."
 
 This project solves that gap by delivering an end-to-end analytics engine that:
 
@@ -14,7 +14,7 @@ This project solves that gap by delivering an end-to-end analytics engine that:
 - Identifies top-performing stores and products to guide resource allocation
 - Segments customers using RFM and cohort analysis to enable targeted retention
 - Measures performance against operational targets (e.g., sales KPIs)
-- The result: a data-driven foundation for proactive optimization—turning daily transactions into strategic advantage.
+- The result: a data-driven foundation for proactive optimization - turning daily transactions into strategic advantage.
 
 This statement:
 
@@ -26,7 +26,8 @@ This statement:
 ---
 ### From Python ETL → PostgreSQL → Advanced SQL → Power BI
 
-An end-to-end analytics project demonstrating how raw transactional data can be transformed into actionable business insights using **PostgreSQL, Python ETL, advanced SQL, and Power BI**.  
+This is an end-to-end analytics project demonstrating how raw transactional data can be transformed into actionable business insights using **PostgreSQL, Python ETL, advanced SQL, and Power BI**.  
+
 This project combines **data engineering**, **analytical SQL**, and **business intelligence** principles to answer key questions about revenue, products, stores, and customer behavior.
 
 ![Retail Analytics Dashboard](docs/powerbi_dashboard.png)
