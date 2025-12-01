@@ -34,6 +34,17 @@ Designed a complete analytics pipeline - from synthetic data generation in Pytho
 Answers key business questions: *Which products drive profit? How do customers behave? Are we hitting targets?*  
 → [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/projects/retail-analytics-sql)  → [Case Study](projects/retail-analytics-sql/)
 
+### 3. Parallel Numerical Integration using Romberg’s Method
+*High-Performance Computing (HPC) | C, MPI, OPENMP, PBS, Linux HPC Cluster*
+![Parallel Numerical Integration](romberg-hpc4ds/hpc.jpg)  
+
+Parallelized Romberg integration - a high-accuracy numerical method - using MPI, OpenMP, and hybrid MPI+OpenMP on a 6,092-core cluster using a computationally heavy integrand (sin(x)·e⁻ˣ²) with 1,000,000 artificial iterations to emulate real-world HPC workloads. Evaluated strong/weak scaling, PBS placement strategies (pack, scatter, :excl) and:
+- Achieved 31.77× speedup on 32 cores with 99.3% efficiency (near-perfect scaling!)
+- Analyzed 50+ benchmark configurations across multiple problem sizes
+- Validated theoretical limits using Amdahl's Law (4.8% serial fraction)
+
+→ [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/romberg-hpc4ds)  → [Case Study](romberg-hpc4ds/)
+
 ---
 
 ## 📚 Education
