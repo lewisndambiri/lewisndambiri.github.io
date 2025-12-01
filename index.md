@@ -27,7 +27,7 @@ Built a Decision Tree classifier to predict industrial machine operational state
 Key predictors: `Sensor5`, `Age`, and `Sensor2`.  
 → [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/projects/maintenance-mode-predictor) → [Case Study](projects/maintenance-mode-predictor/)
 
-### 2. End-to-End Retail Analytics Engine**  
+### 2. End-to-End Retail Analytics Engine 
 *PostgreSQL, Python ETL, Advanced SQL, Power BI*  
 ![Retail Analytics Dashboard](projects/retail-analytics-sql/retail_analytics.png)  
 Designed a complete analytics pipeline - from synthetic data generation in Python to a star-schema data model in PostgreSQL, advanced SQL analysis (cohort retention, RFM segmentation, window functions), and an interactive Power BI dashboard. 
