@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 🎯 Business Problem Statement
-"Retail executives lack real-time, granular visibility into performance drivers - making it difficult to optimize inventory, allocate marketing spend, and retain high-value customers. Without an integrated analytics pipeline that transforms raw transactional data into actionable insights, decisions are reactive, inefficient, and often based on incomplete information."
+Retail executives lack real-time, granular visibility into performance drivers - making it difficult to optimize inventory, allocate marketing spend, and retain high-value customers. Without an integrated analytics pipeline that transforms raw transactional data into actionable insights, decisions are reactive, inefficient, and often based on incomplete information.
 
 This project solves that gap by delivering an end-to-end analytics engine that:
 
@@ -15,13 +15,6 @@ This project solves that gap by delivering an end-to-end analytics engine that:
 - Segments customers using RFM and cohort analysis to enable targeted retention
 - Measures performance against operational targets (e.g., sales KPIs)
 - The result: a data-driven foundation for proactive optimization - turning daily transactions into strategic advantage.
-
-This statement:
-
-- Starts with a real pain point (lack of visibility → poor decisions)
-- Positions your project as the solution (end-to-end pipeline)
-- Highlights business outcomes (optimization, retention, efficiency)
-- Aligns with your Industrial Engineering focus on systems and decision quality
 
 ---
 ### From Python ETL → PostgreSQL → Advanced SQL → Power BI
@@ -151,7 +144,7 @@ The `sql/queries.sql` file contains queries designed to answer real business que
 - Use any PostgreSQL client (psql, pgAdmin, DBeaver) to execute queries in sql/queries.sql.
 
 ### 5. Visualize Metrics
-- Open the Power BI dashboard (docs/powerbi_dashboard.pbix) to interact with visual insights.
+- Open the Power BI dashboard (docs/powerbi_dashboard.png) to see visual insights.
 
 ## 📊 Insights & Use Cases
 
