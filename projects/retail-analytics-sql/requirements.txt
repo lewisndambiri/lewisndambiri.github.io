@@ -1,18 +1,7 @@
 # Data manipulation
-pandas==2.1.1
+pandas>=1.3.0
+numpy>=1.21.0
 
 # Database connection & ORM
-SQLAlchemy==2.0.23
-psycopg2-binary==2.9.7
-
-# Synthetic data generation
-Faker==23.3.0
-
-# Progress bars for ETL scripts
-tqdm==4.66.1
-
-# Optional: For date handling if needed in ETL
-python-dateutil==2.9.2
-
-# Optional: For better CSV performance
-pyarrow==12.0.1
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
