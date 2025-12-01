@@ -3,7 +3,7 @@ layout: default
 ---
 
 # My Portfolio
-👋 Hi, I'm Lewis NDAMBIRI
+Hi, I'm Lewis NDAMBIRI
 
 Dual Master's student in **Industrial Engineering** and **Computer Science**.  
 I bridge systems optimization with scalable software to solve real-world inefficiencies.
@@ -26,6 +26,13 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 Built a Decision Tree classifier to predict industrial machine operational states (**Failure** vs. **Production**) using sensor and maintenance data. Achieved **96% accuracy** after hyperparameter tuning. 
 Key predictors: `Sensor5`, `Age`, and `Sensor2`.  
 → [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/projects/maintenance-mode-predictor)        → [Case Study](projects/maintenance-mode-predictor/)
+
+### 2. End-to-End Retail Analytics Engine**  
+*PostgreSQL, Python ETL, Advanced SQL, Power BI*  
+![Retail Analytics Dashboard](projects/retail-analytics-sql/retail_analytics.png)  
+Designed a complete analytics pipeline - from synthetic data generation in Python to a star-schema data model in PostgreSQL, advanced SQL analysis (cohort retention, RFM segmentation, window functions), and an interactive Power BI dashboard. Answers key business questions: *Which products drive profit? How do customers behave? Are we hitting targets?*  
+→ [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/projects/retail-analytics-sql)       
+→ [Case Study](projects/retail-analytics-sql/)
 
 ---
 
