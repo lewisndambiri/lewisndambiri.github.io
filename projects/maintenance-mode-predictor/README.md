@@ -10,7 +10,7 @@
 
 ## 📌 Overview
 
-In industrial systems, unexpected machine failures lead to costly downtime. This project leverages **real-world maintenance logs** to build a **Decision Tree classifier** that predicts whether a machine is in **Failure (0)** or **Production (1)** mode—enabling proactive maintenance strategies.
+In industrial systems, unexpected machine failures lead to costly downtime. This project leverages **real-world maintenance logs** to build a **Decision Tree classifier** that predicts whether a machine is in **Failure (0)** or **Production (1)** mode - enabling proactive maintenance strategies.
 
 Developed as part of a **Statistics and Data Analysis** course, this work bridges **Industrial Engineering** (reliability, operations) with **Computer Science** (machine learning, data pipelines).
 
