@@ -22,27 +22,37 @@ I bridge systems optimization with scalable software to solve real-world ineffic
 
 ### 1. Maintenance Mode Prediction
 *Statistics & Data Analysis | Python, Scikit-learn, Pandas*  
-![Maintenance Mode Predictor preview](projects/maintenance-mode-predictor/preview.jpg){: .project-preview }
+
+![Maintenance Mode Predictor preview](https://raw.githubusercontent.com/lewisndambiri/maintenance-mode-predictor/main/preview.jpg){: .project-preview }
 Built a Decision Tree classifier to predict industrial machine operational states (**Failure** vs. **Production**) using sensor and maintenance data. Achieved **96% accuracy** after hyperparameter tuning. 
 Key predictors: `Sensor5`, `Age`, and `Sensor2`.  
-→ [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/projects/maintenance-mode-predictor) → [Case Study](projects/maintenance-mode-predictor/)
+→ [Case Study](https://github.com/lewisndambiri/maintenance-mode-predictor#readme)
+→ [View on GitHub](https://github.com/lewisndambiri/maintenance-mode-predictor)
+
 
 ### 2. End-to-End Retail Analytics Engine 
 *PostgreSQL, Python ETL, Advanced SQL, Power BI*  
-![Retail Analytics Dashboard](projects/retail-analytics-sql/retail_analytics.png)  
+![Retail Analytics Dashboard](https://raw.githubusercontent.com/lewisndambiri/retail-analytics-sql/main/retail_analytics.png
+)  
 Designed a complete analytics pipeline - from synthetic data generation in Python to a star-schema data model in PostgreSQL, advanced SQL analysis (cohort retention, RFM segmentation, window functions), and an interactive Power BI dashboard. 
-Answers key business questions: *Which products drive profit? How do customers behave? Are we hitting targets?*  
-→ [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/projects/retail-analytics-sql)  → [Case Study](projects/retail-analytics-sql/)
+Answers key business questions: *Which products drive profit? How do customers behave? Are we hitting targets?* 
+
+→ [Case Study](https://github.com/lewisndambiri/retail-analytics-sql#readme)
+→ [View on GitHub](https://github.com/lewisndambiri/retail-analytics-sql)
+
 
 ### 3. Parallel Numerical Integration using Romberg’s Method
 *High-Performance Computing (HPC) | C, MPI, OPENMP, PBS, Linux HPC Cluster*
-![Parallel Numerical Integration](romberg-hpc4ds/hpc.jpg)  
+![Parallel Numerical Integration](https://raw.githubusercontent.com/lewisndambiri/romberg-hpc4ds/main/hpc.jpg
+)  
 
 Parallelized Romberg integration - a high-accuracy numerical method - using MPI, OpenMP, and hybrid MPI+OpenMP on a 6,092-core cluster using a computationally heavy integrand (sin(x)·e⁻ˣ²) with 1,000,000 artificial iterations to emulate real-world HPC workloads. Evaluated strong/weak scaling, PBS placement strategies (pack, scatter, :excl) and:
 - Achieved 31.77× speedup on 32 cores with 99.3% efficiency (near-perfect scaling!)
 - Analyzed 50+ benchmark configurations across multiple problem sizes
 - Validated theoretical limits using Amdahl's Law (4.8% serial fraction)
-→ [View on GitHub](https://github.com/lewisndambiri/lewisndambiri.github.io/tree/main/romberg-hpc4ds)  → [Case Study](romberg-hpc4ds/)
+
+→ [Case Study](https://github.com/lewisndambiri/romberg-hpc4ds#readme)
+→ [View on GitHub](https://github.com/lewisndambiri/romberg-hpc4ds)
 
 ---
 
