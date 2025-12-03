@@ -29,7 +29,7 @@ Built a Decision Tree classifier to predict industrial machine operational state
 Key predictors: `Sensor5`, `Age`, and `Sensor2`.  
 
 → [Case Study](/projects/maintenance-mode-predictor/)
-→ [View on GitHub](https://github.com/lewisndambiri/maintenance-mode-predictor)
+→ <a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 
 ### 2. End-to-End Retail Analytics Engine 
@@ -41,7 +41,7 @@ Designed a complete analytics pipeline - from synthetic data generation in Pytho
 Answers key business questions: *Which products drive profit? How do customers behave? Are we hitting targets?* 
 
 → [Case Study](/projects/retail-analytics-sql)
-→ [View on GitHub](https://github.com/lewisndambiri/retail-analytics-sql)
+→ <a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 
 ### 3. Parallel Numerical Integration using Romberg’s Method
@@ -54,8 +54,8 @@ Parallelized Romberg integration - a high-accuracy numerical method - using MPI,
 - Analyzed 50+ benchmark configurations across multiple problem sizes
 - Validated theoretical limits using Amdahl's Law (4.8% serial fraction)
 
-→ [Case Study](/projects/maintenance-mode-predictor/romberg-hpc4ds)
-→ [View on GitHub](https://github.com/lewisndambiri/romberg-hpc4ds)
+→ [Case Study](/projects/romberg-hpc4ds)
+→ <a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 ---
 
