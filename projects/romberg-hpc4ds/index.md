@@ -147,7 +147,7 @@ for (int i = 1; i < local_n; i++) {
 
 ---
 ## 🔧 Project Archictecture
-![Romberg Integration Architecture](results/project_arch.PNG)
+![Romberg Integration Architecture](/projects/romberg-hpc4ds/project_arch.PNG)
 
 ---
 ---
@@ -294,8 +294,8 @@ Plots are saved to `results/*.png` with CSV data exported for further analysis.
 
 ### Strong Scaling Results
 
-![Strong Scaling L16 vs L20](results/strong_speedup_L16_vs_L20.png)
-![Strong Efficiency L16 vs L20](results/strong_efficiency_L16_vs_L20.png)
+![Strong Scaling L16 vs L20](/projects/romberg-hpc4ds/strong_speedup_L16_vs_L20.png)
+![Strong Efficiency L16 vs L20](/projects/romberg-hpc4ds/strong_efficiency_L16_vs_L20.png)
 
 #### Level 16 (65,536 intervals)
 
@@ -326,7 +326,7 @@ Plots are saved to `results/*.png` with CSV data exported for further analysis.
 
 ### Weak Scaling Results
 
-![Weak Scaling](results/weak_efficiency.png)
+![Weak Scaling](/projects/romberg-hpc4ds/weak_efficiency.png)
 
 | Cores | Level | Intervals | Time (s) | Efficiency |
 |-------|-------|-----------|----------|------------|
@@ -340,7 +340,7 @@ Plots are saved to `results/*.png` with CSV data exported for further analysis.
 
 ### Placement Strategy Impact
 
-![Placement Comparison](results/placement_comparison.png)
+![Placement Comparison](/projects/romberg-hpc4ds/placement_comparison.png)
 
 **Configuration:** p=4, Level 20
 
@@ -355,7 +355,7 @@ Plots are saved to `results/*.png` with CSV data exported for further analysis.
 
 ### Hybrid MPI+OpenMP Results
 
-![Hybrid Scaling](results/hybrid_scaling_combined.png)
+![Hybrid Scaling](/projects/romberg-hpc4ds/hybrid_scaling_combined.png)
 
 | Total Cores | MPI Ranks | OMP Threads | Time (s) | Speedup | Efficiency |
 |-------------|-----------|-------------|----------|---------|------------|
@@ -367,7 +367,7 @@ Plots are saved to `results/*.png` with CSV data exported for further analysis.
 
 ### Amdahl's Law Analysis
 
-![Amdahl Fit](results/amdahl_fit.png)
+![Amdahl Fit](/projects/romberg-hpc4ds/amdahl_fit.png)
 
 Empirical fitting to Level 20 data estimates **serial fraction f ≈ 4.8%**, yielding:
 
@@ -441,7 +441,7 @@ This project was developed as part of the **HPC4DS course (2025-2026)** at the *
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the LICENSE file for details.
 
 ---
 
