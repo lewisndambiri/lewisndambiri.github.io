@@ -23,7 +23,7 @@ This is an end-to-end analytics project demonstrating how raw transactional data
 
 This project combines **data engineering**, **analytical SQL**, and **business intelligence** principles to answer key questions about revenue, products, stores, and customer behavior.
 
-![Retail Analytics Dashboard](docs/powerbi_dashboard.png)
+![Retail Analytics Dashboard](/projects/retail-analytics-sql/powerbi_dashboard.png)
 
 ---
 
@@ -62,7 +62,7 @@ The project uses a **star schema** for OLAP queries:
 
 The schema is defined in [`sql/schema.sql`](sql/schema.sql) and enables efficient analytical queries.
 
-![ER Diagram](docs/er_diagram.png)
+![ER Diagram](/projects/retail-analytics-sql/er_diagram.png)
 
 ---
 
