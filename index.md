@@ -58,7 +58,7 @@ Parallelized Romberg integration - a high-accuracy numerical method - using MPI,
 → [Case Study](/projects/romberg-hpc4ds)
 → <a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
-### Fedrigoni Industrial AI Challenge - Team 3
+### 4. Fedrigoni Industrial AI Challenge - Team 3
 *Industrial AI for Predictive Manufacturing | Python, Pandas, NumPy, XGBoost, Matplotlib, Seaborn*
 ![Fedrigoni](/projects/Industrial-AI-Challenge/Fedrigoni.avif){: .project-preview }
 - **Project Overview**: This project is part of University of Trento's AI and Innovation course where we focused on improving the slitting process in paper manufacturing at **Fedrigoni’s Arco plant**. By leveraging **predictive AI models** and **data analytics**, we aimed to predict daily slitting output and optimize production management to improve operational efficiency and customer satisfaction.
