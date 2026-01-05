@@ -140,11 +140,11 @@ docker-compose up --build
 
 1. **Install PostgreSQL**
 ```bash
-# macOS
+For macOS
 brew install postgresql@15
 brew services start postgresql@15
 
-# Ubuntu
+For Ubuntu
 sudo apt-get install postgresql-15
 sudo systemctl start postgresql
 ```
@@ -163,22 +163,22 @@ pip install -r requirements.txt
 
 4. **Run each service in separate terminals**
 ```bash
-# Terminal 1: User Profile Service
+Terminal 1: User Profile Service
 cd services/data/user-profile
 python app.py
 
-# Terminal 2: Itinerary Service
+Terminal 2: Itinerary Service
 cd services/data/itinerary
 python app.py
 
-# Terminal 3: Events Adapter
+Terminal 3: Events Adapter
 cd services/adapters/events
 export TICKETMASTER_API_KEY=your_key
 python app.py
 
-# ... (repeat for all services)
+... (repeat for all services)
 
-# Final Terminal: Telegram Bot
+Final Terminal: Telegram Bot
 cd bot
 export TELEGRAM_BOT_TOKEN=your_token
 python app.py
