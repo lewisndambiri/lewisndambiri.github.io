@@ -69,6 +69,17 @@ Parallelized Romberg integration - a high-accuracy numerical method - using MPI,
 → [Case Study](/projects/Industrial-AI-Challenge)
 → <a href="/projects/Industrial-AI-Challenge/Certificate.png" target="_blank">Certificate of Attendance</a>
 
+### 5. UrbanPulse – Event & Logistics Planner  
+*Service-Oriented Architecture (SOA) | Python, Flask, PostgreSQL, Docker, REST, Telegram Bot*  
+![UrbanPulse](/projects/UrbanPulse/urbanpulse.PNG){: .project-preview }
+
+Built a **process-centric, 4-layer SOA system** that enables users to discover events and receive **weather-aware transport recommendations** via a Telegram chatbot. Implemented **two orchestration services** to manage event discovery and commitment workflows, integrating real-world APIs for events, weather, and routing.
+
+- **Architecture:** Strict 4-layer SOA with independent microservices  
+- **Integrations:** Ticketmaster, OpenWeatherMap, OpenRouteService  
+- **Highlights:** Preference-based ranking, transport optimization, fully containerized system  
+
+→ [Case Study](/projects/UrbanPulse)  → [Final Report](/projects/UrbanPulse/index/) 
 
 ---
 
