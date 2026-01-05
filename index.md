@@ -81,7 +81,7 @@ Built a **process-centric, 4-layer SOA system** that enables users to discover e
 
 It provides a **seamless, end-to-end event planning experience** from discovery to logistics for users in real-time.  
 
-→ [Case Study](/projects/UrbanPulse)  → <a href="https://github.com/lewisndambiri/lewisndambiri.github.io/new/main/projects/UrbanPulse" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+→ [Case Study](/projects/UrbanPulse)  → <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
 ---
 
