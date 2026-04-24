@@ -11,9 +11,9 @@ The project was built for **HackaPrompt AI 2026** at the **University of Trento*
 
 ## Screenshots
 
-![HackaPrompt AI 2026 event slide](docs/assets/hackaprompt-ai.png)
+![HackaPrompt AI 2026 event slide](projects/meet-scheduler/HackapromptAI.png)
 
-![MeetScheduler create event screen](docs/assets/homepage.png)
+![MeetScheduler create event screen](projects/meet-scheduler/Homepage.png)
 
 
 ## Features
