@@ -35,7 +35,7 @@ Key predictors: `Sensor5`, `Age`, and `Sensor2`.
 
 ## 2. Demand Forecasting for Retail Stores
 Time Series Forecasting | Python, XGBoost, Pandas, Scikit‑learn, Streamlit, Docker  
-![Demand Forecasting preview](/projects/demand_planning/demand-forecasting-hero.jpg){: .project-preview }
+![Demand Forecasting preview](/projects/demand_planning/demand-forecasting-hero.png){: .project-preview }
 
 End‑to‑end forecasting pipeline using XGBoost with leakage‑conscious feature engineering (lag, rolling means, calendar, business features), time‑based holdout validation, and a recursive forecast loop for future unseen dates. Built on the Rossmann Store Sales dataset (1,115 stores, 1.0M+ rows). Achieved 9.23% MAPE, 0.914 R², and a 55% RMSE reduction compared to the best naive baseline. Includes a Streamlit dashboard, Docker support, unit tests, and CI. The model chooses between XGBoost and scikit‑learn fallback automatically.
 
