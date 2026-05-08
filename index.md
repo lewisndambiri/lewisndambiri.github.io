@@ -41,7 +41,6 @@ End‑to‑end forecasting pipeline using XGBoost with leakage‑conscious featu
 
 → [Case Study](/projects/demand_planning/)
 → <a href="https://github.com/lewisndambiri/demand_planning" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-→ <a href="https://github.com/lewisndambiri/demand_planning/docs/RESULTS.md" target="_blank" rel="noopener noreferrer">Results</a>
 
 ### 3. UrbanPulse – Event & Logistics Planner  
 *Service-Oriented Architecture (SOA) | Python, Flask, PostgreSQL, Docker, REST, Telegram Bot*  
