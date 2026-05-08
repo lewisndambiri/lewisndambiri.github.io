@@ -1,6 +1,6 @@
 # Demand Forecasting
 
-![Demand Forecasting project hero](projects/demand_planning/demand-forecasting-hero-titled.png)
+![Demand Forecasting project hero](demand-forecasting-hero-titled.png)
 
 ## Business Problem
 
@@ -106,15 +106,15 @@ Full report: [docs/EDA_REPORT.md](docs/EDA_REPORT.md)
 
 ### Total Daily Sales
 
-![Total daily sales](projects/demand_planning/daily_sales.png)
+![Total daily sales](daily_sales.png)
 
 ### Promotion Lift
 
-![Promotion lift](projects/demand_planning/promo_lift.png)
+![Promotion lift](promo_lift.png)
 
 ## Dashboard
 
-![Dashboard overview](projects/demand_planning/streamlit-dashboard-overview.png)
+![Dashboard overview](streamlit-dashboard-overview.png)
 
 The Streamlit dashboard includes:
 
