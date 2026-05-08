@@ -1,39 +1,57 @@
-# Demand Forecasting
+# Demand Forecasting for Retail Stores
 
 ![Demand Forecasting project hero](demand-forecasting-hero-titled.png)
 
-## Business Problem
+> **Predicting daily store sales with XGBoost. 9.2% MAPE, 0.91 R², and a Streamlit dashboard that makes the results tangible.**
 
-Retail demand is uncertain, but it is not random. Store sales are shaped by recent demand, promotions, holidays, store type, assortment, competition, and calendar patterns.
+---
 
-The business question is:
+## The Story Behind the Project
 
-> Can we predict daily store sales accurately enough to support planning decisions?
+In retail, demand isn’t random — but it often feels that way. Store managers and planners need to know whether next week will be busy or quiet. This project asks a concrete question:
 
-Better forecasts can help with:
+> *Can we predict daily store sales accurately enough to support inventory, staffing, and promotion decisions?*
 
-- inventory planning
-- staffing decisions
-- promotion analysis
-- warehouse preparation
-- early detection of unusual store behavior
+I built this project to showcase a complete forecasting workflow, from raw data to a deployable dashboard. This a production‑style machine learning system designed to run reliably and be understood by business users.
 
+---
 
-## Highlights
+## Business Value at a Glance
 
-This ia an end-to-end retail demand forecasting project with XGBoost, time-aware validation, recursive future forecasts, EDA plots, Streamlit dashboard, Docker support, tests, and CI. The project uses Rossmann-style store sales data to predict daily store demand. It is structured as a small production-style machine learning project.
+- **9.2% average error (MAPE)** means planners can trust the numbers for most operational decisions
+- **Over 91% of sales variability explained (R² 0.914)** — the model captures the main demand drivers
+- The model **cuts RMSE by more than half** compared to simply repeating yesterday’s sales or last week’s sales
+- A recursive forecasting loop generates predictions for **future dates where sales are truly unknown**, not just back-testing
+- A **Streamlit dashboard** translates model outputs into clear visuals for non‑technical stakeholders
 
-- XGBoost regression for tabular demand forecasting
-- Time-aware holdout validation
-- Leakage-conscious feature engineering
-- Store-level lag and rolling sales features
-- Business features for promotions, competition, and calendar behavior
-- Baseline comparison against naive forecasting rules
-- Recursive forecasting for unseen future rows
-- EDA report with GitHub-rendered plots
-- Streamlit dashboard
-- Docker and deployment support
-- Unit tests and GitHub Actions CI
+---
+
+## What Makes This Project Different
+
+Many forecasting projects rely on random train/test splits that leak future information.
+
+| Principle | Implementation |
+|-----------|----------------|
+| **Time‑aware validation** | Chronological holdout — train on the past, evaluate on the future |
+| **Leakage‑conscious features** | Rolling averages and lags are shifted so the model never sees its own future |
+| **Baseline comparison** | The model must beat naive “yesterday” and “last week” forecasts — and it does, dramatically |
+| **Recursive forecasting** | Future predictions feed back into the feature pipeline, simulating real‑world use |
+
+---
+
+## How It Works – The Pipeline
+
+```text
+Raw sales & store data
+  → Clean & validate
+    → Feature engineering (calendar, competition, promotions, lags, rolling means)
+      → Time‑based train/holdout split
+        → XGBoost training with log‑transformed target
+          → Baseline evaluation
+            → Recursive future forecast generation
+              → Dashboard & saved artifacts
+```
+Every step is modular and reproducible. The configuration is centralized in a single YAML file, and the whole pipeline can be rerun with a single make train command. 
 
 ## Dataset
 
@@ -79,6 +97,25 @@ This project compares XGBoost against:
 
 XGBoost performs substantially better than both baselines.
 
+# Features That Drive the Forecast
+I engineered three groups of features because demand patterns are multi-dimensional:
+
+## Calendar features capture seasonality
+- Day of week, month, year, week of year
+- Weekend, month-start, month-end flags
+
+## Business features capture store-specific context
+- Promotions (`Promo`, `Promo2` interval matching)
+- Competition distance and how long the competitor has been open
+- Store type and assortment
+
+## Sales history features (computed per store) capture momentum
+- Lagged sales: 1 day, 7 days, 14 days
+- Rolling means: 7-day and 14-day averages shifted by one day to avoid leakage
+
+The feature engineering respects a crucial rule: at prediction time, only information that would have been available on that day is used.
+
+---
 ## Results
 
 Real Rossmann holdout results:
