@@ -33,7 +33,7 @@ Key predictors: `Sensor5`, `Age`, and `Sensor2`.
 → [Case Study](/projects/maintenance-mode-predictor/)
 → <a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener noreferrer">View on GitHub</a>
 
-## 2. Demand Forecasting for Retail Stores
+### 2. Demand Forecasting for Retail Stores
 Time Series Forecasting | Python, XGBoost, Pandas, Scikit‑learn, Streamlit, Docker  
 ![Demand Forecasting preview](/projects/demand_planning/demand-forecasting-hero.png){: .project-preview }
 
