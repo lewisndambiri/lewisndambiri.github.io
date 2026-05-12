@@ -92,7 +92,7 @@ Parallelized Romberg integration - a high-accuracy numerical method - using MPI,
 
 ### 7. MeetScheduler – AI‑Assisted Meeting Scheduler  
 *Full Stack, AI Challenge | React, Node.js, Express, Google Calendar API, Nodemailer, CSS*
-![MeetScheduker](/projects/meet-scheduler/HackapromptAI.png){: .project-preview }
+![MeetScheduker](/projects/meet-scheduler/Homepage.jpg){: .project-preview }
 
 Built for **HackaPrompt AI 2026** at the University of Trento – a Doodle‑inspired meeting scheduler developed **entirely with AI assistance**. Users create time‑slot polls, vote on availability, and automatically detect the best slot via a quorum. Integrates **Google Calendar** to show the creator’s busy times and sends **email invitations** with Nodemailer.  
 The project doubles as a **critical examination of AI programming**: where LLMs excel, where they fall short, and what still requires human judgement.  
