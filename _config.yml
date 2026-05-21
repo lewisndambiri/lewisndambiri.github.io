@@ -1,6 +1,10 @@
-title: Lewis NDAMBIRI | Industrial Engineer & AI/Data Science Specialist
-description: Dual Master's in Industrial Engineering & Computer Science | Optimization, Data, Automation
-theme: jekyll-theme-minimal
+title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
+description: EIT Manufacturing Master's student building AI, data, and optimization systems for competitive manufacturing.
+url: "https://lewisndambiri.github.io"
+baseurl: ""
+
+markdown: kramdown
+theme: null
 show_downloads: false
 
 plugins:
@@ -9,30 +13,5 @@ plugins:
 relative_links:
   enabled: true
 
-style: |
-  /* Header styling */
-  .header { 
-    background-color: #f8f9fa; 
-  }
-
-  /* Link styling */
-  a { 
-    color: #0d6efd; 
-    text-decoration: none; 
-  }
-
-  /* Heading styling */
-  h1, h2 { 
-    color: #212529; 
-  }
-
-  /* Project image styling */
-  img.project-preview {
-    max-width: 300px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    margin: 15px auto;   /* auto horizontally centers */
-    display: block;
-  }
-  }
-
+exclude:
+  - README.md
