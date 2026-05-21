@@ -9,7 +9,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     <span class="status">Industrial Engineering + Data Science + AI</span>
     <span>Systems, data, people, flow</span>
   </div>
-
   <div class="hero-grid">
     <div>
       <p class="eyebrow">EIT Manufacturing Master School</p>
@@ -93,7 +92,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </div>
   </div>
 </header>
-
 <section>
   <div class="section-heading">
     <h2>Selected Projects</h2>
