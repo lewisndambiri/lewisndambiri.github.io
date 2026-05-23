@@ -94,8 +94,9 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 </header>
 <section>
   <div class="section-heading">
-  <h2 style="display:block; width:100%;">Selected Projects</h2>
-  <p style="display:block; width:100%; margin-top:12px;">
+  <h2>Selected Projects</h2>
+    
+  <p>
     Offline industrial AI, forecasting, manufacturing intelligence, analytics
     engineering, service architecture, high-performance computing, and
     AI-assisted product development.
@@ -113,7 +114,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <p class="result">Result: 839 indexed manual chunks, hybrid retrieval, cited local answers, Streamlit UI, and 100% page hit rate@5 on the evaluation set.</p>
       <div class="links">
         <a href="/projects/cnc-rag-assistant/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/lewisndambiri/offline-cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
        </div>
     </article>
     
