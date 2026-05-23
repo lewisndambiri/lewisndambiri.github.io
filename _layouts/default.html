@@ -26,7 +26,7 @@
         import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
 
         mermaid.initialize({
-          startOnLoad: true,
+          startOnLoad: false,
           theme: "dark",
           securityLevel: "loose",
           themeVariables: {
@@ -40,6 +40,17 @@
             tertiaryColor: "#0c1017",
             fontFamily: "Inter, system-ui, sans-serif"
           }
+        });
+
+        document.querySelectorAll("pre > code.language-mermaid").forEach((code) => {
+          const wrapper = document.createElement("div");
+          wrapper.className = "mermaid";
+          wrapper.textContent = code.textContent;
+          code.parentElement.replaceWith(wrapper);
+        });
+
+        await mermaid.run({
+          querySelector: ".mermaid"
         });
       </script>
     {% endunless %}
