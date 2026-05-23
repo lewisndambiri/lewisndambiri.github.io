@@ -32,7 +32,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a class="button" href="https://github.com/lewisndambiri" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </div>
-
+---
     <aside class="command-panel" aria-label="Profile command panel">
       <div class="panel-head">
         <span>Craft Map</span>
@@ -111,10 +111,11 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <p>Built a local retrieval-augmented generation assistant for CNC machine operation and maintenance documentation, using a Haas Mill NGC manual as a realistic manufacturing corpus.</p>
       <p class="result">Result: 839 indexed manual chunks, hybrid retrieval, cited local answers, Streamlit UI, and 100% page hit rate@5 on the evaluation set.</p>
       <div class="links">
+        <a href="/projects/cnc-rag-assistant/">Case Study</a>
         <a href="https://github.com/lewisndambiri/cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
+       </div>
     </article>
-
+---
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview">
@@ -128,7 +129,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/demand_planning" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
-
+---
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/maintenance-mode-predictor/preview.jpg" alt="Maintenance mode predictor preview">
@@ -142,7 +143,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
-
+---
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/retail-analytics-sql/retail_analytics.png" alt="Retail analytics dashboard preview">
@@ -156,7 +157,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
-
+---
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/Industrial-AI-Challenge/Fedrigoni.avif" alt="Fedrigoni industrial AI challenge preview">
@@ -170,7 +171,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="/projects/Industrial-AI-Challenge/Certificate.png" target="_blank" rel="noopener noreferrer">Certificate</a>
       </div>
     </article>
-
+---
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview">
@@ -184,7 +185,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
-
+---
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
@@ -198,7 +199,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
-
+---
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/meet-scheduler/Homepage.jpg" alt="MeetScheduler homepage preview">
@@ -225,7 +226,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <h2>How I Work</h2>
       <p class="lead">Industrial systems thinking, software execution, and human-centered AI.</p>
     </div>
-
+    
     <div class="fit-list">
       <div class="fit-item">
         <strong>Operational thinking</strong>
@@ -267,8 +268,9 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </article>
   </div>
 </section>
-
+---
 <footer>
   <span>© 2026 Lewis NDAMBIRI</span>
   <span>Open to roles in industrial AI, data science, manufacturing analytics, and operations technology.</span>
 </footer>
+---
