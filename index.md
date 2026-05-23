@@ -6,9 +6,10 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 <header class="hero">
   <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
   <div class="topbar">
-    <span class="status">Industrial Engineering + Data Science + AI</span>
+    <span class="status">AI for competitive manufacturing</span>
     <span>Systems, data, people, flow</span>
   </div>
+
   <div class="hero-grid">
     <div>
       <p class="eyebrow">EIT Manufacturing Master School</p>
@@ -17,6 +18,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <span class="title-line accent">NDAMBIRI</span>
       </h1>
       <h2>Data science, AI, and optimization for competitive manufacturing.</h2>
+      <p class="hero-note">I build practical AI systems for manufacturing, operations, and industrial decision-making.</p>
       <div class="identity-strip" aria-label="Professional focus areas">
         <span>Data Science & AI</span>
         <span>Competitive Manufacturing</span>
@@ -75,8 +77,12 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 
   <div class="metrics" aria-label="Selected outcomes">
     <div class="metric">
-      <strong>96%</strong>
-      <span>predictive maintenance classifier accuracy</span>
+      <strong>100%</strong>
+      <span>CNC RAG page hit rate@5 on eval set</span>
+    </div>
+    <div class="metric">
+      <strong>839</strong>
+      <span>Haas CNC manual chunks indexed locally</span>
     </div>
     <div class="metric">
       <strong>9.23%</strong>
@@ -86,19 +92,29 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <strong>31.77x</strong>
       <span>HPC speedup using MPI/OpenMP</span>
     </div>
-    <div class="metric">
-      <strong>1M+</strong>
-      <span>rows modeled in forecasting pipeline</span>
-    </div>
   </div>
 </header>
+
 <section>
   <div class="section-heading">
     <h2>Selected Projects</h2>
-    <p>Forecasting, manufacturing intelligence, analytics engineering, service architecture, high-performance computing, and AI-assisted product development.</p>
+    <p>Offline industrial AI, forecasting, manufacturing intelligence, analytics engineering, service architecture, high-performance computing, and AI-assisted product development.</p>
   </div>
 
   <div class="project-grid">
+    <article class="project-card">
+      <div class="project-media">
+        <img src="/assets/img/cnc-rag-assistant-hero.jpg" alt="Offline CNC RAG Assistant project preview">
+      </div>
+      <div class="stack">Python, FAISS, Sentence Transformers, Ollama, Mistral, Streamlit, Pytest</div>
+      <h3>Offline CNC RAG Assistant</h3>
+      <p>Built a local retrieval-augmented generation assistant for CNC machine operation and maintenance documentation, using a Haas Mill NGC manual as a realistic manufacturing corpus.</p>
+      <p class="result">Result: 839 indexed manual chunks, hybrid retrieval, cited local answers, Streamlit UI, and 100% page hit rate@5 on the evaluation set.</p>
+      <div class="links">
+        <a href="https://github.com/lewisndambiri/cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </article>
+
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview">
@@ -190,7 +206,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <div class="stack">React, Node.js, Express, Google Calendar API, Nodemailer, CSS</div>
       <h3>MeetScheduler AI-Assisted Meeting Scheduler</h3>
       <p>Built a Doodle-inspired meeting scheduler for HackaPrompt AI 2026, with poll creation, availability voting, quorum-based best-slot detection, Google Calendar availability, and email invitations.</p>
-      <p class="result">Result: a full-stack scheduling product and a critical examination of where AI-assisted programming helps, fails, and still needs human judgement.</p>
+      <p class="result">Result: delivered a working full-stack scheduling prototype while documenting how AI assistance can accelerate development when paired with clear product judgement.</p>
       <div class="links">
         <a href="/projects/meet-scheduler/">Case Study</a>
         <a href="https://github.com/lewisndambiri/meet-scheduler" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -206,7 +222,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 
   <div class="fit-content">
     <div>
-      <h2>What I Bring</h2>
+      <h2>How I Work</h2>
       <p class="lead">Industrial systems thinking, software execution, and human-centered AI.</p>
     </div>
 
@@ -254,5 +270,5 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 
 <footer>
   <span>© 2026 Lewis NDAMBIRI</span>
-  <span>Industrial engineering, data science, and software systems.</span>
+  <span>Open to roles in industrial AI, data science, manufacturing analytics, and operations technology.</span>
 </footer>
