@@ -94,10 +94,14 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 </header>
 <section>
   <div class="section-heading">
-    <h2>Selected Projects</h2>
-    <p>Offline industrial AI, forecasting, manufacturing intelligence, analytics engineering, service architecture, high-performance computing, and AI-assisted product development.</p>
+  <h2 style="display:block; width:100%;">Selected Projects</h2>
+  <p style="display:block; width:100%; margin-top:12px;">
+    Offline industrial AI, forecasting, manufacturing intelligence, analytics
+    engineering, service architecture, high-performance computing, and
+    AI-assisted product development.
+  </p>
   </div>
-
+  
   <div class="project-grid">
     <article class="project-card">
       <div class="project-media">
