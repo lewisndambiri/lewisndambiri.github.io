@@ -12,10 +12,51 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     <a href="Resume_NDAMBIRI.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
     <a href="mailto:ndambirilewis@gmail.com">Contact</a>
   </nav>
-
   <div class="hero-intro hero-intro-primary">
     <h1>Lewis NDAMBIRI</h1>
     <h2>Data science, AI, and optimization for competitive manufacturing.</h2>
+  </div>
+   <div class="hero-map" id="craft">
+    <aside class="command-panel" aria-label="Profile command panel">
+      <div class="panel-head">
+        <span>Craft Map</span>
+        <span class="panel-code">DSAI-CM</span>
+      </div>
+      <div class="radar craft-map">
+        <div class="sweep"></div>
+        <div class="radar-ring"></div>
+        <div class="radar-ring"></div>
+        <div class="radar-ring"></div>
+        <div class="center-node">
+          <span>AI</span>
+          <span>Industry</span>
+        </div>
+        <div class="domain-node ai" aria-label="Artificial intelligence">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 10a7 7 0 0 0-7 7v2a7 7 0 0 0 0 14v1a6 6 0 0 0 11 3 6 6 0 0 0 11-3v-1a7 7 0 0 0 0-14v-2a7 7 0 0 0-12-5 7 7 0 0 0-3-2Z"/><path d="M16 19h16M16 28h16M22 14v24M30 14v24"/></svg>
+          <span>Artificial Intelligence</span>
+        </div>
+        <div class="domain-node industry" aria-label="Industrial engineering">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 38V22l10 6V18l10 6V12h16v26H6Z"/><path d="M13 34h4M23 34h4M33 34h4M32 18h4"/></svg>
+          <span>Industrial Engineering</span>
+        </div>
+        <div class="domain-node lean" aria-label="Lean management">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 26h22"/><path d="m25 18 8 8-8 8"/><path d="M10 15h12M10 37h22"/></svg>
+          <span>Lean Management</span>
+        </div>
+        <div class="domain-node i4" aria-label="Industry 4.0">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="6"/><path d="M24 6v8M24 34v8M6 24h8M34 24h8M11 11l6 6M31 31l6 6M37 11l-6 6M17 31l-6 6"/></svg>
+          <span>Industry 4.0</span>
+        </div>
+        <div class="domain-node i5" aria-label="Industry 5.0">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="15" r="5"/><path d="M14 39c1-8 5-13 10-13s9 5 10 13"/><path d="M9 20c3 5 7 8 12 8M39 20c-3 5-7 8-12 8"/></svg>
+          <span>Industry 5.0</span>
+        </div>
+        <div class="domain-node data" aria-label="Data systems">
+          <svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="11" rx="14" ry="5"/><path d="M10 11v24c0 3 6 5 14 5s14-2 14-5V11"/><path d="M10 23c0 3 6 5 14 5s14-2 14-5"/></svg>
+          <span>Data Systems</span>
+        </div>
+      </div>
+    </aside>
   </div>
   <div class="hero-intro hero-intro-secondary">
     <p class="eyebrow">EIT Manufacturing Master School</p>
@@ -173,50 +214,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </article>
   </div>
 </section>
-
- <div class="hero-map" id="craft">
-    <aside class="command-panel" aria-label="Profile command panel">
-      <div class="panel-head">
-        <span>Craft Map</span>
-        <span class="panel-code">DSAI-CM</span>
-      </div>
-      <div class="radar craft-map">
-        <div class="sweep"></div>
-        <div class="radar-ring"></div>
-        <div class="radar-ring"></div>
-        <div class="radar-ring"></div>
-        <div class="center-node">
-          <span>AI</span>
-          <span>Industry</span>
-        </div>
-        <div class="domain-node ai" aria-label="Artificial intelligence">
-          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 10a7 7 0 0 0-7 7v2a7 7 0 0 0 0 14v1a6 6 0 0 0 11 3 6 6 0 0 0 11-3v-1a7 7 0 0 0 0-14v-2a7 7 0 0 0-12-5 7 7 0 0 0-3-2Z"/><path d="M16 19h16M16 28h16M22 14v24M30 14v24"/></svg>
-          <span>Artificial Intelligence</span>
-        </div>
-        <div class="domain-node industry" aria-label="Industrial engineering">
-          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 38V22l10 6V18l10 6V12h16v26H6Z"/><path d="M13 34h4M23 34h4M33 34h4M32 18h4"/></svg>
-          <span>Industrial Engineering</span>
-        </div>
-        <div class="domain-node lean" aria-label="Lean management">
-          <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 26h22"/><path d="m25 18 8 8-8 8"/><path d="M10 15h12M10 37h22"/></svg>
-          <span>Lean Management</span>
-        </div>
-        <div class="domain-node i4" aria-label="Industry 4.0">
-          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="6"/><path d="M24 6v8M24 34v8M6 24h8M34 24h8M11 11l6 6M31 31l6 6M37 11l-6 6M17 31l-6 6"/></svg>
-          <span>Industry 4.0</span>
-        </div>
-        <div class="domain-node i5" aria-label="Industry 5.0">
-          <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="15" r="5"/><path d="M14 39c1-8 5-13 10-13s9 5 10 13"/><path d="M9 20c3 5 7 8 12 8M39 20c-3 5-7 8-12 8"/></svg>
-          <span>Industry 5.0</span>
-        </div>
-        <div class="domain-node data" aria-label="Data systems">
-          <svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="11" rx="14" ry="5"/><path d="M10 11v24c0 3 6 5 14 5s14-2 14-5V11"/><path d="M10 23c0 3 6 5 14 5s14-2 14-5"/></svg>
-          <span>Data Systems</span>
-        </div>
-      </div>
-    </aside>
-  </div>
-  
 <section class="tech-stack" aria-labelledby="tech-stack-title">
   <div class="section-heading">
     <h2 id="tech-stack-title">Technology Stack</h2>
