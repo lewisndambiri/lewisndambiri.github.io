@@ -113,8 +113,8 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <p>Built a local retrieval-augmented generation assistant for CNC machine operation and maintenance documentation, using a Haas Mill NGC manual as a realistic manufacturing corpus.</p>
       <p class="result">Result: 839 indexed manual chunks, hybrid retrieval, cited local answers, Streamlit UI, and 100% page hit rate@5 on the evaluation set.</p>
       <div class="links">
-        <a href="/projects/cnc-rag-assistant/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="/projects/offline-cnc-rag-assistant/">Case Study</a>
+        <a href="https://github.com/lewisndambiri/offline-cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
 
@@ -128,7 +128,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <p class="result">Result: 9.23% MAPE, 0.914 R², and 55% RMSE reduction versus the best naive baseline.</p>
       <div class="links">
         <a href="/projects/demand_planning/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/demand_planning" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/lewisndambiri/demand_forecasting" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
 
