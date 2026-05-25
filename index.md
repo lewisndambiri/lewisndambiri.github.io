@@ -5,33 +5,20 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 
 <header class="hero">
   <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
-  <div class="topbar">
-    <span class="status">AI for competitive manufacturing</span>
-    <span>Systems, data, people, flow</span>
+  <nav class="top-pill" aria-label="Portfolio navigation">
+    <a href="#work">Work</a>
+    <a href="#craft">Craft</a>
+    <a href="#education">Education</a>
+    <a href="Resume_NDAMBIRI.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <a href="mailto:ndambirilewis@gmail.com">Contact</a>
+  </nav>
+
+  <div class="hero-intro hero-intro-primary">
+    <h1>Lewis NDAMBIRI</h1>
+    <h2>Data science, AI, and optimization for competitive manufacturing.</h2>
   </div>
 
-  <div class="hero-grid">
-    <div>
-      <p class="eyebrow">EIT Manufacturing Master School</p>
-      <h1>
-        <span class="title-line">Lewis</span>
-        <span class="title-line accent">NDAMBIRI</span>
-      </h1>
-      <h2>Data science, AI, and optimization for competitive manufacturing.</h2>
-      <p class="hero-note">I build practical AI systems for manufacturing, operations, and industrial decision-making.</p>
-      <div class="identity-strip" aria-label="Professional focus areas">
-        <span>Data Science & AI</span>
-        <span>Competitive Manufacturing</span>
-        <span>Lean & Operations</span>
-        <span>Industry 4.0 / 5.0</span>
-      </div>
-      <div class="actions" aria-label="Contact and profile links">
-        <a class="button primary" href="Resume_NDAMBIRI.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
-        <a class="button" href="mailto:ndambirilewis@gmail.com">Email</a>
-        <a class="button" href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a class="button" href="https://github.com/lewisndambiri" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </div>
+  <div class="hero-map" id="craft">
     <aside class="command-panel" aria-label="Profile command panel">
       <div class="panel-head">
         <span>Craft Map</span>
@@ -44,35 +31,53 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <div class="radar-ring"></div>
         <div class="center-node">
           <span>AI</span>
-          <span>IE</span>
+          <span>Industry</span>
         </div>
         <div class="domain-node ai" aria-label="Artificial intelligence">
           <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 10a7 7 0 0 0-7 7v2a7 7 0 0 0 0 14v1a6 6 0 0 0 11 3 6 6 0 0 0 11-3v-1a7 7 0 0 0 0-14v-2a7 7 0 0 0-12-5 7 7 0 0 0-3-2Z"/><path d="M16 19h16M16 28h16M22 14v24M30 14v24"/></svg>
-          <span>AI</span>
+          <span>Artificial Intelligence</span>
         </div>
         <div class="domain-node industry" aria-label="Industrial engineering">
           <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 38V22l10 6V18l10 6V12h16v26H6Z"/><path d="M13 34h4M23 34h4M33 34h4M32 18h4"/></svg>
-          <span>IE</span>
+          <span>Industrial Engineering</span>
         </div>
         <div class="domain-node lean" aria-label="Lean management">
           <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 26h22"/><path d="m25 18 8 8-8 8"/><path d="M10 15h12M10 37h22"/></svg>
-          <span>Lean</span>
+          <span>Lean Management</span>
         </div>
         <div class="domain-node i4" aria-label="Industry 4.0">
           <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="6"/><path d="M24 6v8M24 34v8M6 24h8M34 24h8M11 11l6 6M31 31l6 6M37 11l-6 6M17 31l-6 6"/></svg>
-          <span>4.0</span>
+          <span>Industry 4.0</span>
         </div>
         <div class="domain-node i5" aria-label="Industry 5.0">
           <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="15" r="5"/><path d="M14 39c1-8 5-13 10-13s9 5 10 13"/><path d="M9 20c3 5 7 8 12 8M39 20c-3 5-7 8-12 8"/></svg>
-          <span>5.0</span>
+          <span>Industry 5.0</span>
         </div>
         <div class="domain-node data" aria-label="Data systems">
           <svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="11" rx="14" ry="5"/><path d="M10 11v24c0 3 6 5 14 5s14-2 14-5V11"/><path d="M10 23c0 3 6 5 14 5s14-2 14-5"/></svg>
-          <span>Data</span>
+          <span>Data Systems</span>
         </div>
       </div>
     </aside>
   </div>
+
+  <div class="hero-intro hero-intro-secondary">
+    <p class="eyebrow">EIT Manufacturing Master School</p>
+    <p class="hero-note">I build practical AI systems for manufacturing, operations, and industrial decision-making.</p>
+    <div class="identity-strip" aria-label="Professional focus areas">
+      <span>Data Science & AI</span>
+      <span>Competitive Manufacturing</span>
+      <span>Lean & Operations</span>
+      <span>Industry 4.0 / 5.0</span>
+    </div>
+    <div class="actions" aria-label="Contact and profile links">
+      <a class="button primary" href="Resume_NDAMBIRI.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+      <a class="button" href="mailto:ndambirilewis@gmail.com">Email</a>
+      <a class="button" href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="button" href="https://github.com/lewisndambiri" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+  </div>
+
   <div class="metrics" aria-label="Selected outcomes">
     <div class="metric">
       <strong>100%</strong>
@@ -92,11 +97,13 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </div>
   </div>
 </header>
-<section>
+
+<section id="work">
   <div class="section-heading">
-  <h2>Selected Projects</h2>
+    <h2>Selected Projects</h2>
+    <p>Offline industrial AI, forecasting, manufacturing intelligence, analytics engineering, service architecture, high-performance computing, and AI-assisted product development.</p>
   </div>
-  
+
   <div class="project-grid">
     <article class="project-card">
       <div class="project-media">
@@ -107,11 +114,11 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <p>Built a local retrieval-augmented generation assistant for CNC machine operation and maintenance documentation, using a Haas Mill NGC manual as a realistic manufacturing corpus.</p>
       <p class="result">Result: 839 indexed manual chunks, hybrid retrieval, cited local answers, Streamlit UI, and 100% page hit rate@5 on the evaluation set.</p>
       <div class="links">
-        <a href="/projects/offline-cnc-rag-assistant/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/offline-cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
-       </div>
+        <a href="/projects/cnc-rag-assistant/">Case Study</a>
+        <a href="https://github.com/lewisndambiri/cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
     </article>
-    
+
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview">
@@ -122,10 +129,10 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <p class="result">Result: 9.23% MAPE, 0.914 R², and 55% RMSE reduction versus the best naive baseline.</p>
       <div class="links">
         <a href="/projects/demand_planning/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/demand_forecasting" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://github.com/lewisndambiri/demand_planning" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
-    
+
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/maintenance-mode-predictor/preview.jpg" alt="Maintenance mode predictor preview">
@@ -139,6 +146,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
+
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/retail-analytics-sql/retail_analytics.png" alt="Retail analytics dashboard preview">
@@ -152,6 +160,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
+
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/Industrial-AI-Challenge/Fedrigoni.avif" alt="Fedrigoni industrial AI challenge preview">
@@ -165,6 +174,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="/projects/Industrial-AI-Challenge/Certificate.png" target="_blank" rel="noopener noreferrer">Certificate</a>
       </div>
     </article>
+
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview">
@@ -178,6 +188,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
+
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
@@ -191,6 +202,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
+
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/meet-scheduler/Homepage.jpg" alt="MeetScheduler homepage preview">
@@ -207,39 +219,77 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   </div>
 </section>
 
-<section class="fit">
-  <div class="fit-visual">
-    <img src="/assets/img/industry-5-human-cobot.png" alt="Human engineer collaborating with a cobot in an Industry 5.0 setting">
+<section class="tech-stack" aria-labelledby="tech-stack-title">
+  <div class="section-heading">
+    <h2 id="tech-stack-title">Technology Stack</h2>
+    <p>Tools repeatedly used across industrial AI, forecasting, analytics engineering, service architecture, HPC, and product prototypes.</p>
   </div>
 
-  <div class="fit-content">
-    <div>
-      <h2>How I Work</h2>
-      <p class="lead">Industrial systems thinking, software execution, and human-centered AI.</p>
+  <div class="stack-groups">
+    <div class="stack-group">
+      <h3>AI & Data</h3>
+      <div class="tech-badges">
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Scikit-learn</span>
+        <span>XGBoost</span>
+        <span>FAISS</span>
+        <span>Sentence Transformers</span>
+        <span>Mistral</span>
+        <span>Ollama</span>
+      </div>
     </div>
-    
-    <div class="fit-list">
-      <div class="fit-item">
-        <strong>Operational thinking</strong>
-        <span>Optimization, simulation, logistics, production systems, and process improvement.</span>
+    <div class="stack-group">
+      <h3>Industrial & Operations</h3>
+      <div class="tech-badges">
+        <span>Optimization</span>
+        <span>Forecasting</span>
+        <span>Simulation</span>
+        <span>Lean Systems</span>
+        <span>Predictive Maintenance</span>
+        <span>Industry 4.0 / 5.0</span>
       </div>
-      <div class="fit-item">
-        <strong>Data product execution</strong>
-        <span>ETL, modeling, validation, dashboards, APIs, tests, Docker, and CI.</span>
+    </div>
+    <div class="stack-group">
+      <h3>Systems & Backend</h3>
+      <div class="tech-badges">
+        <span>PostgreSQL</span>
+        <span>Advanced SQL</span>
+        <span>Flask</span>
+        <span>REST APIs</span>
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>Docker</span>
       </div>
-      <div class="fit-item">
-        <strong>Business translation</strong>
-        <span>Projects framed around decisions, KPIs, accuracy, efficiency, and user workflows.</span>
+    </div>
+    <div class="stack-group">
+      <h3>Interfaces & Delivery</h3>
+      <div class="tech-badges">
+        <span>Streamlit</span>
+        <span>Power BI</span>
+        <span>React</span>
+        <span>Google Calendar API</span>
+        <span>Telegram Bot</span>
+        <span>Nodemailer</span>
       </div>
-      <div class="fit-item">
-        <strong>Technical range</strong>
-        <span>Python, SQL, ML, HPC, service-oriented systems, and full-stack prototypes.</span>
+    </div>
+    <div class="stack-group">
+      <h3>Engineering Practice</h3>
+      <div class="tech-badges">
+        <span>Pytest</span>
+        <span>CI</span>
+        <span>Linux</span>
+        <span>C</span>
+        <span>MPI</span>
+        <span>OpenMP</span>
+        <span>PBS</span>
       </div>
     </div>
   </div>
 </section>
 
-<section>
+<section id="education">
   <div class="section-heading">
     <h2>Education</h2>
   </div>
@@ -259,6 +309,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </article>
   </div>
 </section>
+
 <footer>
   <span>© 2026 Lewis NDAMBIRI</span>
   <span>Open to roles in industrial AI, data science, manufacturing analytics, and operations technology.</span>
