@@ -1253,7 +1253,7 @@ footer {
 
 @media (max-width: 760px) {
   .top-pill {
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     overflow-x: auto;
     scrollbar-width: none;
