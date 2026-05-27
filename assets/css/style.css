@@ -544,9 +544,9 @@ a:hover {
   display: block;
   width: min(100%, 860px);
   aspect-ratio: 16 / 9;
-  max-height: 480px;
+  max-height: 520px;
   margin: 22px auto;
-  object-fit: cover;
+  object-fit: contain;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.04);
