@@ -14,7 +14,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   </nav>
   <div class="hero-intro hero-intro-primary">
     <h1>Lewis NDAMBIRI</h1>
-    <h2>Data science, AI, and optimization for competitive manufacturing.</h2>
+    <h3>Industrial Engineer | AI, Optimization & Industrial Systems | Smart Manufacturing & Supply Chain | Operational Excellence</h3> 
   </div>
    <div class="hero-map" id="craft">
     <aside class="command-panel" aria-label="Profile command panel">
@@ -59,7 +59,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </aside>
   </div>
   <div class="hero-intro hero-intro-secondary">
-    <p class="eyebrow">EIT Manufacturing Master School</p>
     <p class="hero-note">I build practical AI systems for manufacturing, operations, and industrial decision-making.</p>
     <div class="identity-strip" aria-label="Professional focus areas">
       <span>Data Science & AI</span>
@@ -142,21 +141,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
-
-    <article class="project-card">
-      <div class="project-media">
-        <img src="/projects/retail-analytics-sql/retail_analytics.png" alt="Retail analytics dashboard preview">
-      </div>
-      <div class="stack">PostgreSQL, Python ETL, Advanced SQL, Power BI</div>
-      <h3>End-to-End Retail Analytics Engine</h3>
-      <p>Designed a complete analytics pipeline from synthetic data generation to star-schema modeling, SQL analysis, and an executive Power BI dashboard.</p>
-      <p class="result">Result: delivered cohort retention, RFM segmentation, sales KPIs, and product profitability analysis.</p>
-      <div class="links">
-        <a href="/projects/retail-analytics-sql/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </article>
-
     <article class="project-card">
       <div class="project-media">
         <img src="/projects/Industrial-AI-Challenge/Fedrigoni.avif" alt="Fedrigoni industrial AI challenge preview">
@@ -173,20 +157,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 
     <article class="project-card">
       <div class="project-media">
-        <img src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview">
-      </div>
-      <div class="stack">C, MPI, OpenMP, PBS, Linux HPC Cluster</div>
-      <h3>Parallel Numerical Integration Using Romberg's Method</h3>
-      <p>Parallelized a high-accuracy numerical method across MPI, OpenMP, and hybrid configurations, then benchmarked scaling behavior across cluster placements.</p>
-      <p class="result">Result: 31.77x speedup on 32 cores with 99.3% efficiency.</p>
-      <div class="links">
-        <a href="/projects/romberg-hpc4ds/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-media">
         <img src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
       </div>
       <div class="stack">Python, Flask, PostgreSQL, Docker, REST, Telegram Bot</div>
@@ -196,6 +166,38 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <div class="links">
         <a href="/projects/UrbanPulse/">Case Study</a>
         <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </article>
+
+<section id="work">
+  <div class="section-heading">
+    <h2>Other Projects</h2>
+  </div>
+      <article class="project-card">
+      <div class="project-media">
+        <img src="/projects/retail-analytics-sql/retail_analytics.png" alt="Retail analytics dashboard preview">
+      </div>
+      <div class="stack">PostgreSQL, Python ETL, Advanced SQL, Power BI</div>
+      <h3>End-to-End Retail Analytics Engine</h3>
+      <p>Designed a complete analytics pipeline from synthetic data generation to star-schema modeling, SQL analysis, and an executive Power BI dashboard.</p>
+      <p class="result">Result: delivered cohort retention, RFM segmentation, sales KPIs, and product profitability analysis.</p>
+      <div class="links">
+        <a href="/projects/retail-analytics-sql/">Case Study</a>
+        <a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </article>
+  
+    <article class="project-card">
+      <div class="project-media">
+        <img src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview">
+      </div>
+      <div class="stack">C, MPI, OpenMP, PBS, Linux HPC Cluster</div>
+      <h3>Parallel Numerical Integration Using Romberg's Method</h3>
+      <p>Parallelized a high-accuracy numerical method across MPI, OpenMP, and hybrid configurations, then benchmarked scaling behavior across cluster placements.</p>
+      <p class="result">Result: 31.77x speedup on 32 cores with 99.3% efficiency.</p>
+      <div class="links">
+        <a href="/projects/romberg-hpc4ds/">Case Study</a>
+        <a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
 
@@ -214,6 +216,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </article>
   </div>
 </section>
+
 <section class="tech-stack" aria-labelledby="tech-stack-title">
   <div class="section-heading">
     <h2 id="tech-stack-title">Technology Stack</h2>
