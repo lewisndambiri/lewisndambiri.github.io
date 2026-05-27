@@ -37,6 +37,7 @@ FactoryPulse answers that with a web-service architecture instead of a static HM
 | Analytics | Downtime reasons, shift KPIs, production/process trends, custom date-range reports |
 | Configuration | Threshold alert rules and notification targets persisted in PostgreSQL |
 | System | MQTT, InfluxDB, PostgreSQL, OPC UA adapter, WebSocket clients, machine freshness |
+
 ## Demo Video
 
 <video autoplay muted loop playsinline controls preload="metadata" poster="/projects/factorypulse/docs/factorypulse-hero-control-room.png">
