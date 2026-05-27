@@ -60,12 +60,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   </div>
   <div class="hero-intro hero-intro-secondary">
     <p class="hero-note">I build practical AI systems for manufacturing, operations, and industrial decision-making.</p>
-    <div class="identity-strip" aria-label="Professional focus areas">
-      <span>Data Science & AI</span>
-      <span>Competitive Manufacturing</span>
-      <span>Lean & Operations</span>
-      <span>Industry 4.0 / 5.0</span>
-    </div>
     <div class="actions" aria-label="Contact and profile links">
       <a class="button primary" href="Resume_NDAMBIRI.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
       <a class="button" href="mailto:ndambirilewis@gmail.com">Email</a>
@@ -168,6 +162,8 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
+ </div>
+</section>
 
 <section id="work">
   <div class="section-heading">
