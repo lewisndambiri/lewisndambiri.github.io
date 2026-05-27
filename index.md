@@ -84,7 +84,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <img src="/projects/factorypulse/docs/factorypulse-hero-control-room.png" alt="factorypulse preview">
       </div>
       <div class="stack">React, TypeScript, FastAPI, MQTT, Docker, OPC UA, IIoT</div>
-      <h3>Industrial Production Monitoring & Control (Real-Time + Remote )</h3>
+      <h3>Remote Real-Time Industrial Production Monitoring & Control</h3>
       <p>Built a real-time industrial monitoring platform with live telemetry, OEE analytics, alarms, audit logging, and secure remote machine control using FastAPI, MQTT, and Docker.</p>
       <p class="result">Result: Real-time MQTT telemetry ingestion, OEE and downtime analytics, role-based machine control, audit logging, and a containerized FastAPI–React stack.</p>
       <div class="links">
