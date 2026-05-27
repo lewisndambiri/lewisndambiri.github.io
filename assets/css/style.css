@@ -86,17 +86,6 @@ a:hover {
   overflow: hidden;
 }
 
-.metrics::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 2vh;
-  width: min(740px, 70vw);
-  height: 1px;
-  pointer-events: none;
-  background: linear-gradient(90deg, transparent, rgba(64, 214, 194, 0.72), transparent);
-  transform: translateX(-50%);
-}
 
 .hero-canvas {
   position: absolute;
