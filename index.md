@@ -71,7 +71,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <img src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview">
       </div>
       <div class="stack">Python, XGBoost, Pandas, Scikit-learn, Streamlit, Docker</div>
-      <h3>Demand Forecasting for Supply Chain Planning</h3>
+      <h3>Demand Forecasting</h3>
       <p>Built an end-to-end forecasting pipeline for the Rossmann Store Sales dataset, covering 1,115 stores and 1M+ rows with leakage-conscious feature engineering and recursive future forecasting.</p>
       <p class="result">Result: 9.23% MAPE, 0.914 R², and 55% RMSE reduction versus the best naive baseline.</p>
       <div class="links">
