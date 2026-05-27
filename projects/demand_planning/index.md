@@ -97,7 +97,7 @@ This project compares XGBoost against:
 
 XGBoost performs substantially better than both baselines.
 
-# Features That Drive the Forecast
+## Features That Drive the Forecast
 I engineered three groups of features because demand patterns are multi-dimensional:
 
 ## Calendar features capture seasonality
