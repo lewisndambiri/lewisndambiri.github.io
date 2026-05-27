@@ -542,10 +542,11 @@ a:hover {
 .content-page p > img:only-child,
 .content-page p > a:only-child img {
   display: block;
-  max-width: min(100%, 860px);
-  max-height: 560px;
+  width: min(100%, 860px);
+  aspect-ratio: 16 / 9;
+  max-height: 480px;
   margin: 22px auto;
-  object-fit: contain;
+  object-fit: cover;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.04);
@@ -564,6 +565,18 @@ a:hover {
   border-radius: 0;
   background: transparent;
   box-shadow: none;
+}
+.content-page video {
+  display: block;
+  width: min(100%, 860px);
+  max-height: 480px;
+  aspect-ratio: 16 / 9;
+  margin: 22px auto;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.22);
 }
 
 .content-page code {
