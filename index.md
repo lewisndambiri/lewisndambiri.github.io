@@ -71,12 +71,26 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <img src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview">
       </div>
       <div class="stack">Python, XGBoost, Pandas, Scikit-learn, Streamlit, Docker</div>
-      <h3>Demand Forecasting for Retail Stores</h3>
+      <h3>Demand Forecasting for Supply Chain Planning</h3>
       <p>Built an end-to-end forecasting pipeline for the Rossmann Store Sales dataset, covering 1,115 stores and 1M+ rows with leakage-conscious feature engineering and recursive future forecasting.</p>
       <p class="result">Result: 9.23% MAPE, 0.914 R², and 55% RMSE reduction versus the best naive baseline.</p>
       <div class="links">
         <a href="/projects/demand_planning/">Case Study</a>
         <a href="https://github.com/lewisndambiri/demand_forecasting" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-media">
+        <img src="/projects/factorypulse/docs/factorypulse-hero-control-room.png" alt="factorypulse preview">
+      </div>
+      <div class="stack">React, TypeScript, FastAPI, MQTT, InfluxDB, PostgreSQL, Docker, OPC UA, Industrial IoT</div>
+      <h3>Real-time industrial production monitoring and remote machine interaction</h3>
+      <p>Built a production-monitoring platform for industrial machines that streams simulated telemetry into a live web dashboard, providing real-time machine status, OEE analytics, alarms, notifications, audit logging, and secure remote command controls through a scalable FastAPI and Docker-based architecture.</p>
+      <p class="result">Result: Real-time MQTT telemetry ingestion, live OEE and downtime analytics, role-based remote machine controls, audit logging, and a fully containerized FastAPI–React architecture with InfluxDB and PostgreSQL integration.</p>
+      <div class="links">
+        <a href="/projects/factorypulse/">Case Study</a>
+        <a href="https://github.com/lewisndambiri/factorypulse" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
 
@@ -106,20 +120,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <a href="/projects/Industrial-AI-Challenge/Certificate.png" target="_blank" rel="noopener noreferrer">Certificate</a>
       </div>
     </article>
-
-    <article class="project-card">
-      <div class="project-media">
-        <img src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
-      </div>
-      <div class="stack">Python, Flask, PostgreSQL, Docker, REST, Telegram Bot</div>
-      <h3>UrbanPulse Event & Logistics Planner</h3>
-      <p>Built a process-centric, four-layer service-oriented architecture that helps users discover events and receive weather-aware transport recommendations through a Telegram chatbot.</p>
-      <p class="result">Result: integrated event, weather, and routing APIs into a containerized event planning workflow.</p>
-      <div class="links">
-        <a href="/projects/UrbanPulse/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </article>
  </div>
 </section>
 
@@ -129,6 +129,20 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   </div>
 
   <div class="project-grid">
+      <article class="project-card">
+        <div class="project-media">
+          <img src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
+        </div>
+        <div class="stack">Python, Flask, PostgreSQL, Docker, REST, Telegram Bot</div>
+        <h3>UrbanPulse Event & Logistics Planner</h3>
+        <p>Built a process-centric, four-layer service-oriented architecture that helps users discover events and receive weather-aware transport recommendations through a Telegram chatbot.</p>
+        <p class="result">Result: integrated event, weather, and routing APIs into a containerized event planning workflow.</p>
+        <div class="links">
+          <a href="/projects/UrbanPulse/">Case Study</a>
+          <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </article>
+    
       <article class="project-card">
       <div class="project-media">
         <img src="/projects/retail-analytics-sql/retail_analytics.png" alt="Retail analytics dashboard preview">
