@@ -14,7 +14,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   </nav>
   <div class="hero-intro hero-intro-primary">
     <h1>Lewis NDAMBIRI</h1>
-    <h3>Industrial Engineer | AI, Optimization & Industrial Systems | Smart Manufacturing, Digital Twins, & Supply Chain | Operational Excellence</h3> 
+    <h3>Industrial Engineer | AI, Optimization & Industrial Systems | Smart Manufacturing & Supply Chain | Operational Excellence</h3> 
   </div>
 
   <div class="hero-intro hero-intro-secondary">
@@ -85,9 +85,9 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <img src="/projects/factorypulse/docs/factorypulse-hero-control-room.png" alt="factorypulse preview">
       </div>
       <div class="stack">React, TypeScript, FastAPI, MQTT, Docker, OPC UA, IIoT</div>
-      <h3>Real-Time Industrial Production Monitoring & Remote Machine Control</h3>
+      <h3>Real-Time & Remote Production Monitoring & Control</h3>
       <p>Built a real-time industrial monitoring platform with live telemetry, OEE analytics, alarms, audit logging, and secure remote machine control using FastAPI, MQTT, and Docker.</p>
-      <p class="result">Result: Real-time MQTT telemetry ingestion, OEE and downtime analytics, role-based machine control, audit logging, and a containerized FastAPI–React stack with InfluxDB and PostgreSQL.</p>
+      <p class="result">Result: Real-time MQTT telemetry ingestion, OEE and downtime analytics, role-based machine control, audit logging, and a containerized FastAPI–React stack.</p>
       <div class="links">
         <a href="/projects/factorypulse/">Case Study</a>
         <a href="https://github.com/lewisndambiri/factorypulse" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -112,7 +112,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         <img src="/projects/Industrial-AI-Challenge/Fedrigoni.avif" alt="Fedrigoni industrial AI challenge preview">
       </div>
       <div class="stack">Python, Pandas, NumPy, XGBoost, Matplotlib, Seaborn</div>
-      <h3>Fedrigoni Industrial AI Challenge</h3>
+      <h3>Industrial AI Challenge - Fedrigoni</h3>
       <p>Analyzed and modeled the slitting process at Fedrigoni's Arco plant to support predictive production planning and improve manufacturing decision-making.</p>
       <p class="result">Result: forecasted daily slitting output and helped shift planning from reactive to predictive management.</p>
       <div class="links">
