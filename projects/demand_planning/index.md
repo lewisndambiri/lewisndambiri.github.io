@@ -119,6 +119,7 @@ The feature engineering respects a crucial rule: at prediction time, only inform
 ## Results
 
 Real Rossmann holdout results:
+
 | Metric | Value |
 |---|---:|
 | RMSE | 861.246 |
@@ -127,6 +128,7 @@ Real Rossmann holdout results:
 | R2 | 0.914 |
 
 Baseline comparison:
+
 | Method | RMSE | MAE | MAPE | R2 |
 |---|---:|---:|---:|---:|
 | XGBoost | 861.246 | 620.781 | 9.225% | 0.914 |
