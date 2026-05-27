@@ -169,6 +169,8 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   <div class="section-heading">
     <h2>Other Projects</h2>
   </div>
+
+  <div class="project-grid">
       <article class="project-card">
       <div class="project-media">
         <img src="/projects/retail-analytics-sql/retail_analytics.png" alt="Retail analytics dashboard preview">
