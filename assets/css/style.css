@@ -78,11 +78,11 @@ a:hover {
 
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: auto;
   display: grid;
   align-content: start;
   gap: 20px;
-  padding: 26px 0 24px;
+  padding: 26px 0 8px;
   overflow: hidden;
 }
 
@@ -889,7 +889,7 @@ section {
 }
 
 .home-page .hero + section {
-  padding-top: 42px;
+  padding-top: 24px;
 }
 
 .section-heading {
