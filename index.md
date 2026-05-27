@@ -25,7 +25,10 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </div>
   </div>
 
-  <div class="metrics" aria-label="Selected outcomes">
+  
+</header>
+
+<div class="metrics" aria-label="Selected outcomes">
     <div class="metric">
       <strong>100%</strong>
       <span>CNC RAG page hit rate@5 on eval set</span>
@@ -43,7 +46,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <span>HPC speedup using MPI/OpenMP</span>
     </div>
   </div>
-</header>
+
 
 <section id="work">
   <div class="section-heading">
