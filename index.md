@@ -6,15 +6,15 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 <header class="hero">
   <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
   <nav class="top-pill" aria-label="Portfolio navigation">
-    <a href="#work">Work</a>
-    <a href="#craft">Craft</a>
+    <a href="#work">Projects</a>
+    <a href="#craft">Intro</a>
     <a href="#education">Education</a>
     <a href="Resume_NDAMBIRI.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
     <a href="mailto:ndambirilewis@gmail.com">Contact</a>
   </nav>
   <div class="hero-intro hero-intro-primary">
     <h1>Lewis NDAMBIRI</h1>
-    <h3>Industrial Engineer | AI, Optimization & Industrial Systems | Smart Manufacturing & Supply Chain | Operational Excellence</h3> 
+    <h3>Industrial Engineer | AI, Optimization & Industrial Systems | Smart Manufacturing, Digital Twins, & Supply Chain | Operational Excellence</h3> 
   </div>
 
   <div class="hero-intro hero-intro-secondary">
