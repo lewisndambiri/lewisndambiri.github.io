@@ -86,7 +86,7 @@ a:hover {
   overflow: hidden;
 }
 
-.hero::after {
+.metrics::after {
   content: "";
   position: absolute;
   left: 50%;
