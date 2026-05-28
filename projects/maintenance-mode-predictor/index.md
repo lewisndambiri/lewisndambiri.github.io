@@ -181,7 +181,7 @@ make test           # unit tests
 
 ## Notebook
 
-The notebook is still here: [maintenance_analysis.ipynb](maintenance_analysis.ipynb)
+The notebook is here: [Open the notebook](maintenance_analysis.html)
 
 It is intentionally output-light and narrative-driven. It is the lab bench for EDA, plots, leakage intuition, and industrial interpretation. The scripts are the repeatable production-style workflow.
 
