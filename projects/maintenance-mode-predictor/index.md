@@ -181,7 +181,9 @@ make test           # unit tests
 
 ## Notebook
 
-The notebook is here: [Open the notebook](maintenance_analysis.html)
+The notebook is here: <a href="https://github.com/lewisndambiri/maintenance-mode-predictor/blob/main/maintenance_analysis.ipynb" target="_blank" rel="noopener noreferrer">
+  Open the notebook on GitHub
+</a>
 
 It is intentionally output-light and narrative-driven. It is the lab bench for EDA, plots, leakage intuition, and industrial interpretation. The scripts are the repeatable production-style workflow.
 
