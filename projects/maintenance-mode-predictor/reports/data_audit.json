@@ -1,0 +1,132 @@
+{
+  "raw_shape": [
+    353,
+    13
+  ],
+  "clean_shape_before_dropna": [
+    353,
+    13
+  ],
+  "complete_case_shape": [
+    346,
+    13
+  ],
+  "missing_values": {
+    "Age": 1,
+    "Machine_Type": 1,
+    "Pressure": 1,
+    "Maintenance": 1,
+    "Temperature": 1,
+    "Engine_problem": 0,
+    "Run_Hours": 1,
+    "Sensor1": 0,
+    "Sensor2": 0,
+    "Sensor3": 0,
+    "Sensor4": 0,
+    "Sensor5": 1,
+    "Operation_modes": 0
+  },
+  "duplicate_rows": 10,
+  "label_map_assumption": {
+    "0": "Failure",
+    "1": "Production"
+  },
+  "class_counts_before_dropna": {
+    "0": 257,
+    "1": 96
+  },
+  "class_counts_complete_case": {
+    "0": 253,
+    "1": 93
+  },
+  "feature_target_correlation": {
+    "Sensor5": -0.8086645949406541,
+    "Sensor2": -0.2599322673600628,
+    "Run_Hours": -0.17168867752545006,
+    "Temperature": -0.15388632889637371,
+    "Sensor3": -0.07578063589314825,
+    "Sensor4": -0.0014497189835062222,
+    "Machine_Type": 0.03172334404906848,
+    "Maintenance": 0.03991697598805789,
+    "Engine_problem": 0.08470881719684342,
+    "Pressure": 0.12086603247215139,
+    "Sensor1": 0.2028465365811008,
+    "Age": 0.3166696456183763
+  },
+  "outlier_notes": {
+    "Pressure": {
+      "min": 23.0,
+      "max": 7861.0,
+      "iqr_lower": -652.375,
+      "iqr_upper": 1322.625,
+      "outside_iqr_rule": 28
+    },
+    "Run_Hours": {
+      "min": 25100.0,
+      "max": 850000.0,
+      "iqr_lower": 57500.0,
+      "iqr_upper": 491500.0,
+      "outside_iqr_rule": 21
+    },
+    "Sensor1": {
+      "min": 0.5,
+      "max": 9.4,
+      "iqr_lower": -0.34999999999999987,
+      "iqr_upper": 3.25,
+      "outside_iqr_rule": 13
+    },
+    "Sensor2": {
+      "min": 113.0,
+      "max": 232.0,
+      "iqr_lower": 124.125,
+      "iqr_upper": 151.125,
+      "outside_iqr_rule": 51
+    },
+    "Sensor5": {
+      "min": 8.0,
+      "max": 333.0,
+      "iqr_lower": -168.0,
+      "iqr_upper": 416.0,
+      "outside_iqr_rule": 0
+    }
+  },
+  "sensor5_by_class": {
+    "count": {
+      "0": 253.0,
+      "1": 93.0
+    },
+    "mean": {
+      "0": 170.826,
+      "1": 24.226
+    },
+    "std": {
+      "0": 52.903,
+      "1": 27.213
+    },
+    "min": {
+      "0": 34.0,
+      "1": 8.0
+    },
+    "25%": {
+      "0": 130.0,
+      "1": 12.0
+    },
+    "50%": {
+      "0": 160.0,
+      "1": 12.0
+    },
+    "75%": {
+      "0": 213.0,
+      "1": 31.0
+    },
+    "max": {
+      "0": 333.0,
+      "1": 150.0
+    }
+  },
+  "warnings": [
+    "README class-distribution language should be reconciled with observed label counts.",
+    "Sensor5 is highly correlated with the target and must be checked for leakage or status-code encoding.",
+    "Random row splits are not sufficient for predictive maintenance validation when timestamps or asset IDs exist."
+  ]
+}

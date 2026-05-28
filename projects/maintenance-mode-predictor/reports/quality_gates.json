@@ -1,0 +1,63 @@
+{
+  "hard_failure": false,
+  "total_gates": 9,
+  "passes": 5,
+  "warnings": 4,
+  "failures": 0,
+  "gates": [
+    {
+      "name": "required_report:reports/data_audit.md",
+      "status": "pass",
+      "severity": "error",
+      "message": "reports/data_audit.md exists."
+    },
+    {
+      "name": "required_report:reports/model_report.md",
+      "status": "pass",
+      "severity": "error",
+      "message": "reports/model_report.md exists."
+    },
+    {
+      "name": "required_report:reports/model_comparison.md",
+      "status": "pass",
+      "severity": "error",
+      "message": "reports/model_comparison.md exists."
+    },
+    {
+      "name": "required_report:reports/decision_policy_report.md",
+      "status": "pass",
+      "severity": "error",
+      "message": "reports/decision_policy_report.md exists."
+    },
+    {
+      "name": "required_report:reports/future_model_report.md",
+      "status": "pass",
+      "severity": "error",
+      "message": "reports/future_model_report.md exists."
+    },
+    {
+      "name": "label_distribution_review",
+      "status": "warn",
+      "severity": "warning",
+      "message": "Class 0 is the majority under the current label assumption. Confirm `0 = Failure`, `1 = Production` before operational use."
+    },
+    {
+      "name": "sensor5_dominance",
+      "status": "warn",
+      "severity": "warning",
+      "message": "`Sensor5` importance is 0.9856. Confirm it is a pre-decision raw measurement, not leakage."
+    },
+    {
+      "name": "sensor5_ablation_impact",
+      "status": "warn",
+      "severity": "warning",
+      "message": "Removing `Sensor5` drops macro F1 by up to 0.3275. Model selection is blocked until this feature is validated."
+    },
+    {
+      "name": "future_workflow_boundary",
+      "status": "warn",
+      "severity": "warning",
+      "message": "Temporal future-failure report is a synthetic workflow demo, not real operational evidence."
+    }
+  ]
+}

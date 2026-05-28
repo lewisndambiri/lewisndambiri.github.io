@@ -1,0 +1,3 @@
+asset_id,prediction_timestamp,machine_type,run_hours,sensor_1,sensor_2,sensor_3,sensor_4,sensor_5,maintenance_timestamp,maintenance_type,failure_timestamp,failure_mode,downtime_minutes,repair_cost,failure_within_horizon,time_to_failure_hours,prediction_horizon_days
+MACHINE_001,2026-01-01 08:00:00+00:00,pump,12500,1.2,135,1,0,42,2025-12-15T10:30:00Z,planned_inspection,,,,,0,,7
+MACHINE_002,2026-01-01 08:00:00+00:00,compressor,33000,2.4,148,0,1,118,2025-12-20T14:00:00Z,bearing_replacement,2026-01-05 03:20:00+00:00,bearing_failure,480.0,12500.0,1,91.33333333333333,7

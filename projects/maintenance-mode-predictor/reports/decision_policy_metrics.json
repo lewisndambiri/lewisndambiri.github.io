@@ -1,0 +1,260 @@
+{
+  "label_map_assumption": {
+    "0": "Failure",
+    "1": "Production"
+  },
+  "cost_assumptions": {
+    "false_negative_cost": 10000.0,
+    "false_positive_cost": 1000.0,
+    "planned_intervention_cost": 2500.0
+  },
+  "best_threshold_by_assumed_cost": {
+    "true_positive": 252.0,
+    "false_positive": 5.0,
+    "false_negative": 1.0,
+    "true_negative": 88.0,
+    "precision": 0.980544747081712,
+    "recall": 0.9960474308300395,
+    "alert_rate": 0.7427745664739884,
+    "total_cost": 645000.0,
+    "threshold": 0.2
+  },
+  "all_thresholds": [
+    {
+      "true_positive": 252,
+      "false_positive": 5,
+      "false_negative": 1,
+      "true_negative": 88,
+      "precision": 0.980544747081712,
+      "recall": 0.9960474308300395,
+      "alert_rate": 0.7427745664739884,
+      "total_cost": 645000.0,
+      "threshold": 0.2
+    },
+    {
+      "true_positive": 252,
+      "false_positive": 5,
+      "false_negative": 1,
+      "true_negative": 88,
+      "precision": 0.980544747081712,
+      "recall": 0.9960474308300395,
+      "alert_rate": 0.7427745664739884,
+      "total_cost": 645000.0,
+      "threshold": 0.25
+    },
+    {
+      "true_positive": 252,
+      "false_positive": 5,
+      "false_negative": 1,
+      "true_negative": 88,
+      "precision": 0.980544747081712,
+      "recall": 0.9960474308300395,
+      "alert_rate": 0.7427745664739884,
+      "total_cost": 645000.0,
+      "threshold": 0.3
+    },
+    {
+      "true_positive": 252,
+      "false_positive": 5,
+      "false_negative": 1,
+      "true_negative": 88,
+      "precision": 0.980544747081712,
+      "recall": 0.9960474308300395,
+      "alert_rate": 0.7427745664739884,
+      "total_cost": 645000.0,
+      "threshold": 0.35
+    },
+    {
+      "true_positive": 252,
+      "false_positive": 5,
+      "false_negative": 1,
+      "true_negative": 88,
+      "precision": 0.980544747081712,
+      "recall": 0.9960474308300395,
+      "alert_rate": 0.7427745664739884,
+      "total_cost": 645000.0,
+      "threshold": 0.4
+    },
+    {
+      "true_positive": 252,
+      "false_positive": 5,
+      "false_negative": 1,
+      "true_negative": 88,
+      "precision": 0.980544747081712,
+      "recall": 0.9960474308300395,
+      "alert_rate": 0.7427745664739884,
+      "total_cost": 645000.0,
+      "threshold": 0.45
+    },
+    {
+      "true_positive": 252,
+      "false_positive": 5,
+      "false_negative": 1,
+      "true_negative": 88,
+      "precision": 0.980544747081712,
+      "recall": 0.9960474308300395,
+      "alert_rate": 0.7427745664739884,
+      "total_cost": 645000.0,
+      "threshold": 0.5
+    },
+    {
+      "true_positive": 252,
+      "false_positive": 5,
+      "false_negative": 1,
+      "true_negative": 88,
+      "precision": 0.980544747081712,
+      "recall": 0.9960474308300395,
+      "alert_rate": 0.7427745664739884,
+      "total_cost": 645000.0,
+      "threshold": 0.55
+    },
+    {
+      "true_positive": 253,
+      "false_positive": 13,
+      "false_negative": 0,
+      "true_negative": 80,
+      "precision": 0.9511278195488722,
+      "recall": 1.0,
+      "alert_rate": 0.7687861271676301,
+      "total_cost": 645500.0,
+      "threshold": 0.05
+    },
+    {
+      "true_positive": 253,
+      "false_positive": 13,
+      "false_negative": 0,
+      "true_negative": 80,
+      "precision": 0.9511278195488722,
+      "recall": 1.0,
+      "alert_rate": 0.7687861271676301,
+      "total_cost": 645500.0,
+      "threshold": 0.1
+    },
+    {
+      "true_positive": 253,
+      "false_positive": 13,
+      "false_negative": 0,
+      "true_negative": 80,
+      "precision": 0.9511278195488722,
+      "recall": 1.0,
+      "alert_rate": 0.7687861271676301,
+      "total_cost": 645500.0,
+      "threshold": 0.15
+    },
+    {
+      "true_positive": 248,
+      "false_positive": 2,
+      "false_negative": 5,
+      "true_negative": 91,
+      "precision": 0.992,
+      "recall": 0.9802371541501976,
+      "alert_rate": 0.7225433526011561,
+      "total_cost": 672000.0,
+      "threshold": 0.6
+    },
+    {
+      "true_positive": 248,
+      "false_positive": 2,
+      "false_negative": 5,
+      "true_negative": 91,
+      "precision": 0.992,
+      "recall": 0.9802371541501976,
+      "alert_rate": 0.7225433526011561,
+      "total_cost": 672000.0,
+      "threshold": 0.65
+    },
+    {
+      "true_positive": 248,
+      "false_positive": 2,
+      "false_negative": 5,
+      "true_negative": 91,
+      "precision": 0.992,
+      "recall": 0.9802371541501976,
+      "alert_rate": 0.7225433526011561,
+      "total_cost": 672000.0,
+      "threshold": 0.7
+    },
+    {
+      "true_positive": 248,
+      "false_positive": 2,
+      "false_negative": 5,
+      "true_negative": 91,
+      "precision": 0.992,
+      "recall": 0.9802371541501976,
+      "alert_rate": 0.7225433526011561,
+      "total_cost": 672000.0,
+      "threshold": 0.75
+    },
+    {
+      "true_positive": 248,
+      "false_positive": 2,
+      "false_negative": 5,
+      "true_negative": 91,
+      "precision": 0.992,
+      "recall": 0.9802371541501976,
+      "alert_rate": 0.7225433526011561,
+      "total_cost": 672000.0,
+      "threshold": 0.8
+    },
+    {
+      "true_positive": 253,
+      "false_positive": 93,
+      "false_negative": 0,
+      "true_negative": 0,
+      "precision": 0.7312138728323699,
+      "recall": 1.0,
+      "alert_rate": 1.0,
+      "total_cost": 725500.0,
+      "threshold": 0.0
+    },
+    {
+      "true_positive": 237,
+      "false_positive": 0,
+      "false_negative": 16,
+      "true_negative": 93,
+      "precision": 1.0,
+      "recall": 0.9367588932806324,
+      "alert_rate": 0.684971098265896,
+      "total_cost": 752500.0,
+      "threshold": 0.85
+    },
+    {
+      "true_positive": 237,
+      "false_positive": 0,
+      "false_negative": 16,
+      "true_negative": 93,
+      "precision": 1.0,
+      "recall": 0.9367588932806324,
+      "alert_rate": 0.684971098265896,
+      "total_cost": 752500.0,
+      "threshold": 0.9
+    },
+    {
+      "true_positive": 237,
+      "false_positive": 0,
+      "false_negative": 16,
+      "true_negative": 93,
+      "precision": 1.0,
+      "recall": 0.9367588932806324,
+      "alert_rate": 0.684971098265896,
+      "total_cost": 752500.0,
+      "threshold": 0.95
+    },
+    {
+      "true_positive": 237,
+      "false_positive": 0,
+      "false_negative": 16,
+      "true_negative": 93,
+      "precision": 1.0,
+      "recall": 0.9367588932806324,
+      "alert_rate": 0.684971098265896,
+      "total_cost": 752500.0,
+      "threshold": 1.0
+    }
+  ],
+  "warnings": [
+    "This report uses current-state labels, not future failure outcomes.",
+    "Costs are assumptions and must be replaced with plant-specific downtime, labor, safety, and spare-part costs.",
+    "Threshold selection is only meaningful after the label mapping and Sensor5 timing are confirmed."
+  ]
+}

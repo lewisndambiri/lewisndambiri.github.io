@@ -1,0 +1,71 @@
+{
+  "modeling_boundary": "Temporal future-failure workflow. Synthetic demo results are not real performance claims.",
+  "input": "reports/synthetic_future_log.csv",
+  "horizon_days": 7,
+  "test_start": "2026-03-01T00:00:00Z",
+  "artifact": "artifacts/future_failure_model.joblib",
+  "feature_columns": [
+    "machine_type",
+    "run_hours",
+    "sensor_1",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_5",
+    "maintenance_type"
+  ],
+  "selected_threshold": 0.35,
+  "train_rows": 708,
+  "test_rows": 372,
+  "train_class_counts": {
+    "0": 680,
+    "1": 28
+  },
+  "test_class_counts": {
+    "0": 335,
+    "1": 37
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9047619047619048,
+      "recall": 0.8507462686567164,
+      "f1-score": 0.8769230769230769,
+      "support": 335.0
+    },
+    "1": {
+      "precision": 0.12280701754385964,
+      "recall": 0.1891891891891892,
+      "f1-score": 0.14893617021276595,
+      "support": 37.0
+    },
+    "accuracy": 0.7849462365591398,
+    "macro avg": {
+      "precision": 0.5137844611528822,
+      "recall": 0.5199677289229528,
+      "f1-score": 0.5129296235679215,
+      "support": 372.0
+    },
+    "weighted avg": {
+      "precision": 0.8269868218934432,
+      "recall": 0.7849462365591398,
+      "f1-score": 0.8045157770621051,
+      "support": 372.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      285,
+      50
+    ],
+    [
+      30,
+      7
+    ]
+  ],
+  "roc_auc": 0.5812020976200081,
+  "warnings": [
+    "Use real timestamped asset data before making maintenance claims.",
+    "Synthetic data demonstrates mechanics only.",
+    "Feature values must be available at or before prediction_timestamp."
+  ]
+}

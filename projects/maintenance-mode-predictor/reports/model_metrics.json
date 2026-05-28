@@ -1,0 +1,306 @@
+{
+  "label_map_assumption": {
+    "0": "Failure",
+    "1": "Production"
+  },
+  "modeling_boundary": "Current-state classification from static rows, not future failure prediction.",
+  "row_counts": {
+    "complete_case_rows": 346,
+    "train_rows": 276,
+    "test_rows": 70
+  },
+  "class_counts_complete_case": {
+    "0": 253,
+    "1": 93
+  },
+  "holdout": {
+    "decision_tree": {
+      "classification_report": {
+        "Failure": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 51.0
+        },
+        "Production": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 19.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 70.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 70.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          51,
+          0
+        ],
+        [
+          0,
+          19
+        ]
+      ]
+    },
+    "decision_tree_without_sensor5": {
+      "classification_report": {
+        "Failure": {
+          "precision": 0.8305084745762712,
+          "recall": 0.9607843137254902,
+          "f1-score": 0.8909090909090909,
+          "support": 51.0
+        },
+        "Production": {
+          "precision": 0.8181818181818182,
+          "recall": 0.47368421052631576,
+          "f1-score": 0.6,
+          "support": 19.0
+        },
+        "accuracy": 0.8285714285714286,
+        "macro avg": {
+          "precision": 0.8243451463790448,
+          "recall": 0.717234262125903,
+          "f1-score": 0.7454545454545454,
+          "support": 70.0
+        },
+        "weighted avg": {
+          "precision": 0.827162667840634,
+          "recall": 0.8285714285714286,
+          "f1-score": 0.811948051948052,
+          "support": 70.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          49,
+          2
+        ],
+        [
+          10,
+          9
+        ]
+      ]
+    }
+  },
+  "cross_validation": [
+    {
+      "name": "dummy_most_frequent",
+      "features": [
+        "Age",
+        "Machine_Type",
+        "Pressure",
+        "Maintenance",
+        "Temperature",
+        "Engine_problem",
+        "Run_Hours",
+        "Sensor1",
+        "Sensor2",
+        "Sensor3",
+        "Sensor4",
+        "Sensor5"
+      ],
+      "cv": {
+        "accuracy": {
+          "folds": [
+            0.7285714285714285,
+            0.7246376811594203,
+            0.7246376811594203,
+            0.7391304347826086,
+            0.7391304347826086
+          ],
+          "mean": 0.7312215320910973,
+          "std": 0.006615417120841893
+        },
+        "precision_macro": {
+          "folds": [
+            0.36428571428571427,
+            0.36231884057971014,
+            0.36231884057971014,
+            0.3695652173913043,
+            0.3695652173913043
+          ],
+          "mean": 0.36561076604554865,
+          "std": 0.0033077085604209465
+        },
+        "recall_macro": {
+          "folds": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "f1_macro": {
+          "folds": [
+            0.4214876033057851,
+            0.42016806722689076,
+            0.42016806722689076,
+            0.425,
+            0.425
+          ],
+          "mean": 0.42236474755191333,
+          "std": 0.002204962669048699
+        }
+      }
+    },
+    {
+      "name": "decision_tree",
+      "features": [
+        "Age",
+        "Machine_Type",
+        "Pressure",
+        "Maintenance",
+        "Temperature",
+        "Engine_problem",
+        "Run_Hours",
+        "Sensor1",
+        "Sensor2",
+        "Sensor3",
+        "Sensor4",
+        "Sensor5"
+      ],
+      "cv": {
+        "accuracy": {
+          "folds": [
+            1.0,
+            0.9565217391304348,
+            1.0,
+            0.9710144927536232,
+            0.9855072463768116
+          ],
+          "mean": 0.9826086956521738,
+          "std": 0.0169013098401313
+        },
+        "precision_macro": {
+          "folds": [
+            1.0,
+            0.9716981132075472,
+            1.0,
+            0.9624183006535947,
+            0.9903846153846154
+          ],
+          "mean": 0.9849002058491514,
+          "std": 0.015269693029581127
+        },
+        "recall_macro": {
+          "folds": [
+            1.0,
+            0.9210526315789473,
+            1.0,
+            0.9624183006535947,
+            0.9722222222222222
+          ],
+          "mean": 0.9711386308909529,
+          "std": 0.02916087416522805
+        },
+        "f1_macro": {
+          "folds": [
+            1.0,
+            0.9425797503467406,
+            1.0,
+            0.9624183006535947,
+            0.9808599167822469
+          ],
+          "mean": 0.9771715935565165,
+          "std": 0.02222670140999039
+        }
+      }
+    },
+    {
+      "name": "decision_tree_without_sensor5",
+      "features": [
+        "Age",
+        "Machine_Type",
+        "Pressure",
+        "Maintenance",
+        "Temperature",
+        "Engine_problem",
+        "Run_Hours",
+        "Sensor1",
+        "Sensor2",
+        "Sensor3",
+        "Sensor4"
+      ],
+      "cv": {
+        "accuracy": {
+          "folds": [
+            0.7857142857142857,
+            0.6086956521739131,
+            0.855072463768116,
+            0.6956521739130435,
+            0.7391304347826086
+          ],
+          "mean": 0.7368530020703934,
+          "std": 0.08305452117317541
+        },
+        "precision_macro": {
+          "folds": [
+            0.7291666666666667,
+            0.5444444444444444,
+            0.8184210526315789,
+            0.6001131221719457,
+            0.6352459016393442
+          ],
+          "mean": 0.665478237510796,
+          "std": 0.09724555743574742
+        },
+        "recall_macro": {
+          "folds": [
+            0.7043343653250773,
+            0.5505263157894738,
+            0.8184210526315789,
+            0.5964052287581699,
+            0.5718954248366013
+          ],
+          "mean": 0.6483164774681803,
+          "std": 0.10017129429189474
+        },
+        "f1_macro": {
+          "folds": [
+            0.7142857142857142,
+            0.5439412484700122,
+            0.8184210526315789,
+            0.5980582524271845,
+            0.573489010989011
+          ],
+          "mean": 0.6496390557607001,
+          "std": 0.10227217410761502
+        }
+      }
+    }
+  ],
+  "feature_importance": {
+    "Sensor5": 0.9856114643512888,
+    "Sensor1": 0.005857158929071325,
+    "Age": 0.004452742702029054,
+    "Run_Hours": 0.0036677482199448655,
+    "Temperature": 0.0004108857976660696,
+    "Machine_Type": 0.0,
+    "Pressure": 0.0,
+    "Maintenance": 0.0,
+    "Engine_problem": 0.0,
+    "Sensor2": 0.0,
+    "Sensor3": 0.0,
+    "Sensor4": 0.0
+  },
+  "tree_rules": "|--- Sensor5 <= 66.00\n|   |--- Sensor1 <= 0.95\n|   |   |--- class: 1\n|   |--- Sensor1 >  0.95\n|   |   |--- class: 1\n|--- Sensor5 >  66.00\n|   |--- Age <= 71.00\n|   |   |--- Run_Hours <= 113500.00\n|   |   |   |--- class: 0\n|   |   |--- Run_Hours >  113500.00\n|   |   |   |--- Temperature <= 26.50\n|   |   |   |   |--- Sensor1 <= 1.05\n|   |   |   |   |   |--- class: 0\n|   |   |   |   |--- Sensor1 >  1.05\n|   |   |   |   |   |--- class: 0\n|   |   |   |--- Temperature >  26.50\n|   |   |   |   |--- class: 0\n|   |--- Age >  71.00\n|   |   |--- Sensor5 <= 118.00\n|   |   |   |--- class: 0\n|   |   |--- Sensor5 >  118.00\n|   |   |   |--- class: 0\n",
+  "warnings": [
+    "High holdout accuracy should not be interpreted as production readiness.",
+    "Sensor5 dominates the tree; confirm it is a pre-decision raw measurement.",
+    "True predictive maintenance needs timestamps, asset IDs, and future-event labels."
+  ]
+}
