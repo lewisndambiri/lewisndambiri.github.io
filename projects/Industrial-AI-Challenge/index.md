@@ -3,7 +3,7 @@ layout: default
 title: Fedrigoni Industrial AI Challenge | Lewis NDAMBIRI
 ---
 
-# Fedrigoni Industrial AI Challenge
+# Industrial AI Challenge - Fedrigoni 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
@@ -21,7 +21,7 @@ This project was developed as part of the **Industrial AI Challenge**, an initia
 
 The public goal of the challenge is to connect university teams with real industrial datasets and help companies explore how artificial intelligence, statistical analysis, and machine learning can support production-process optimization. The **2025 edition** involved student teams working on industrial AI problems over an intensive challenge period with company representatives, academic support, and technical mentors.
 
-Within this setting, Team 3 worked on a manufacturing challenge proposed by **Fedrigoni / Arconvert** at the Arco plant, focusing on the slitting phase of self-adhesive material production.
+Within this setting, Team 3 worked on a manufacturing challenge proposed by **Fedrigoni** at the Arco plant, focusing on the slitting phase of self-adhesive material production.
 
 ## Why This Problem Matters
 
