@@ -19,7 +19,7 @@ title: Fedrigoni Industrial AI Challenge | Lewis NDAMBIRI
 
 This project was developed as part of the **Industrial AI Challenge**, an initiative promoted by **Hub Innovazione Trentino / Trentino Innovation** in collaboration with partners including **Università di Trento**, Fondazione Bruno Kessler, Trentino Sviluppo, Confindustria Trento, Digital Innovation Hub, and UniTrento School of Innovation.
 
-The public goal of the challenge is to connect university teams with real industrial datasets and help companies explore how artificial intelligence, statistical analysis, and machine learning can support production-process optimization. The 2026 edition is described as involving **5 industrial challenges**, **30 selected solvers**, **5 mentors**, and **11 weeks** of analysis and model development.
+The public goal of the challenge is to connect university teams with real industrial datasets and help companies explore how artificial intelligence, statistical analysis, and machine learning can support production-process optimization. The **2025 edition** involved student teams working on industrial AI problems over an intensive challenge period with company representatives, academic support, and technical mentors.
 
 Within this setting, Team 3 worked on a manufacturing challenge proposed by **Fedrigoni / Arconvert** at the Arco plant, focusing on the slitting phase of self-adhesive material production.
 
@@ -222,4 +222,4 @@ If developed further, the concept could evolve toward:
 
 The Fedrigoni Industrial AI Challenge showed how data science can support real manufacturing decisions when it is grounded in operations knowledge. The strongest part of the work was not only the predictive model, but the translation of an industrial pain point into a structured decision-support system.
 
-For me, the project sits exactly at the intersection of the skills I want to develop further and apply: **industrial engineering, AI, manufacturing systems, and human-centered operational improvement**.
+For me, the project sits exactly at the intersection of the skills I want to develop and apply: **industrial engineering, AI, manufacturing systems, and human-centered operational improvement**.
