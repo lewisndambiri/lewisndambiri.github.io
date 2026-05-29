@@ -8,7 +8,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   <nav class="top-pill" aria-label="Portfolio navigation">
     <a href="#work">Work</a>
     <a href="#education">Education</a>
-    <a href="Resume_NDAMBIRI.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <a href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
     <a href="mailto:ndambirilewis@gmail.com">Contact</a>
   </nav>
   <div class="hero-intro hero-intro-primary">
@@ -18,14 +18,14 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 
   <div class="hero-intro hero-intro-secondary">
     <div class="actions" aria-label="Contact and profile links">
-      <a class="button primary" href="Resume_NDAMBIRI.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
+      <a class="button primary" href="Docs/ndambiri_lewis_projects_snapshot.pdf" target="_blank" rel="noopener noreferrer">Snapshot</a>
       <a class="button" href="mailto:ndambirilewis@gmail.com">Email</a>
       <a class="button" href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a class="button" href="https://github.com/lewisndambiri" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="button primary" href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
     </div>
   </div>
 
-  
 </header>
 
 <div class="metrics" aria-label="Selected outcomes">
