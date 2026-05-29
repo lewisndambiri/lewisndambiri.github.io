@@ -125,7 +125,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
  </div>
 </section>
 
-<section id="work">
+<section id="other-work">
   <div class="section-heading">
     <h2>Other Projects</h2>
   </div>
