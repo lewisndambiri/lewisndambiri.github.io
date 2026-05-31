@@ -147,12 +147,12 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     
       <article class="project-card">
       <div class="project-media">
-        <img src="/projects/retail-analytics-sql/retail_analytics.png" alt="Retail analytics dashboard preview">
+        <img src="/projects/retail-analytics-sql/hero.png" alt="Retail analytics SQL pipeline preview">
       </div>
-      <div class="stack">PostgreSQL, Python ETL, Advanced SQL, Power BI</div>
-      <h3>End-to-End Retail Analytics Engine</h3>
-      <p>Designed a complete analytics pipeline from synthetic data generation to star-schema modeling, SQL analysis, and an executive Power BI dashboard.</p>
-      <p class="result">Result: delivered cohort retention, RFM segmentation, sales KPIs, and product profitability analysis.</p>
+      <div class="stack">PostgreSQL, Python ETL, Advanced SQL, Power BI, Grafana, Docker</div>
+      <h3>Retail Analytics SQL Pipeline</h3>
+      <p>Built a reproducible analytics pipeline that generates synthetic retail data, loads a PostgreSQL star schema, answers business questions with advanced SQL, and publishes executive and operational dashboards.</p>
+      <p class="result">Result: 10,000 validated transactions, cohort retention, RFM segmentation, KPI analysis, Power BI-style reporting, and a provisioned Grafana dashboard.</p>
       <div class="links">
         <a href="/projects/retail-analytics-sql/">Case Study</a>
         <a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">GitHub</a>
@@ -225,11 +225,13 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <div class="tech-badges">
         <span>PostgreSQL</span>
         <span>Advanced SQL</span>
+        <span>SQLAlchemy</span>
         <span>Flask</span>
         <span>REST APIs</span>
         <span>Node.js</span>
         <span>Express</span>
         <span>Docker</span>
+        <span>Docker Compose</span>
       </div>
     </div>
     <div class="stack-group">
@@ -237,6 +239,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <div class="tech-badges">
         <span>Streamlit</span>
         <span>Power BI</span>
+        <span>Grafana</span>
         <span>React</span>
         <span>Google Calendar API</span>
         <span>Telegram Bot</span>
