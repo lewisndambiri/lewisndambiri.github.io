@@ -6,7 +6,9 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 <header class="hero">
   <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
   <nav class="top-pill" aria-label="Portfolio navigation">
+    <span class="nav-mark" aria-hidden="true">LN</span>
     <a href="#work">Work</a>
+    <a href="#operating-loop">Craft</a>
     <a href="#education">Education</a>
     <a href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
     <a href="mailto:ndambirilewis@gmail.com">Contact</a>
@@ -14,6 +16,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   <div class="hero-intro hero-intro-primary">
     <h1>Lewis NDAMBIRI</h1>
     <h3>Industrial Engineer | AI, Optimization & Industrial Systems | Smart Manufacturing & Supply Chain | Operational Excellence</h3> 
+    <p class="hero-summary">I design data products that make production systems easier to see, forecast, and improve.</p>
   </div>
 
   <div class="hero-intro hero-intro-secondary">
@@ -47,6 +50,36 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     </div>
   </div>
 
+<section class="operating-loop" id="operating-loop" aria-labelledby="operating-loop-title">
+  <div class="section-heading">
+    <h2 id="operating-loop-title">Industrial AI Operating Loop</h2>
+    <p>A practical engineering rhythm behind the projects: capture the system, model the constraint, support the decision, and improve the flow.</p>
+  </div>
+
+  <div class="loop-grid">
+    <article class="loop-step">
+      <span class="loop-index">01</span>
+      <h3>Sense</h3>
+      <p>Production data, machine signals, transactions, manuals, and operational context become usable evidence.</p>
+    </article>
+    <article class="loop-step">
+      <span class="loop-index">02</span>
+      <h3>Model</h3>
+      <p>Forecasting, retrieval, simulation, SQL, and optimization turn messy processes into decision-ready structure.</p>
+    </article>
+    <article class="loop-step">
+      <span class="loop-index">03</span>
+      <h3>Decide</h3>
+      <p>Dashboards, assistants, APIs, and interfaces help planners, engineers, and users act with confidence.</p>
+    </article>
+    <article class="loop-step">
+      <span class="loop-index">04</span>
+      <h3>Improve</h3>
+      <p>Results feed back into reliability, capacity, service quality, waste reduction, and continuous improvement.</p>
+    </article>
+  </div>
+</section>
+
 
 <section id="work">
   <div class="section-heading">
@@ -56,69 +89,69 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   <div class="project-grid">
     <article class="project-card">
       <div class="project-media">
-        <img src="/assets/img/cnc-rag-assistant-hero.jpg" alt="Offline CNC RAG Assistant project preview">
+        <img loading="lazy" src="/assets/img/cnc-rag-assistant-hero.jpg" alt="Offline CNC RAG Assistant project preview">
       </div>
       <div class="stack">Python, FAISS, Sentence Transformers, Ollama, Mistral, Streamlit, Pytest</div>
       <h3>Offline CNC RAG Assistant</h3>
       <p>Built a local retrieval-augmented generation assistant for CNC machine operation and maintenance documentation, using a Haas Mill NGC manual as a realistic manufacturing corpus.</p>
       <p class="result">Result: 839 indexed manual chunks, hybrid retrieval, cited local answers, Streamlit UI, and 100% page hit rate@5 on the evaluation set.</p>
       <div class="links">
-        <a href="/projects/offline-cnc-rag-assistant/">Case Study</a>
+        <a class="stretched-link" href="/projects/offline-cnc-rag-assistant/">Case Study</a>
         <a href="https://github.com/lewisndambiri/offline-cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
 
     <article class="project-card">
       <div class="project-media">
-        <img src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview">
+        <img loading="lazy" src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview">
       </div>
       <div class="stack">Python, XGBoost, Pandas, Scikit-learn, Streamlit, Docker</div>
       <h3>Demand Forecasting</h3>
       <p>Built an end-to-end forecasting pipeline for the Rossmann Store Sales dataset, covering 1,115 stores and 1M+ rows with leakage-conscious feature engineering and recursive future forecasting.</p>
       <p class="result">Result: 9.23% MAPE, 0.914 R², and 55% RMSE reduction versus the best naive baseline.</p>
       <div class="links">
-        <a href="/projects/demand_planning/">Case Study</a>
+        <a class="stretched-link" href="/projects/demand_planning/">Case Study</a>
         <a href="https://github.com/lewisndambiri/demand_forecasting" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
     
     <article class="project-card">
       <div class="project-media">
-        <img src="/projects/factorypulse/docs/factorypulse-hero-control-room.png" alt="factorypulse preview">
+        <img loading="lazy" src="/projects/factorypulse/docs/factorypulse-hero-control-room.png" alt="factorypulse preview">
       </div>
       <div class="stack">React, TypeScript, FastAPI, MQTT, Docker, OPC UA, IIoT</div>
       <h3>Remote Real-Time Industrial Production Monitoring & Control</h3>
       <p>Built a real-time industrial monitoring platform with live telemetry, OEE analytics, alarms, audit logging, and secure remote machine control using FastAPI, MQTT, and Docker.</p>
       <p class="result">Result: Real-time MQTT telemetry ingestion, OEE and downtime analytics, role-based machine control, audit logging, and a containerized FastAPI–React stack.</p>
       <div class="links">
-        <a href="/projects/factorypulse/">Case Study</a>
+        <a class="stretched-link" href="/projects/factorypulse/">Case Study</a>
         <a href="https://github.com/lewisndambiri/factorypulse" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
 
     <article class="project-card">
       <div class="project-media">
-        <img src="/projects/maintenance-mode-predictor/preview.jpg" alt="Maintenance mode predictor preview">
+        <img loading="lazy" src="/projects/maintenance-mode-predictor/preview.jpg" alt="Maintenance mode predictor preview">
       </div>
       <div class="stack">Python, Scikit-learn, Pandas, Statistics</div>
       <h3>Maintenance Mode Prediction</h3>
       <p>Built a decision tree classifier to predict industrial machine operational states using sensor and maintenance data, with tuned hyperparameters and interpretable feature importance.</p>
       <p class="result">Result: 96% accuracy with key predictors including Sensor5, Age, and Sensor2.</p>
       <div class="links">
-        <a href="/projects/maintenance-mode-predictor/">Case Study</a>
+        <a class="stretched-link" href="/projects/maintenance-mode-predictor/">Case Study</a>
         <a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
     <article class="project-card">
       <div class="project-media">
-        <img src="/projects/Industrial-AI-Challenge/Fedrigoni.avif" alt="Fedrigoni industrial AI challenge preview">
+        <img loading="lazy" src="/projects/Industrial-AI-Challenge/Fedrigoni.avif" alt="Fedrigoni industrial AI challenge preview">
       </div>
       <div class="stack">Python, Pandas, NumPy, XGBoost, Matplotlib, Seaborn</div>
       <h3>Industrial AI Challenge - Fedrigoni</h3>
       <p>Analyzed and modeled the slitting process at Fedrigoni's Arco plant to support predictive production planning and improve manufacturing decision-making.</p>
       <p class="result">Result: forecasted daily slitting output and helped shift planning from reactive to predictive management.</p>
       <div class="links">
-        <a href="/projects/Industrial-AI-Challenge/">Case Study</a>
+        <a class="stretched-link" href="/projects/Industrial-AI-Challenge/">Case Study</a>
         <a href="/projects/Industrial-AI-Challenge/Certificate.png" target="_blank" rel="noopener noreferrer">Certificate</a>
       </div>
     </article>
@@ -133,56 +166,56 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   <div class="project-grid">
       <article class="project-card">
         <div class="project-media">
-          <img src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
+          <img loading="lazy" src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
         </div>
         <div class="stack">Python, Flask, PostgreSQL, Docker, REST, Telegram Bot</div>
         <h3>UrbanPulse Event & Logistics Planner</h3>
         <p>Built a process-centric, four-layer service-oriented architecture that helps users discover events and receive weather-aware transport recommendations through a Telegram chatbot.</p>
         <p class="result">Result: integrated event, weather, and routing APIs into a containerized event planning workflow.</p>
         <div class="links">
-          <a href="/projects/UrbanPulse/">Case Study</a>
+          <a class="stretched-link" href="/projects/UrbanPulse/">Case Study</a>
           <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </article>
     
       <article class="project-card">
       <div class="project-media">
-        <img src="/projects/retail-analytics-sql/hero.png" alt="Retail analytics SQL pipeline preview">
+        <img loading="lazy" src="/projects/retail-analytics-sql/hero.png" alt="Retail analytics SQL pipeline preview">
       </div>
       <div class="stack">PostgreSQL, Python ETL, Advanced SQL, Power BI, Grafana, Docker</div>
       <h3>Retail Analytics SQL Pipeline</h3>
       <p>Built a reproducible analytics pipeline that generates synthetic retail data, loads a PostgreSQL star schema, answers business questions with advanced SQL, and publishes executive and operational dashboards.</p>
       <p class="result">Result: 10,000 validated transactions, cohort retention, RFM segmentation, KPI analysis, Power BI-style reporting, and a provisioned Grafana dashboard.</p>
       <div class="links">
-        <a href="/projects/retail-analytics-sql/">Case Study</a>
+        <a class="stretched-link" href="/projects/retail-analytics-sql/">Case Study</a>
         <a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
   
     <article class="project-card">
       <div class="project-media">
-        <img src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview">
+        <img loading="lazy" src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview">
       </div>
       <div class="stack">C, MPI, OpenMP, PBS, Linux HPC Cluster</div>
       <h3>Parallel Numerical Integration Using Romberg's Method</h3>
       <p>Parallelized a high-accuracy numerical method across MPI, OpenMP, and hybrid configurations, then benchmarked scaling behavior across cluster placements.</p>
       <p class="result">Result: 31.77x speedup on 32 cores with 99.3% efficiency.</p>
       <div class="links">
-        <a href="/projects/romberg-hpc4ds/">Case Study</a>
+        <a class="stretched-link" href="/projects/romberg-hpc4ds/">Case Study</a>
         <a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
 
     <article class="project-card">
       <div class="project-media">
-        <img src="/projects/meet-scheduler/Homepage.jpg" alt="MeetScheduler homepage preview">
+        <img loading="lazy" src="/projects/meet-scheduler/Homepage.jpg" alt="MeetScheduler homepage preview">
       </div>
       <div class="stack">React, Node.js, Express, Google Calendar API, Nodemailer, CSS</div>
       <h3>MeetScheduler AI-Assisted Meeting Scheduler</h3>
       <p>Built a Doodle-inspired meeting scheduler for HackaPrompt AI 2026, with poll creation, availability voting, quorum-based best-slot detection, Google Calendar availability, and email invitations.</p>
-      <p class="result">Result:A full-stack scheduling prototype, demonstrating how AI-assisted development accelerates delivery when guided by strong product and engineering judgment.</p>
+      <p class="result">Result: A full-stack scheduling prototype, demonstrating how AI-assisted development accelerates delivery when guided by strong product and engineering judgment.</p>
       <div class="links">
-        <a href="/projects/meet-scheduler/">Case Study</a>
+        <a class="stretched-link" href="/projects/meet-scheduler/">Case Study</a>
         <a href="https://github.com/lewisndambiri/meet-scheduler" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>

@@ -23,7 +23,7 @@
   }
 
   function addInteractiveGlow() {
-    document.querySelectorAll(".project-card, .stack-group").forEach((card) => {
+    document.querySelectorAll(".project-card, .stack-group, .loop-step").forEach((card) => {
       card.addEventListener("pointermove", (event) => {
         const rect = card.getBoundingClientRect();
         const x = ((event.clientX - rect.left) / rect.width) * 100;
@@ -36,7 +36,7 @@
 
   function addReveal() {
     const targets = document.querySelectorAll(
-      ".project-card, .metric, .stack-group, .education article"
+      ".project-card, .metric, .loop-step, .stack-group, .education article"
     );
     targets.forEach((target) => target.classList.add("reveal"));
 
@@ -60,9 +60,77 @@
     targets.forEach((target) => observer.observe(target));
   }
 
+  function addActiveNav() {
+    const links = Array.from(document.querySelectorAll(".top-pill a[href^='#']"));
+    if (!links.length || !("IntersectionObserver" in window)) return;
+
+    const sections = links
+      .map((link) => document.querySelector(link.getAttribute("href")))
+      .filter(Boolean);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          links.forEach((link) => {
+            link.classList.toggle("is-active", link.getAttribute("href") === `#${entry.target.id}`);
+          });
+        });
+      },
+      { threshold: 0.28, rootMargin: "-18% 0px -60% 0px" }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+  }
+
+  function animateMetrics() {
+    if (prefersReducedMotion) return;
+
+    const numbers = document.querySelectorAll(".metric strong");
+    const parse = (text) => {
+      const value = Number.parseFloat(text.replace(/[^\d.]/g, ""));
+      if (Number.isNaN(value)) return null;
+      return {
+        value,
+        prefix: text.match(/^[^\d]*/)?.[0] || "",
+        suffix: text.match(/[^\d.]+$/)?.[0] || "",
+        decimals: text.includes(".") ? 2 : 0
+      };
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          const target = entry.target;
+          const data = parse(target.textContent);
+          if (!data) return;
+          const start = performance.now();
+          const duration = 900;
+
+          function tick(now) {
+            const progress = Math.min((now - start) / duration, 1);
+            const eased = 1 - Math.pow(1 - progress, 3);
+            const current = data.value * eased;
+            target.textContent = `${data.prefix}${current.toFixed(data.decimals)}${data.suffix}`;
+            if (progress < 1) requestAnimationFrame(tick);
+          }
+
+          requestAnimationFrame(tick);
+          observer.unobserve(target);
+        });
+      },
+      { threshold: 0.6 }
+    );
+
+    numbers.forEach((number) => observer.observe(number));
+  }
+
   enhanceStacks();
   addInteractiveGlow();
   addReveal();
+  addActiveNav();
+  animateMetrics();
 
   if (!canvas) return;
 
@@ -107,11 +175,11 @@
 
   function particleColor(type, alpha) {
     const colors = [
-      `rgba(64, 214, 194, ${alpha})`,
-      `rgba(110, 168, 255, ${alpha})`,
-      `rgba(255, 184, 107, ${alpha})`,
-      `rgba(255, 111, 145, ${alpha})`,
-      `rgba(247, 248, 251, ${alpha})`
+      `rgba(0, 135, 31, ${alpha})`,
+      `rgba(46, 116, 181, ${alpha})`,
+      `rgba(138, 109, 59, ${alpha})`,
+      `rgba(31, 56, 100, ${alpha})`,
+      `rgba(245, 247, 242, ${alpha})`
     ];
     return colors[type] || colors[0];
   }
@@ -120,7 +188,7 @@
     const baseY = height * 0.78;
     ctx.save();
     ctx.globalAlpha = 0.16;
-    ctx.strokeStyle = "rgba(219, 227, 242, 0.55)";
+    ctx.strokeStyle = "rgba(220, 229, 238, 0.55)";
     ctx.lineWidth = 1;
     ctx.beginPath();
     ctx.moveTo(width * 0.54, baseY);
@@ -148,10 +216,10 @@
   function drawFlowField() {
     flowLines.forEach((line, index) => {
       const gradient = ctx.createLinearGradient(0, 0, width, 0);
-      gradient.addColorStop(0, "rgba(64, 214, 194, 0)");
-      gradient.addColorStop(0.35, index % 2 ? "rgba(110, 168, 255, 0.38)" : "rgba(64, 214, 194, 0.42)");
-      gradient.addColorStop(0.72, index % 3 ? "rgba(255, 111, 145, 0.28)" : "rgba(255, 184, 107, 0.3)");
-      gradient.addColorStop(1, "rgba(64, 214, 194, 0)");
+      gradient.addColorStop(0, "rgba(0, 135, 31, 0)");
+      gradient.addColorStop(0.35, index % 2 ? "rgba(46, 116, 181, 0.34)" : "rgba(0, 135, 31, 0.36)");
+      gradient.addColorStop(0.72, index % 3 ? "rgba(31, 56, 100, 0.26)" : "rgba(138, 109, 59, 0.28)");
+      gradient.addColorStop(1, "rgba(0, 135, 31, 0)");
 
       ctx.strokeStyle = gradient;
       ctx.lineWidth = 1.2;
@@ -178,7 +246,7 @@
     for (let i = 0; i < 3; i += 1) {
       ctx.beginPath();
       ctx.ellipse(0, 0, 130 + i * 34, 42 + i * 18, (i * Math.PI) / 3, 0, Math.PI * 2);
-      ctx.strokeStyle = `rgba(${i === 1 ? "110,168,255" : "64,214,194"}, ${0.16 - i * 0.025})`;
+      ctx.strokeStyle = `rgba(${i === 1 ? "46,116,181" : "0,135,31"}, ${0.16 - i * 0.025})`;
       ctx.lineWidth = 1;
       ctx.stroke();
     }
@@ -212,7 +280,7 @@
         const dy = a.y - b.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
         if (distance < 112) {
-          ctx.strokeStyle = `rgba(110, 168, 255, ${0.11 * (1 - distance / 112)})`;
+          ctx.strokeStyle = `rgba(46, 116, 181, ${0.11 * (1 - distance / 112)})`;
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
@@ -226,9 +294,9 @@
   function drawScan() {
     const scanY = ((Math.sin(frame * 0.55) + 1) / 2) * height;
     const scan = ctx.createLinearGradient(0, scanY - 120, 0, scanY + 120);
-    scan.addColorStop(0, "rgba(64, 214, 194, 0)");
-    scan.addColorStop(0.5, "rgba(64, 214, 194, 0.12)");
-    scan.addColorStop(1, "rgba(64, 214, 194, 0)");
+    scan.addColorStop(0, "rgba(0, 135, 31, 0)");
+    scan.addColorStop(0.5, "rgba(0, 135, 31, 0.1)");
+    scan.addColorStop(1, "rgba(0, 135, 31, 0)");
     ctx.fillStyle = scan;
     ctx.fillRect(0, scanY - 120, width, 240);
   }
