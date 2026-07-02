@@ -53,7 +53,6 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
 <section class="operating-loop" id="operating-loop" aria-labelledby="operating-loop-title">
   <div class="section-heading">
     <h2 id="operating-loop-title">Industrial AI Operating Loop</h2>
-    <p>A practical engineering rhythm behind the projects: capture the system, model the constraint, support the decision, and improve the flow.</p>
   </div>
 
   <div class="loop-grid">
