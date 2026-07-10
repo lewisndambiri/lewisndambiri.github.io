@@ -1,5 +1,7 @@
 :root {
   color-scheme: dark;
+  --page-width: 1360px;
+  --page-gutter: clamp(24px, 5vw, 88px);
   --ink: #f5f7f2;
   --muted: #aeb8c2;
   --soft: #dce5ee;
@@ -73,7 +75,7 @@ a:hover {
 }
 
 .page-shell {
-  width: min(1480px, calc(100% - 48px));
+  width: min(var(--page-width), calc(100% - (var(--page-gutter) * 2)));
   margin: 0 auto;
 }
 
@@ -84,7 +86,7 @@ a:hover {
   left: 50%;
   width: 100vw;
   margin-left: -50vw;
-  padding: 132px max(24px, calc((100vw - 1480px) / 2)) 88px;
+  padding: 132px max(var(--page-gutter), calc((100vw - var(--page-width)) / 2)) 88px;
   overflow: hidden;
 }
 
@@ -111,7 +113,7 @@ a:hover {
 .top-pill {
   position: fixed;
   top: 18px;
-  right: max(24px, calc((100vw - 1480px) / 2));
+  right: max(var(--page-gutter), calc((100vw - var(--page-width)) / 2));
   z-index: 20;
   display: inline-flex;
   align-items: center;
@@ -1670,7 +1672,7 @@ footer {
   }
 
   .page-shell {
-    width: min(100% - 28px, 1480px);
+    width: min(100% - 28px, var(--page-width));
   }
 
   .top-pill::-webkit-scrollbar {
@@ -1784,7 +1786,7 @@ footer {
 
 @media (max-width: 520px) {
   .page-shell {
-    width: min(100% - 22px, 1480px);
+    width: min(100% - 22px, var(--page-width));
   }
 
   .hero-copy h1 {
@@ -1808,7 +1810,8 @@ footer {
   }
 
   .top-pill a:nth-of-type(4),
-  .top-pill a:nth-of-type(5) {
+  .top-pill a:nth-of-type(5),
+  .top-pill a:nth-of-type(7) {
     display: none;
   }
 
