@@ -1679,12 +1679,12 @@ footer {
 
   .hero {
     min-height: auto;
-    padding: 112px 14px 76px;
+    padding: 112px 14px 38px;
   }
 
   .capability-spinner {
     width: min(360px, 92vw);
-    margin-top: 34px;
+    margin-top: 24px;
   }
 
   .capability-node {
@@ -1800,6 +1800,16 @@ footer {
     min-height: 29px;
     padding: 5px 9px;
     font-size: 0.66rem;
+  }
+
+  .top-pill {
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .top-pill a:nth-of-type(4),
+  .top-pill a:nth-of-type(5) {
+    display: none;
   }
 
   .actions .button {
