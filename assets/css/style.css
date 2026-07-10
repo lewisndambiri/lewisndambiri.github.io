@@ -191,7 +191,7 @@ a:hover {
 .hero-copy h1 {
   margin: 0;
   color: var(--ink);
-  font-size: clamp(3.25rem, 5.4vw, 5.8rem);
+  font-size: clamp(2.9rem, 4.7vw, 5rem);
   font-weight: 900;
   line-height: 0.94;
   letter-spacing: 0;
@@ -721,7 +721,7 @@ section {
 .section-heading h2 {
   margin: 0;
   color: var(--ink);
-  font-size: clamp(1.58rem, 2.35vw, 2.35rem);
+  font-size: clamp(1.5rem, 2.1vw, 2.1rem);
   line-height: 1;
   letter-spacing: 0;
 }
@@ -841,7 +841,7 @@ section {
 .about-copy h2 {
   margin: 0;
   color: var(--ink);
-  font-size: clamp(1.7rem, 3.2vw, 3.35rem);
+  font-size: clamp(1.65rem, 2.8vw, 2.85rem);
   line-height: 1.03;
 }
 
@@ -1090,7 +1090,7 @@ section {
 .flagship-copy h3 {
   margin: 14px 0 14px;
   color: var(--ink);
-  font-size: clamp(1.55rem, 2.6vw, 2.7rem);
+  font-size: clamp(1.45rem, 2.2vw, 2.3rem);
   line-height: 1.02;
 }
 
@@ -1522,7 +1522,7 @@ body:not(.js-ready) .reveal {
   max-width: 860px;
   margin: 0;
   color: var(--ink);
-  font-size: clamp(1.7rem, 3.2vw, 3.3rem);
+  font-size: clamp(1.65rem, 2.8vw, 2.85rem);
   line-height: 1.04;
   text-align: center;
 }
@@ -1582,7 +1582,7 @@ footer {
   }
 
   .hero-copy h1 {
-    font-size: clamp(2.7rem, 8vw, 4.8rem);
+    font-size: clamp(2.55rem, 7vw, 4.1rem);
   }
 
   .about-copy {
@@ -1790,7 +1790,7 @@ footer {
   }
 
   .hero-copy h1 {
-    font-size: clamp(1.8rem, 9vw, 2.45rem);
+    font-size: clamp(1.75rem, 8.5vw, 2.25rem);
   }
 
   .hero-lede,
