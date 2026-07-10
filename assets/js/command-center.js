@@ -3,6 +3,13 @@
 
   const canvas = document.querySelector("[data-hero-canvas]");
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const accentColors = [
+    "22, 185, 96",
+    "86, 174, 255",
+    "230, 170, 71",
+    "125, 159, 185",
+    "245, 247, 242"
+  ];
 
   function enhanceStacks() {
     document.querySelectorAll(".stack").forEach((stack) => {
@@ -23,7 +30,7 @@
   }
 
   function addInteractiveGlow() {
-    document.querySelectorAll(".project-card, .stack-group, .loop-step").forEach((card) => {
+    document.querySelectorAll(".flagship, .project-card, .stack-group, .discipline-card, .contact-section").forEach((card) => {
       card.addEventListener("pointermove", (event) => {
         const rect = card.getBoundingClientRect();
         const x = ((event.clientX - rect.left) / rect.width) * 100;
@@ -36,7 +43,7 @@
 
   function addReveal() {
     const targets = document.querySelectorAll(
-      ".project-card, .metric, .loop-step, .stack-group, .education article"
+      ".flagship, .about-copy, .project-card, .metric, .discipline-card, .stack-group, .education article, .contact-section"
     );
     targets.forEach((target) => target.classList.add("reveal"));
 
@@ -84,17 +91,22 @@
   }
 
   function animateMetrics() {
-    if (prefersReducedMotion) return;
+    if (prefersReducedMotion || !("IntersectionObserver" in window)) return;
 
     const numbers = document.querySelectorAll(".metric strong");
-    const parse = (text) => {
-      const value = Number.parseFloat(text.replace(/[^\d.]/g, ""));
+    const parseMetric = (text) => {
+      const match = text.trim().match(/^([^\d]*)([\d,.]+)(.*)$/);
+      if (!match) return null;
+
+      const value = Number.parseFloat(match[2].replace(/,/g, ""));
       if (Number.isNaN(value)) return null;
+
       return {
+        original: text.trim(),
+        prefix: match[1],
         value,
-        prefix: text.match(/^[^\d]*/)?.[0] || "",
-        suffix: text.match(/[^\d.]+$/)?.[0] || "",
-        decimals: text.includes(".") ? 2 : 0
+        suffix: match[3],
+        decimals: (match[2].split(".")[1] || "").length
       };
     };
 
@@ -102,22 +114,29 @@
       (entries) => {
         entries.forEach((entry) => {
           if (!entry.isIntersecting) return;
-          const target = entry.target;
-          const data = parse(target.textContent);
-          if (!data) return;
-          const start = performance.now();
-          const duration = 900;
 
-          function tick(now) {
+          const number = entry.target;
+          const metric = parseMetric(number.textContent);
+          if (!metric) return;
+
+          const start = performance.now();
+          const duration = 880;
+
+          const tick = (now) => {
             const progress = Math.min((now - start) / duration, 1);
             const eased = 1 - Math.pow(1 - progress, 3);
-            const current = data.value * eased;
-            target.textContent = `${data.prefix}${current.toFixed(data.decimals)}${data.suffix}`;
-            if (progress < 1) requestAnimationFrame(tick);
-          }
+            const current = metric.value * eased;
+            number.textContent = `${metric.prefix}${current.toFixed(metric.decimals)}${metric.suffix}`;
+
+            if (progress < 1) {
+              requestAnimationFrame(tick);
+            } else {
+              number.textContent = metric.original;
+            }
+          };
 
           requestAnimationFrame(tick);
-          observer.unobserve(target);
+          observer.unobserve(number);
         });
       },
       { threshold: 0.6 }
@@ -126,11 +145,35 @@
     numbers.forEach((number) => observer.observe(number));
   }
 
+  function addSpinnerMotion() {
+    const spinner = document.querySelector("[data-capability-spinner]");
+    if (!spinner || prefersReducedMotion) return;
+
+    let pending = false;
+    const update = () => {
+      spinner.style.setProperty("--spinner-turn", `${window.scrollY * 0.016}deg`);
+      pending = false;
+    };
+
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (pending) return;
+        pending = true;
+        requestAnimationFrame(update);
+      },
+      { passive: true }
+    );
+
+    update();
+  }
+
   enhanceStacks();
   addInteractiveGlow();
   addReveal();
   addActiveNav();
   animateMetrics();
+  addSpinnerMotion();
 
   if (!canvas) return;
 
@@ -173,53 +216,17 @@
     }));
   }
 
-  function particleColor(type, alpha) {
-    const colors = [
-      `rgba(0, 135, 31, ${alpha})`,
-      `rgba(46, 116, 181, ${alpha})`,
-      `rgba(138, 109, 59, ${alpha})`,
-      `rgba(31, 56, 100, ${alpha})`,
-      `rgba(245, 247, 242, ${alpha})`
-    ];
-    return colors[type] || colors[0];
-  }
-
-  function drawFactorySilhouette() {
-    const baseY = height * 0.78;
-    ctx.save();
-    ctx.globalAlpha = 0.16;
-    ctx.strokeStyle = "rgba(220, 229, 238, 0.55)";
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.moveTo(width * 0.54, baseY);
-    ctx.lineTo(width * 0.6, baseY);
-    ctx.lineTo(width * 0.6, baseY - 55);
-    ctx.lineTo(width * 0.64, baseY - 55);
-    ctx.lineTo(width * 0.64, baseY);
-    ctx.lineTo(width * 0.7, baseY);
-    ctx.lineTo(width * 0.7, baseY - 90);
-    ctx.lineTo(width * 0.74, baseY - 90);
-    ctx.lineTo(width * 0.74, baseY);
-    ctx.lineTo(width * 0.9, baseY);
-    ctx.stroke();
-
-    for (let i = 0; i < 7; i += 1) {
-      const x = width * (0.58 + i * 0.045);
-      ctx.beginPath();
-      ctx.moveTo(x, baseY);
-      ctx.lineTo(x, baseY - 36 - (i % 3) * 18);
-      ctx.stroke();
-    }
-    ctx.restore();
+  function withAlpha(color, alpha) {
+    return `rgba(${color}, ${alpha})`;
   }
 
   function drawFlowField() {
     flowLines.forEach((line, index) => {
       const gradient = ctx.createLinearGradient(0, 0, width, 0);
-      gradient.addColorStop(0, "rgba(0, 135, 31, 0)");
-      gradient.addColorStop(0.35, index % 2 ? "rgba(46, 116, 181, 0.34)" : "rgba(0, 135, 31, 0.36)");
-      gradient.addColorStop(0.72, index % 3 ? "rgba(31, 56, 100, 0.26)" : "rgba(138, 109, 59, 0.28)");
-      gradient.addColorStop(1, "rgba(0, 135, 31, 0)");
+      gradient.addColorStop(0, withAlpha(accentColors[0], 0));
+      gradient.addColorStop(0.35, withAlpha(accentColors[index % 2 ? 1 : 0], 0.34));
+      gradient.addColorStop(0.72, withAlpha(accentColors[index % 3 ? 3 : 2], 0.26));
+      gradient.addColorStop(1, withAlpha(accentColors[0], 0));
 
       ctx.strokeStyle = gradient;
       ctx.lineWidth = 1.2;
@@ -246,7 +253,7 @@
     for (let i = 0; i < 3; i += 1) {
       ctx.beginPath();
       ctx.ellipse(0, 0, 130 + i * 34, 42 + i * 18, (i * Math.PI) / 3, 0, Math.PI * 2);
-      ctx.strokeStyle = `rgba(${i === 1 ? "46,116,181" : "0,135,31"}, ${0.16 - i * 0.025})`;
+      ctx.strokeStyle = withAlpha(accentColors[i === 1 ? 1 : 0], 0.16 - i * 0.025);
       ctx.lineWidth = 1;
       ctx.stroke();
     }
@@ -268,7 +275,7 @@
       const pulse = Math.sin(frame * 2.8 + point.phase) * 0.35 + 0.9;
       ctx.beginPath();
       ctx.arc(point.x, point.y, point.size * pulse, 0, Math.PI * 2);
-      ctx.fillStyle = particleColor(point.hue, 0.48);
+      ctx.fillStyle = withAlpha(accentColors[point.hue], 0.48);
       ctx.fill();
     });
 
@@ -280,7 +287,7 @@
         const dy = a.y - b.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
         if (distance < 112) {
-          ctx.strokeStyle = `rgba(46, 116, 181, ${0.11 * (1 - distance / 112)})`;
+          ctx.strokeStyle = withAlpha(accentColors[1], 0.11 * (1 - distance / 112));
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
@@ -294,9 +301,9 @@
   function drawScan() {
     const scanY = ((Math.sin(frame * 0.55) + 1) / 2) * height;
     const scan = ctx.createLinearGradient(0, scanY - 120, 0, scanY + 120);
-    scan.addColorStop(0, "rgba(0, 135, 31, 0)");
-    scan.addColorStop(0.5, "rgba(0, 135, 31, 0.1)");
-    scan.addColorStop(1, "rgba(0, 135, 31, 0)");
+    scan.addColorStop(0, withAlpha(accentColors[0], 0));
+    scan.addColorStop(0.5, withAlpha(accentColors[0], 0.1));
+    scan.addColorStop(1, withAlpha(accentColors[0], 0));
     ctx.fillStyle = scan;
     ctx.fillRect(0, scanY - 120, width, 240);
   }
@@ -305,7 +312,6 @@
     frame += 0.012;
     ctx.clearRect(0, 0, width, height);
     drawScan();
-    drawFactorySilhouette();
     drawOrbit();
     drawFlowField();
     drawParticles();
