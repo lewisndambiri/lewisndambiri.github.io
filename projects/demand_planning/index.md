@@ -135,10 +135,10 @@ Baseline comparison:
 | Naive yesterday | 1,934.502 | 1,295.557 | 19.944% | 0.568 |
 | Seasonal naive last week | 2,915.972 | 2,304.144 | 36.533% | 0.018 |
 
-See [docs/RESULTS.md](docs/RESULTS.md) for interpretation.
+See [docs/RESULTS.md](https://github.com/lewisndambiri/demand_forecasting/blob/main/docs/RESULTS.md) for interpretation.
 
 ## EDA Preview
-Full report: [docs/EDA_REPORT.md](docs/EDA_REPORT.md)
+Full report: [docs/EDA_REPORT.md](https://github.com/lewisndambiri/demand_forecasting/blob/main/docs/EDA_REPORT.md)
 
 ### Total Daily Sales
 ![Total daily sales](daily_sales.png)
@@ -273,8 +273,8 @@ Good future improvements:
 - drift monitoring
 
 ## Documentation
-- [docs/DATA_GUIDE.md](docs/DATA_GUIDE.md): data download and setup
-- [docs/EDA_REPORT.md](docs/EDA_REPORT.md): exploratory analysis and plots
-- [docs/RESULTS.md](docs/RESULTS.md): metrics and interpretation
-- [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md): Docker and Streamlit deployment
-- [TECHNICAL_NOTES.md](TECHNICAL_NOTES.md): implementation details
+- [docs/DATA_GUIDE.md](https://github.com/lewisndambiri/demand_forecasting/blob/main/docs/DATA_GUIDE.md): data download and setup
+- [docs/EDA_REPORT.md](https://github.com/lewisndambiri/demand_forecasting/blob/main/docs/EDA_REPORT.md): exploratory analysis and plots
+- [docs/RESULTS.md](https://github.com/lewisndambiri/demand_forecasting/blob/main/docs/RESULTS.md): metrics and interpretation
+- [docs/DEPLOYMENT.md](https://github.com/lewisndambiri/demand_forecasting/blob/main/docs/DEPLOYMENT.md): Docker and Streamlit deployment
+- [TECHNICAL_NOTES.md](https://github.com/lewisndambiri/demand_forecasting/blob/main/TECHNICAL_NOTES.md): implementation details

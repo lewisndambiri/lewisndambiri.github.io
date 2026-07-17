@@ -269,4 +269,4 @@ The warnings are intentional and important:
 
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+MIT License. See [LICENSE](https://github.com/lewisndambiri/maintenance-mode-predictor/blob/main/LICENSE).
