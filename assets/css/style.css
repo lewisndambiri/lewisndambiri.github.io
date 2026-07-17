@@ -6,7 +6,7 @@
   --muted: #9aa7b8;
   --soft: #d3dce6;
   --line: rgba(154, 176, 205, 0.15);
-  --panel: rgba(9, 15, 29, 0.74);
+  --panel: rgba(8, 18, 41, 0.76);
   --blue: #3a6ea8;
   --steel: #1d3358;
   --teal: #3dd6b5;
@@ -166,7 +166,7 @@ a:hover {
   border-radius: 999px;
   padding: 5px 6px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.035)),
+    linear-gradient(180deg, rgba(154, 176, 205, 0.15), rgba(255, 255, 255, 0.035)),
     rgba(5, 7, 17, 0.54);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.22),
@@ -325,7 +325,7 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.14), transparent 48%);
+  background: linear-gradient(135deg, rgba(154, 176, 205, 0.15), transparent 48%);
 }
 
 .capability-node.collaboration {
@@ -436,7 +436,7 @@ a:hover {
   display: inline-flex;
   min-height: 32px;
   align-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(154, 176, 205, 0.15);
   border-radius: 999px;
   padding: 6px 11px;
   background: rgba(255, 255, 255, 0.055);
@@ -1367,7 +1367,7 @@ body:not(.js-ready) .reveal {
   display: inline-flex;
   min-height: 26px;
   align-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(154, 176, 205, 0.12);
   border-radius: 999px;
   padding: 4px 9px;
   background: rgba(255, 255, 255, 0.05);
