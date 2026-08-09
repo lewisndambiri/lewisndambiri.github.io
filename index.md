@@ -124,6 +124,9 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
     <a href="mailto:ndambirilewis@gmail.com" aria-label="Email Lewis" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></a>
     <a href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="View resume" title="Resume"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></a>
   </div>
+  <div class="profile-photo" aria-hidden="false">
+    <img src="/assets/img/lewis-profile-bw-4k.jpg" alt="Portrait of Lewis Ndambiri">
+  </div>
 </section>
 
 <section class="disciplines" id="what-i-do" aria-labelledby="what-i-do-title">
@@ -263,7 +266,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
   </div>
 
   <div class="project-grid compact-projects">
-      <article class="project-card" data-system="01/04">
+      <article class="project-card" data-system="01/05">
         <div class="project-media">
           <img loading="lazy" src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
         </div>
@@ -277,7 +280,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
         </div>
       </article>
     
-      <article class="project-card" data-system="02/04">
+      <article class="project-card" data-system="02/05">
       <div class="project-media">
         <img loading="lazy" src="/projects/retail-analytics-sql/hero.png" alt="Retail analytics SQL pipeline preview">
       </div>
@@ -291,7 +294,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       </div>
     </article>
   
-    <article class="project-card" data-system="03/04">
+    <article class="project-card" data-system="03/05">
       <div class="project-media">
         <img loading="lazy" src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview">
       </div>
@@ -305,7 +308,7 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       </div>
     </article>
 
-    <article class="project-card" data-system="04/04">
+    <article class="project-card" data-system="04/05">
       <div class="project-media">
         <img loading="lazy" src="/projects/meet-scheduler/Homepage.jpg" alt="MeetScheduler homepage preview">
       </div>
@@ -316,6 +319,20 @@ title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
       <div class="links">
         <a class="stretched-link" href="/projects/meet-scheduler/">Case Study</a>
         <a href="https://github.com/lewisndambiri/meet-scheduler" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </article>
+
+    <article class="project-card" data-system="05/05">
+      <div class="project-media">
+        <img loading="lazy" src="/projects/faultlens-plc/docs/hero/faultlens-plc-hero.png" alt="FaultLens PLC explainable fault diagnosis preview">
+      </div>
+      <div class="stack">Python, IEC 61131-3, Structured Text, PLC Simulation, RCA</div>
+      <h3>FaultLens PLC — Explainable Fault Diagnosis</h3>
+      <p>Built a simulated PLC troubleshooting assistant that separates two faults sharing one alarm, using an operator observation, a bounded consistency test, and traditional RCA (5 Whys, Ishikawa, FMEA) instead of a black-box guess.</p>
+      <p class="result">Result: 2/2 ambiguous fault pairs correctly localized, 26 automated tests, and a real IEC 61131-3 program that compiles to C++17.</p>
+      <div class="links">
+        <a class="stretched-link" href="/projects/faultlens-plc/">Case Study</a>
+        <a href="https://github.com/lewisndambiri/faultlens-plc" target="_blank" rel="noopener noreferrer">GitHub</a>
       </div>
     </article>
   </div>
