@@ -196,7 +196,7 @@ romberg-hpc4ds/
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/lewisndambiri.io/romberg-hpc4ds.git
+git clone https://github.com/lewisndambiri/romberg-hpc4ds.git
 cd romberg-hpc4ds
 ```
 

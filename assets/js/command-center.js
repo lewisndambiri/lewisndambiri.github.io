@@ -43,7 +43,7 @@
 
   function addReveal() {
     const targets = document.querySelectorAll(
-      ".flagship, .about-copy, .project-card, .metric, .discipline-card, .stack-group, .education article, .contact-section"
+      ".flagship, .about-story, .profile-connect, .project-card, .metric, .discipline-card, .experience-role, .impact-stat, .stack-group, .education article, .contact-section"
     );
     targets.forEach((target) => target.classList.add("reveal"));
 
@@ -69,31 +69,43 @@
 
   function addActiveNav() {
     const links = Array.from(document.querySelectorAll(".top-pill a[href^='#']"));
-    if (!links.length || !("IntersectionObserver" in window)) return;
+    if (!links.length) return;
 
     const sections = links
-      .map((link) => document.querySelector(link.getAttribute("href")))
-      .filter(Boolean);
+      .map((link) => ({ link, section: document.querySelector(link.getAttribute("href")) }))
+      .filter((item) => item.section);
+    let framePending = false;
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (!entry.isIntersecting) return;
-          links.forEach((link) => {
-            link.classList.toggle("is-active", link.getAttribute("href") === `#${entry.target.id}`);
-          });
-        });
-      },
-      { threshold: 0.28, rootMargin: "-18% 0px -60% 0px" }
-    );
+    const update = () => {
+      const marker = window.scrollY + Math.max(130, window.innerHeight * 0.28);
+      let active = null;
 
-    sections.forEach((section) => observer.observe(section));
+      sections.forEach((item) => {
+        if (item.section.offsetTop <= marker) active = item;
+      });
+
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4) {
+        active = sections[sections.length - 1];
+      }
+
+      sections.forEach((item) => item.link.classList.toggle("is-active", item === active));
+      active?.link.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
+      framePending = false;
+    };
+
+    window.addEventListener("scroll", () => {
+      if (framePending) return;
+      framePending = true;
+      requestAnimationFrame(update);
+    }, { passive: true });
+    window.addEventListener("resize", update);
+    update();
   }
 
   function animateMetrics() {
     if (prefersReducedMotion || !("IntersectionObserver" in window)) return;
 
-    const numbers = document.querySelectorAll(".metric strong");
+    const numbers = document.querySelectorAll(".metric strong, .impact-stat strong");
     const parseMetric = (text) => {
       const match = text.trim().match(/^([^\d]*)([\d,.]+)(.*)$/);
       if (!match) return null;

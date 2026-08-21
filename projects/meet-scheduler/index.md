@@ -42,7 +42,7 @@ The project was built for **HackaPrompt AI 2026** at the **University of Trento*
 ### 1. Clone the project
 
 ```bash
-git clone https://github.com/lewisndambiri/meeting-scheduler.git
+git clone https://github.com/lewisndambiri/meet-scheduler.git
 cd meeting-scheduler
 ```
 

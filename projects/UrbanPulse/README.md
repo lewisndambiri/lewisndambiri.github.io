@@ -258,6 +258,6 @@ UrbanPulse successfully demonstrates a production-grade SOA implementation with 
 
 ---
 
-**GitHub Repository:**  https://github.com/lewisndambiri/lewisndambiri.github.io/new/main/projects  
+**GitHub Repository:** https://github.com/lewisndambiri/UrbanPulse
 **Live Demo:** Available via Telegram @EventPlanner  
 **Documentation:** Complete API documentation in `/docs`

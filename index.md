@@ -1,453 +1,111 @@
 ---
 layout: default
-title: Lewis NDAMBIRI | Data Science & AI for Competitive Manufacturing
+title: Lewis NDAMBIRI | Industrial Engineer, Applied AI & Operations
+description: Industrial engineering, applied AI, automation, and operations systems that make complex work easier to see, forecast, and improve.
 ---
 
 <header class="hero" id="top">
   <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
   <nav class="top-pill" aria-label="Portfolio navigation">
-    <a href="#about">About</a>
-    <a href="#what-i-do">What I Do</a>
-    <a href="#work">Projects</a>
-    <a href="#tech-stack">Stack</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
-    <a href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#what-i-do">Capabilities</a><a href="#work">Projects</a><a href="#tech-stack">Toolchain</a><a href="#education">Education</a><a href="#contact">Contact</a>
   </nav>
-
-  <div class="hero-layout">
+  <div class="hero-layout hero-refresh">
     <div class="hero-copy">
-      <p class="eyebrow">Lewis NDAMBIRI / Industrial Systems</p>
-      <h1>Engineering that moves.</h1>
-      <p class="hero-kicker">From ideas to real operational progress.</p>
-      <p class="hero-lede">I'm Lewis Ndambiri. I connect industrial engineering, data science, automation, logistics, and project execution to make complex operations easier to see, forecast, and improve.</p>
-
-      <div class="hero-skills" aria-label="Core capability signals">
-        <span>Operational design</span>
-        <span>Industrial AI</span>
-        <span>Automation</span>
-        <span>Decision systems</span>
-      </div>
-
-      <div class="actions" aria-label="Contact and profile links">
-        <a class="button primary" href="#work">View Projects</a>
-        <a class="button" href="Docs/ndambiri_lewis_projects_snapshot.pdf" target="_blank" rel="noopener noreferrer">Project Snapshot</a>
-        <a class="button" href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-        <a class="button" href="mailto:ndambirilewis@gmail.com">Email</a>
-      </div>
+      <p class="eyebrow">Industrial systems / applied AI</p>
+      <h1>Engineering that <span>moves work forward.</span></h1>
+      <p class="hero-lede">I am Lewis Ndambiri, an industrial engineer who connects operations, data science, automation, logistics, and project execution to make complex work easier to see, forecast, and improve.</p>
+      <div class="actions"><a class="button primary" href="#work">Explore projects <span aria-hidden="true">↓</span></a><a class="button" href="Docs/ndambiri_lewis_projects_snapshot.pdf" target="_blank" rel="noopener noreferrer">Project snapshot</a><a class="button" href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div>
+      <p class="hero-status"><i aria-hidden="true"></i> Available for industrial AI, operations, and manufacturing technology opportunities.</p>
     </div>
-
-    <div class="capability-spinner" data-capability-spinner aria-label="Three connected professional focus areas: human-machine collaboration, AI and systems, and sustainable operations">
-      <div class="spinner-orbit orbit-one" aria-hidden="true"></div>
-      <div class="spinner-orbit orbit-two" aria-hidden="true"></div>
-      <div class="spinner-core">
-        <article class="capability-node collaboration">
-          <div class="node-content">
-            <img class="capability-illustration" src="/assets/img/hero-human-cobot.webp" alt="">
-            <strong>Human + machine</strong>
-          </div>
-        </article>
-        <article class="capability-node intelligence">
-          <div class="node-content">
-            <img class="capability-illustration" src="/assets/img/hero-ai-systems.webp" alt="">
-            <strong>AI + systems</strong>
-          </div>
-        </article>
-        <article class="capability-node sustainable">
-          <div class="node-content">
-            <img class="capability-illustration" src="/assets/img/hero-sustainable-flow.webp" alt="">
-            <strong>Sustainable flow</strong>
-          </div>
-        </article>
-        <div class="spinner-hub" aria-hidden="true">
-          <svg class="nexus-mark" viewBox="0 0 120 120">
-            <path class="nexus-path path-one" d="M60 22c22 0 38 16 38 38S82 98 60 98 22 82 22 60 38 22 60 22Z"/>
-            <path class="nexus-path path-two" d="M36 43c15-15 33-15 48 0s15 33 0 48-33 15-48 0-15-33 0-48Z"/>
-            <path class="nexus-path path-three" d="M36 77c-15-15-15-33 0-48s33-15 48 0 15 33 0 48-33 15-48 0Z"/>
-            <circle class="nexus-core" cx="60" cy="60" r="8"/>
-            <circle class="nexus-node node-one" cx="60" cy="22" r="5"/>
-            <circle class="nexus-node node-two" cx="93" cy="79" r="5"/>
-            <circle class="nexus-node node-three" cx="27" cy="79" r="5"/>
-          </svg>
-        </div>
+    <div class="system-atlas" aria-label="A visual map of Lewis's professional practice">
+      <div class="atlas-header"><span>Operating context</span><span>01 / 03</span></div>
+      <div class="atlas-grid">
+        <article class="atlas-node people"><img src="/assets/img/hero-human-cobot.webp" alt=""><div><small>Human + machine</small><strong>Work designed for adoption</strong></div></article>
+        <article class="atlas-node intelligence"><img src="/assets/img/hero-ai-systems.webp" alt=""><div><small>AI + systems</small><strong>Signals into decisions</strong></div></article>
+        <article class="atlas-node flow"><img src="/assets/img/hero-sustainable-flow.webp" alt=""><div><small>Resilient flow</small><strong>Value with less waste</strong></div></article>
+        <div class="atlas-hub" aria-hidden="true"><svg viewBox="0 0 120 120"><path d="M60 15 98 37v46L60 105 22 83V37L60 15Z"/><path d="M60 39 78 50v21L60 82 42 71V50l18-11Z"/><path d="m22 37 20 13m36 0 20-13M60 15v24m0 43v23"/><circle cx="60" cy="60" r="5"/></svg></div>
       </div>
+      <div class="atlas-footer"><span>People</span><span>Process</span><span>Data</span><span>Delivery</span></div>
     </div>
   </div>
 </header>
 
-<section class="about-section" id="about" aria-labelledby="about-title">
-  <div class="about-copy">
-    <p class="eyebrow">Profile</p>
-    <h2 id="about-title">Build the flow. Remove the friction.</h2>
-    <p class="about-quote">“Every system tells a story. The work is to find its friction, then turn it into flow.”</p>
-    <p>With a background in industrial engineering, I am fascinated by the way systems behave under pressure: the handoffs, constraints, signals, and unnecessary effort that decide whether an operation feels controlled or chaotic. Lean thinking taught me to make waste visible and improve before issues become expensive.</p>
-    <p>Along the way, I have built a practical toolkit across CAD, AI, machine learning, software development, lean methods, simulation, and data storytelling. It helps turn messy operational data into decisions people can act on.</p>
-    <p>Maritime logistics opened my eyes to global trade and the discipline behind every movement: clean data, resilient systems, decisive action, and people able to coordinate across many moving parts.</p>
-    <p>This combination lets me become useful quickly in fast-paced, demanding environments.</p>
+<section class="about-section section-band" id="about" aria-labelledby="about-title">
+  <div class="section-intro"><p class="eyebrow">01 / Profile</p><h2 id="about-title">Built for the space between operations and software.</h2></div>
+  <div class="about-story"><p class="about-quote">“Make the work visible, then make it better.”</p><p>Industrial engineering made me attentive to the handoffs, constraints, signals, and unnecessary effort that decide whether an operation feels controlled or chaotic. Lean thinking gave me a practical habit: make waste visible and improve before issues become expensive.</p><p>I have since built a toolkit across AI, machine learning, software development, simulation, CAD, lean methods, and data storytelling. It helps translate messy operational data into decisions that people can actually use.</p><p>Maritime logistics made the scale of this real for me. Global movement depends on clean data, resilient systems, decisive action, and people coordinating across many moving parts.</p></div>
+  <div class="profile-connect">
+    <div class="profile-signature" aria-label="Connect with Lewis Ndambiri">
+      <div><span>Connect</span><strong>Lewis NDAMBIRI</strong><small>Scan for LinkedIn</small></div>
+      <a class="profile-qr" href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer" aria-label="Open Lewis Ndambiri's LinkedIn profile"><img src="/assets/img/linkedin-qr.jpg" alt="QR code to Lewis Ndambiri's LinkedIn profile"></a>
+      <div class="profile-route" aria-hidden="true"><i></i><span></span><i></i><span></span><i></i></div>
+    </div>
+    <div class="profile-links profile-links-external" aria-label="Profile links">
+      <a href="https://github.com/lewisndambiri" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.15-1.11-1.45-1.11-1.45-.9-.62.07-.61.07-.61 1 .07 1.52 1 1.52 1 .89 1.5 2.33 1.07 2.9.82.09-.63.35-1.07.64-1.32-2.22-.25-4.56-1.09-4.56-4.86 0-1.07.39-1.95 1.02-2.64-.1-.25-.44-1.25.1-2.61 0 0 .84-.26 2.75 1a9.7 9.7 0 0 1 5 0c1.91-1.26 2.75-1 2.75-1 .54 1.36.2 2.36.1 2.61.63.69 1.02 1.57 1.02 2.64 0 3.78-2.35 4.6-4.58 4.85.36.3.68.86.68 1.74v2.58c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
+      <a href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5H3.4V21h3.1V8.5ZM5 3A1.8 1.8 0 1 0 5 6.6 1.8 1.8 0 0 0 5 3ZM21 13.8c0-3.8-2-5.6-4.8-5.6-2.2 0-3.2 1.2-3.7 2V8.5H9.4V21h3.1v-6.2c0-1.6.3-3.2 2.3-3.2 2 0 2 1.9 2 3.3V21H21v-7.2Z"/></svg></a>
+      <a href="mailto:ndambirilewis@gmail.com" aria-label="Email Lewis" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></a>
+      <a href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="View resume" title="Resume"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></a>
+    </div>
   </div>
+  <div class="metrics story-metrics" aria-label="Selected project outcomes"><div class="metric"><strong>839</strong><span>Haas CNC manual chunks indexed locally</span></div><div class="metric"><strong>9.23%</strong><span>MAPE on retail demand forecasting</span></div><div class="metric"><strong>31.77x</strong><span>HPC speedup using MPI and OpenMP</span></div><div class="metric metric-highlight"><strong>100%</strong><span>CNC RAG page hit rate@5 on evaluation set</span></div></div>
+</section>
 
-  <div class="metrics story-metrics" aria-label="Selected outcomes">
-    <div class="metric">
-      <strong>100%</strong>
-      <span>CNC RAG page hit rate@5 on eval set</span>
-    </div>
-    <div class="metric">
-      <strong>839</strong>
-      <span>Haas CNC manual chunks indexed locally</span>
-    </div>
-    <div class="metric">
-      <strong>9.23%</strong>
-      <span>MAPE on retail demand forecasting</span>
-    </div>
-    <div class="metric">
-      <strong>31.77x</strong>
-      <span>HPC speedup using MPI/OpenMP</span>
-    </div>
+<section class="experience-section section-band" id="experience">
+  <div class="section-heading story-heading"><p class="eyebrow">02 / Experience</p><h2>From field operations to industrial AI.</h2><p>A working path through technical design, continuous improvement, global shipping, and intelligent manufacturing systems.</p></div>
+  <div class="experience-timeline">
+    <article class="experience-role"><time>2026</time><div><div class="organization"><span class="organization-logo"><img src="/assets/img/brands/blm-group.svg" alt=""></span><span>BLM Group · Trento, Italy</span></div><h3>Industrial Engineering &amp; AI Automation</h3><p>Applied industrial engineering, automation, and AI within a live manufacturing environment, with a focus on practical adoption and cross-functional delivery.</p></div></article>
+    <article class="experience-role"><time>2023-2024</time><div><div class="organization"><span class="organization-logo wide"><img src="/assets/img/brands/cma-cgm.svg" alt=""></span><span>CMA CGM · Nairobi, Kenya</span></div><h3>Intermodal Sales Support &amp; Planning</h3><p>Coordinated shipment readiness and export documentation, supported load planning, and automated recurring operational work with Excel and VBA.</p></div></article>
+    <article class="experience-role"><time>2022</time><div><div class="organization"><span class="organization-logo wide"><img src="/assets/img/brands/elis.svg" alt=""></span><span>Elis Group · Aix-les-Bains, France</span></div><h3>Continuous Improvement Engineering</h3><p>Led shop-floor 5S, redesigned production workstations, and supported scheduling and preventive-maintenance improvement.</p></div></article>
+    <article class="experience-role"><time>2019-2021</time><div><div class="organization"><span class="organization-logo"><img src="/assets/img/brands/ekium.png" alt=""></span><span>Ekium Group &amp; Jamizam Enterprises</span></div><h3>Technical Design &amp; Site Engineering</h3><p>Contributed to engineering design and supervised multidisciplinary site work with a strong focus on safety, quality, and execution.</p></div></article>
   </div>
-
-  <div class="profile-signature" aria-label="Profile name and positioning">
-    <div>
-      <span>Connect</span>
-      <strong>Lewis NDAMBIRI</strong>
-      <small>Scan for LinkedIn</small>
-    </div>
-    <a class="profile-qr" href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer" aria-label="Open Lewis Ndambiri's LinkedIn profile">
-      <img src="/assets/img/linkedin-qr.jpg" alt="QR code to Lewis Ndambiri's LinkedIn profile">
-    </a>
-    <div class="profile-route" aria-hidden="true">
-      <i></i><span></span><i></i><span></span><i></i>
-    </div>
-  </div>
-  <div class="profile-links profile-links-external" aria-label="Profile links">
-    <a href="https://github.com/lewisndambiri" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.15-1.11-1.45-1.11-1.45-.9-.62.07-.61.07-.61 1 .07 1.52 1 1.52 1 .89 1.5 2.33 1.07 2.9.82.09-.63.35-1.07.64-1.32-2.22-.25-4.56-1.09-4.56-4.86 0-1.07.39-1.95 1.02-2.64-.1-.25-.44-1.25.1-2.61 0 0 .84-.26 2.75 1a9.7 9.7 0 0 1 5 0c1.91-1.26 2.75-1 2.75-1 .54 1.36.2 2.36.1 2.61.63.69 1.02 1.57 1.02 2.64 0 3.78-2.35 4.6-4.58 4.85.36.3.68.86.68 1.74v2.58c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
-    <a href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5H3.4V21h3.1V8.5ZM5 3A1.8 1.8 0 1 0 5 6.6 1.8 1.8 0 0 0 5 3ZM21 13.8c0-3.8-2-5.6-4.8-5.6-2.2 0-3.2 1.2-3.7 2V8.5H9.4V21h3.1v-6.2c0-1.6.3-3.2 2.3-3.2 2 0 2 1.9 2 3.3V21H21v-7.2Z"/></svg></a>
-    <a href="mailto:ndambirilewis@gmail.com" aria-label="Email Lewis" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></a>
-    <a href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="View resume" title="Resume"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></a>
-  </div>
-  <div class="profile-photo" aria-hidden="false">
-    <img src="/assets/img/lewis-profile-bw-4k.jpg" alt="Portrait of Lewis Ndambiri">
+  <div class="impact-strip" aria-label="Selected professional impact">
+    <div class="impact-stat"><strong>15%</strong><span>Improved vessel space utilization through load-planning optimization</span></div>
+    <div class="impact-stat"><strong>25%</strong><span>Increase in usable warehouse space through shop-floor 5S</span></div>
+    <div class="impact-stat"><strong>30%</strong><span>Reduction in operator travel through workstation redesign</span></div>
+    <div class="impact-stat"><strong>40+</strong><span>Workers supervised across project phases with zero safety incidents</span></div>
   </div>
 </section>
 
-<section class="disciplines" id="what-i-do" aria-labelledby="what-i-do-title">
-  <div class="section-heading story-heading">
-    <p class="eyebrow">What I Do</p>
-    <h2 id="what-i-do-title">Four disciplines. One engineer.</h2>
-    <p>I work at the intersection of the system itself, the information moving through it, and the people making the next decision.</p>
-  </div>
-
+<section class="disciplines section-band" id="what-i-do" aria-labelledby="what-i-do-title">
+  <div class="section-heading story-heading"><p class="eyebrow">03 / Capabilities</p><h2 id="what-i-do-title">Four disciplines. One practical mindset.</h2><p>I work where the physical system, the information moving through it, and the next human decision meet.</p></div>
   <div class="discipline-grid">
-    <article class="discipline-card">
-      <span class="discipline-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M7 37h34M10 37V20l10 6V15l10 6V10h8v27"/><path d="M14 31h4M24 31h4M34 31h3"/></svg></span>
-      <h3>Industrial Engineering</h3>
-      <p>Process optimization, production planning, simulation, and operations research grounded in how work actually flows.</p>
-    </article>
-    <article class="discipline-card">
-      <span class="discipline-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="12" cy="24" r="4"/><circle cx="24" cy="12" r="4"/><circle cx="36" cy="24" r="4"/><circle cx="24" cy="36" r="4"/><path d="m15 21 6-6m6 0 6 6m0 6-6 6m-6 0-6-6"/></svg></span>
-      <h3>AI &amp; Software</h3>
-      <p>Forecasting, retrieval-augmented assistants, analytics, and full-stack systems built to be used, not merely demonstrated.</p>
-    </article>
-    <article class="discipline-card">
-      <span class="discipline-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M7 31h34l-4 6H11l-4-6Z"/><path d="M13 31v-9h12v9M28 22h8l4 9M18 17h13M24 17V9"/></svg></span>
-      <h3>Supply Chain &amp; Shipping</h3>
-      <p>First-hand global logistics experience, from freight flow to the operational systems that keep trade moving.</p>
-    </article>
-    <article class="discipline-card">
-      <span class="discipline-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M38 15a16 16 0 0 0-27 6"/><path d="M9 12v9h9"/><path d="M10 33a16 16 0 0 0 27-6"/><path d="M39 36v-9h-9"/></svg></span>
-      <h3>Systems &amp; Automation</h3>
-      <p>Real-time monitoring, predictive maintenance, and control systems that turn raw signals into dependable action.</p>
-    </article>
+    <article class="discipline-card"><span class="discipline-icon"><svg viewBox="0 0 48 48"><path d="M7 37h34M10 37V20l10 6V15l10 6V10h8v27"/><path d="M14 31h4M24 31h4M34 31h3"/></svg></span><h3>Industrial Engineering</h3><p>Process improvement, production planning, simulation, and operations research grounded in how work really flows.</p></article>
+    <article class="discipline-card"><span class="discipline-icon"><svg viewBox="0 0 48 48"><circle cx="12" cy="24" r="4"/><circle cx="24" cy="12" r="4"/><circle cx="36" cy="24" r="4"/><circle cx="24" cy="36" r="4"/><path d="m15 21 6-6m6 0 6 6m0 6-6 6m-6 0-6-6"/></svg></span><h3>AI &amp; Software</h3><p>Forecasting, retrieval-augmented assistants, analytics, and interfaces designed to be used, not merely demonstrated.</p></article>
+    <article class="discipline-card"><span class="discipline-icon"><svg viewBox="0 0 48 48"><path d="M7 31h34l-4 6H11l-4-6Z"/><path d="M13 31v-9h12v9M28 22h8l4 9M18 17h13M24 17V9"/></svg></span><h3>Supply Chain &amp; Shipping</h3><p>First-hand logistics experience, from freight movement to the operational systems that keep global trade moving.</p></article>
+    <article class="discipline-card"><span class="discipline-icon"><svg viewBox="0 0 48 48"><path d="M38 15a16 16 0 0 0-27 6"/><path d="M9 12v9h9"/><path d="M10 33a16 16 0 0 0 27-6"/><path d="M39 36v-9h-9"/></svg></span><h3>Systems &amp; Automation</h3><p>Monitoring, predictive maintenance, and reliable workflows that turn raw signals into dependable action.</p></article>
   </div>
 </section>
 
-<section id="work">
-  <div class="section-heading story-heading">
-    <h2>Flagship Systems</h2>
-    <p>Five operational questions, translated into five systems people can see, test, and use.</p>
-  </div>
-
+<section class="section-band" id="work">
+  <div class="section-heading story-heading"><p class="eyebrow">04 / Selected work</p><h2>Flagship systems</h2><p>Five operational questions, translated into systems that people can see, test, and use.</p></div>
   <div class="flagship-list">
-    <article class="flagship">
-      <div class="flagship-media">
-        <img loading="lazy" src="/assets/img/cnc-rag-assistant-hero.jpg" alt="Offline CNC RAG Assistant project preview">
-      </div>
-      <div class="flagship-copy">
-        <span class="flagship-index">01 / 05</span>
-        <p class="eyebrow">Local AI / Knowledge Flow</p>
-        <div class="stack">Python, FAISS, Sentence Transformers, Ollama, Mistral, Streamlit, Pytest</div>
-        <h3>Offline CNC RAG Assistant</h3>
-        <p>Built a local retrieval-augmented assistant for CNC operation and maintenance documentation, designed around traceability, source-grounded answers, and shop-floor reliability.</p>
-        <p class="result">839 indexed manual chunks, cited local answers, and 100% page hit rate@5 on the evaluation set.</p>
-        <div class="links">
-          <a class="stretched-link" href="/projects/offline-cnc-rag-assistant/">Case Study</a>
-          <a href="https://github.com/lewisndambiri/offline-cnc-rag-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="flagship reverse">
-      <div class="flagship-media">
-        <img loading="lazy" src="/projects/factorypulse/docs/factorypulse-hero-control-room.png" alt="FactoryPulse industrial monitoring project preview">
-      </div>
-      <div class="flagship-copy">
-        <span class="flagship-index">02 / 05</span>
-        <p class="eyebrow">Automation / Control Flow</p>
-        <div class="stack">React, TypeScript, FastAPI, MQTT, Docker, OPC UA, IIoT</div>
-        <h3>FactoryPulse Real-Time Monitoring</h3>
-        <p>Developed an industrial monitoring and control platform with live telemetry, OEE analytics, alarms, downtime history, audit logging, and secure command boundaries.</p>
-        <p class="result">Bridges shop-floor signals with full-stack operational dashboards and governance-minded system design.</p>
-        <div class="links">
-          <a class="stretched-link" href="/projects/factorypulse/">Case Study</a>
-          <a href="https://github.com/lewisndambiri/factorypulse" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="flagship">
-      <div class="flagship-media">
-        <img loading="lazy" src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview">
-      </div>
-      <div class="flagship-copy">
-        <span class="flagship-index">03 / 05</span>
-        <p class="eyebrow">Planning / Forecast Flow</p>
-        <div class="stack">Python, XGBoost, Pandas, Scikit-learn, Streamlit, Docker</div>
-        <h3>Demand Forecasting</h3>
-        <p>Built an end-to-end forecasting workflow across 1,115 stores and 1M+ rows with time-aware validation, leakage-conscious features, and recursive future forecasting.</p>
-        <p class="result">9.23% MAPE, 0.914 R², and 55% RMSE reduction versus the best naive baseline.</p>
-        <div class="links">
-          <a class="stretched-link" href="/projects/demand_planning/">Case Study</a>
-          <a href="https://github.com/lewisndambiri/demand_forecasting" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="flagship reverse">
-      <div class="flagship-media">
-        <img loading="lazy" src="/projects/Industrial-AI-Challenge/Fedrigoni.avif" alt="Fedrigoni industrial AI challenge preview">
-      </div>
-      <div class="flagship-copy">
-        <span class="flagship-index">04 / 05</span>
-        <p class="eyebrow">Industrial AI / Predictive Planning</p>
-        <div class="stack">Python, Pandas, NumPy, XGBoost, CRISP-DM</div>
-        <h3>Industrial AI Challenge - Fedrigoni</h3>
-        <p>Modeled a real paper-manufacturing slitting process to support predictive production planning while respecting confidentiality constraints around industrial data.</p>
-        <p class="result">Helped frame a shift from reactive follow-up toward predictive planning support.</p>
-        <div class="links">
-          <a class="stretched-link" href="/projects/Industrial-AI-Challenge/">Case Study</a>
-          <a href="/projects/Industrial-AI-Challenge/Certificate.png" target="_blank" rel="noopener noreferrer">Certificate</a>
-        </div>
-      </div>
-    </article>
-
-    <article class="flagship">
-      <div class="flagship-media">
-        <img loading="lazy" src="/projects/maintenance-mode-predictor/preview.jpg" alt="Maintenance mode predictor preview">
-      </div>
-      <div class="flagship-copy">
-        <span class="flagship-index">05 / 05</span>
-        <p class="eyebrow">Reliability / Model Governance</p>
-        <div class="stack">Python, Scikit-learn, Pandas, Statistics</div>
-        <h3>Maintenance Mode Prediction</h3>
-        <p>Built an interpretable machine-state classifier, then treated it as a model-risk case by reviewing labels, suspicious features, leakage risk, and future data availability.</p>
-        <p class="result">96% accuracy with a stronger reliability story than accuracy alone.</p>
-        <div class="links">
-          <a class="stretched-link" href="/projects/maintenance-mode-predictor/">Case Study</a>
-          <a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-      </div>
-    </article>
+    <article class="flagship"><div class="flagship-media"><img loading="lazy" src="/assets/img/cnc-rag-assistant-hero.jpg" alt="Offline CNC RAG Assistant project preview"></div><div class="flagship-copy"><span class="flagship-index">01 / 05</span><p class="eyebrow">Local AI / Knowledge flow</p><div class="stack">Python, FAISS, Sentence Transformers, Ollama, Mistral, Streamlit</div><h3>Offline CNC RAG Assistant</h3><p>Source-grounded local assistance for CNC operation and maintenance documentation, designed around traceability and shop-floor reliability.</p><p class="result">839 indexed manual chunks, cited answers, and 100% page hit rate@5 on the evaluation set.</p><div class="links"><a href="/projects/offline-cnc-rag-assistant/">Case study</a><a href="https://github.com/lewisndambiri/offline-cnc-rag-assistant" target="_blank" rel="noopener noreferrer">Code</a></div></div></article>
+    <article class="flagship reverse"><div class="flagship-media"><img loading="lazy" src="/projects/factorypulse/docs/factorypulse-hero-control-room.png" alt="FactoryPulse industrial monitoring project preview"></div><div class="flagship-copy"><span class="flagship-index">02 / 05</span><p class="eyebrow">Automation / Control flow</p><div class="stack">React, TypeScript, FastAPI, MQTT, Docker, OPC UA</div><h3>FactoryPulse Real-Time Monitoring</h3><p>An industrial monitoring and control platform with live telemetry, OEE analytics, alarms, downtime history, audit logging, and secure command boundaries.</p><p class="result">Connects shop-floor signals to full-stack operational dashboards and clear system governance.</p><div class="links"><a href="/projects/factorypulse/">Case study</a><a href="https://github.com/lewisndambiri/factorypulse" target="_blank" rel="noopener noreferrer">Code</a></div></div></article>
+    <article class="flagship"><div class="flagship-media"><img loading="lazy" src="/projects/demand_planning/demand-forecasting-hero.png" alt="Demand forecasting project preview"></div><div class="flagship-copy"><span class="flagship-index">03 / 05</span><p class="eyebrow">Planning / Forecast flow</p><div class="stack">Python, XGBoost, Pandas, Scikit-learn, Streamlit, Docker</div><h3>Demand Forecasting</h3><p>An end-to-end forecasting workflow for 1,115 stores and 1M+ rows, with time-aware validation, leakage-conscious features, and recursive future forecasting.</p><p class="result">9.23% MAPE, 0.914 R², and 55% RMSE reduction versus the best naive baseline.</p><div class="links"><a href="/projects/demand_planning/">Case study</a><a href="https://github.com/lewisndambiri/demand_forecasting" target="_blank" rel="noopener noreferrer">Code</a></div></div></article>
+    <article class="flagship reverse"><div class="flagship-media"><img loading="lazy" src="/projects/Industrial-AI-Challenge/Fedrigoni.avif" alt="Fedrigoni industrial AI challenge preview"></div><div class="flagship-copy"><span class="flagship-index">04 / 05</span><p class="eyebrow">Industrial AI / Predictive planning</p><div class="stack">Python, Pandas, NumPy, XGBoost, CRISP-DM</div><h3>Industrial AI Challenge: Fedrigoni</h3><p>Modelled a paper-manufacturing slitting process to support predictive production planning while respecting industrial-data confidentiality.</p><p class="result">Framed a shift from reactive follow-up toward predictive planning support.</p><div class="links"><a href="/projects/Industrial-AI-Challenge/">Case study</a><a href="/projects/Industrial-AI-Challenge/Certificate.png" target="_blank" rel="noopener noreferrer">Certificate</a></div></div></article>
+    <article class="flagship"><div class="flagship-media"><img loading="lazy" src="/projects/maintenance-mode-predictor/preview.jpg" alt="Maintenance mode predictor preview"></div><div class="flagship-copy"><span class="flagship-index">05 / 05</span><p class="eyebrow">Reliability / Model governance</p><div class="stack">Python, Scikit-learn, Pandas, Statistics</div><h3>Maintenance Mode Prediction</h3><p>An interpretable machine-state classifier evaluated through the lens of labels, feature availability, leakage risk, and operational reliability.</p><p class="result">96% accuracy with a stronger reliability story than accuracy alone.</p><div class="links"><a href="/projects/maintenance-mode-predictor/">Case study</a><a href="https://github.com/lewisndambiri/maintenance-mode-predictor" target="_blank" rel="noopener noreferrer">Code</a></div></div></article>
   </div>
 </section>
 
-<section id="other-work">
-  <div class="section-heading story-heading">
-    <h2>Other Systems</h2>
-    <p>Smaller builds, same instinct: turn scattered requirements into working interfaces, analytics, and decision support.</p>
-  </div>
+<section class="section-band" id="other-work"><div class="section-heading story-heading"><p class="eyebrow">05 / More systems</p><h2>Built across the stack.</h2><p>Additional work in logistics, analytics engineering, high-performance computing, product development, and PLC diagnostics.</p></div><div class="project-grid compact-projects">
+  <article class="project-card" data-system="01 / 05"><div class="project-media"><img loading="lazy" src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview"></div><div class="stack">Python, Flask, PostgreSQL, Docker, REST, Telegram Bot</div><h3>UrbanPulse Event &amp; Logistics Planner</h3><p>A service-oriented platform for event discovery and weather-aware transport recommendations.</p><p class="result">Event, weather, and routing APIs in one containerized planning workflow.</p><div class="links"><a href="/projects/UrbanPulse/">Case study</a><a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">Code</a></div></article>
+  <article class="project-card" data-system="02 / 05"><div class="project-media"><img loading="lazy" src="/projects/retail-analytics-sql/hero.png" alt="Retail analytics SQL pipeline preview"></div><div class="stack">PostgreSQL, Python ETL, Advanced SQL, Power BI, Grafana, Docker</div><h3>Retail Analytics SQL Pipeline</h3><p>A reproducible data pipeline from synthetic data through star-schema modeling to operational reporting.</p><p class="result">Validated transactions, cohort retention, RFM segmentation, KPIs, and provisioned dashboards.</p><div class="links"><a href="/projects/retail-analytics-sql/">Case study</a><a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">Code</a></div></article>
+  <article class="project-card" data-system="03 / 05"><div class="project-media"><img loading="lazy" src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview"></div><div class="stack">C, MPI, OpenMP, PBS, Linux HPC Cluster</div><h3>Parallel Numerical Integration</h3><p>Romberg integration benchmarked across MPI, OpenMP, hybrid configurations, and cluster-placement strategies.</p><p class="result">31.77x speedup on 32 cores with 99.3% efficiency.</p><div class="links"><a href="/projects/romberg-hpc4ds/">Case study</a><a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">Code</a></div></article>
+  <article class="project-card" data-system="04 / 05"><div class="project-media"><img loading="lazy" src="/projects/meet-scheduler/Homepage.jpg" alt="MeetScheduler homepage preview"></div><div class="stack">React, Node.js, Express, Google Calendar API, Nodemailer</div><h3>MeetScheduler</h3><p>A Doodle-inspired scheduler with availability voting, calendar awareness, and invitations.</p><p class="result">A tested full-stack scheduling product built with AI-assisted development and sound product judgment.</p><div class="links"><a href="/projects/meet-scheduler/">Case study</a><a href="https://github.com/lewisndambiri/meet-scheduler" target="_blank" rel="noopener noreferrer">Code</a></div></article>
+  <article class="project-card" data-system="05 / 05"><div class="project-media"><img loading="lazy" src="/projects/faultlens-plc/docs/hero/faultlens-plc-hero.png" alt="FaultLens PLC explainable fault diagnosis preview"></div><div class="stack">Python, IEC 61131-3, Structured Text, PLC Simulation, RCA</div><h3>FaultLens PLC</h3><p>An explainable PLC troubleshooting assistant that resolves ambiguous faults through bounded tests and root-cause analysis.</p><p class="result">2/2 ambiguous pairs localized, 26 automated tests, and IEC 61131-3 code compiled to C++17.</p><div class="links"><a href="/projects/faultlens-plc/">Case study</a><a href="https://github.com/lewisndambiri/faultlens-plc" target="_blank" rel="noopener noreferrer">Code</a></div></article>
+</div></section>
 
-  <div class="project-grid compact-projects">
-      <article class="project-card" data-system="01/05">
-        <div class="project-media">
-          <img loading="lazy" src="/projects/UrbanPulse/urbanpulse.PNG" alt="UrbanPulse system preview">
-        </div>
-        <div class="stack">Python, Flask, PostgreSQL, Docker, REST, Telegram Bot</div>
-        <h3>UrbanPulse Event & Logistics Planner</h3>
-        <p>Built a process-centric, four-layer service-oriented architecture that helps users discover events and receive weather-aware transport recommendations through a Telegram chatbot.</p>
-        <p class="result">Result: integrated event, weather, and routing APIs into a containerized event planning workflow.</p>
-        <div class="links">
-          <a class="stretched-link" href="/projects/UrbanPulse/">Case Study</a>
-          <a href="https://github.com/lewisndambiri/UrbanPulse" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
-      </article>
-    
-      <article class="project-card" data-system="02/05">
-      <div class="project-media">
-        <img loading="lazy" src="/projects/retail-analytics-sql/hero.png" alt="Retail analytics SQL pipeline preview">
-      </div>
-      <div class="stack">PostgreSQL, Python ETL, Advanced SQL, Power BI, Grafana, Docker</div>
-      <h3>Retail Analytics SQL Pipeline</h3>
-      <p>Built a reproducible analytics pipeline that generates synthetic retail data, loads a PostgreSQL star schema, answers business questions with advanced SQL, and publishes executive and operational dashboards.</p>
-      <p class="result">Result: 10,000 validated transactions, cohort retention, RFM segmentation, KPI analysis, Power BI-style reporting, and a provisioned Grafana dashboard.</p>
-      <div class="links">
-        <a class="stretched-link" href="/projects/retail-analytics-sql/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/retail-analytics-sql" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </article>
-  
-    <article class="project-card" data-system="03/05">
-      <div class="project-media">
-        <img loading="lazy" src="/projects/romberg-hpc4ds/hpc.jpg" alt="HPC cluster preview">
-      </div>
-      <div class="stack">C, MPI, OpenMP, PBS, Linux HPC Cluster</div>
-      <h3>Parallel Numerical Integration Using Romberg's Method</h3>
-      <p>Parallelized a high-accuracy numerical method across MPI, OpenMP, and hybrid configurations, then benchmarked scaling behavior across cluster placements.</p>
-      <p class="result">Result: 31.77x speedup on 32 cores with 99.3% efficiency.</p>
-      <div class="links">
-        <a class="stretched-link" href="/projects/romberg-hpc4ds/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/romberg-hpc4ds" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </article>
-
-    <article class="project-card" data-system="04/05">
-      <div class="project-media">
-        <img loading="lazy" src="/projects/meet-scheduler/Homepage.jpg" alt="MeetScheduler homepage preview">
-      </div>
-      <div class="stack">React, Node.js, Express, Google Calendar API, Nodemailer, CSS</div>
-      <h3>MeetScheduler AI-Assisted Meeting Scheduler</h3>
-      <p>Built a Doodle-inspired meeting scheduler for HackaPrompt AI 2026, with poll creation, availability voting, quorum-based best-slot detection, Google Calendar availability, and email invitations.</p>
-      <p class="result">Result: A full-stack scheduling prototype, demonstrating how AI-assisted development accelerates delivery when guided by strong product and engineering judgment.</p>
-      <div class="links">
-        <a class="stretched-link" href="/projects/meet-scheduler/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/meet-scheduler" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </article>
-
-    <article class="project-card" data-system="05/05">
-      <div class="project-media">
-        <img loading="lazy" src="/projects/faultlens-plc/docs/hero/faultlens-plc-hero.png" alt="FaultLens PLC explainable fault diagnosis preview">
-      </div>
-      <div class="stack">Python, IEC 61131-3, Structured Text, PLC Simulation, RCA</div>
-      <h3>FaultLens PLC — Explainable Fault Diagnosis</h3>
-      <p>Built a simulated PLC troubleshooting assistant that separates two faults sharing one alarm, using an operator observation, a bounded consistency test, and traditional RCA (5 Whys, Ishikawa, FMEA) instead of a black-box guess.</p>
-      <p class="result">Result: 2/2 ambiguous fault pairs correctly localized, 26 automated tests, and a real IEC 61131-3 program that compiles to C++17.</p>
-      <div class="links">
-        <a class="stretched-link" href="/projects/faultlens-plc/">Case Study</a>
-        <a href="https://github.com/lewisndambiri/faultlens-plc" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </div>
-    </article>
+<section class="tech-stack section-band" id="tech-stack">
+  <div class="section-heading toolkit-heading"><p class="eyebrow">06 / Toolchain</p><h2>A hybrid engineering toolkit.</h2><p>Methods and technologies selected to make systems clearer, more reliable, and more useful.</p></div>
+  <div class="stack-groups toolkit-grid">
+    <div class="stack-group"><h3>Lean &amp; Manufacturing</h3><div class="tech-badges"><span>Lean Manufacturing</span><span>5S</span><span>VSM</span><span>Six Sigma</span><span>5 Whys</span><span>OEE / KPI</span><span>Kanban</span><span>RCA</span><span>Process Mapping</span><span>Flow Analysis</span></div></div>
+    <div class="stack-group"><h3>Data, AI &amp; Software</h3><div class="tech-badges"><span>Python</span><span>SQL</span><span>Machine Learning</span><span>RAG / LLMs</span><span>FastAPI</span><span>React</span><span>Power BI</span><span>Excel / VBA</span><span>Docker</span><span>Git</span></div></div>
+    <div class="stack-group"><h3>Industrial &amp; Engineering</h3><div class="tech-badges"><span>SAP</span><span>FlexSim</span><span>AutoCAD</span><span>SolidWorks</span><span>OPC UA</span><span>MQTT</span><span>Traceability</span><span>Capacity Analysis</span></div></div>
+    <div class="stack-group"><h3>Collaboration</h3><div class="tech-badges"><span>Project Management</span><span>Cross-functional Delivery</span><span>Data Storytelling</span><span>Adaptability</span><span>English C2</span><span>Swahili C2</span><span>French B2</span><span>Italian A2</span></div></div>
   </div>
 </section>
 
-<section class="tech-stack" id="tech-stack" aria-labelledby="tech-stack-title">
-  <div class="section-heading">
-    <h2 id="tech-stack-title">Tools I Use to Build</h2>
-  </div>
+<section class="section-band" id="education"><div class="section-heading"><p class="eyebrow">07 / Education</p></div><div class="education"><article class="education-main"><div class="education-brand"><img src="/assets/img/brands/eit-manufacturing.png" alt="EIT Manufacturing"><span class="education-code">2024-2026</span></div><h3>Data Science and AI for Competitive Manufacturing</h3><p>EIT Manufacturing Master School. A double-degree path combining data science, artificial intelligence, industrial engineering, international mobility, and manufacturing innovation.</p></article><article><div class="education-brand"><img src="/assets/img/brands/centrale-nantes.png" alt="Centrale Nantes"><span class="education-code">Nantes, France</span></div><h3>M.Sc. Industrial Engineering</h3><p>Operations research, simulation, enterprise modeling, innovation engineering, and project management.</p></article><article><div class="education-brand"><img src="/assets/img/brands/unitrento.png" alt="University of Trento"><span class="education-code">Trento, Italy</span></div><h3>M.Sc. Computer Science</h3><p>HPC for data science, AI and innovation, service design, software systems, and entrepreneurship.</p></article></div></section>
 
-  <div class="stack-groups">
-    <div class="stack-group">
-      <h3>AI & Data</h3>
-      <div class="tech-badges">
-        <span>Python</span>
-        <span>Pandas</span>
-        <span>NumPy</span>
-        <span>Scikit-learn</span>
-        <span>XGBoost</span>
-        <span>FAISS</span>
-        <span>Sentence Transformers</span>
-        <span>Mistral</span>
-        <span>Ollama</span>
-      </div>
-    </div>
-    <div class="stack-group">
-      <h3>Industrial & Operations</h3>
-      <div class="tech-badges">
-        <span>Optimization</span>
-        <span>Forecasting</span>
-        <span>Simulation</span>
-        <span>Lean Systems</span>
-        <span>Predictive Maintenance</span>
-        <span>Industry 4.0 / 5.0</span>
-      </div>
-    </div>
-    <div class="stack-group">
-      <h3>Systems & Backend</h3>
-      <div class="tech-badges">
-        <span>PostgreSQL</span>
-        <span>Advanced SQL</span>
-        <span>SQLAlchemy</span>
-        <span>Flask</span>
-        <span>REST APIs</span>
-        <span>Node.js</span>
-        <span>Express</span>
-        <span>Docker</span>
-        <span>Docker Compose</span>
-      </div>
-    </div>
-    <div class="stack-group">
-      <h3>Interfaces & Delivery</h3>
-      <div class="tech-badges">
-        <span>Streamlit</span>
-        <span>Power BI</span>
-        <span>Grafana</span>
-        <span>React</span>
-        <span>Google Calendar API</span>
-        <span>Telegram Bot</span>
-        <span>Nodemailer</span>
-      </div>
-    </div>
-    <div class="stack-group">
-      <h3>Engineering Practice</h3>
-      <div class="tech-badges">
-        <span>Pytest</span>
-        <span>CI</span>
-        <span>Linux</span>
-        <span>C</span>
-        <span>MPI</span>
-        <span>OpenMP</span>
-        <span>PBS</span>
-      </div>
-    </div>
-  </div>
-</section>
+<section class="contact-section" id="contact"><div><p class="eyebrow">08 / Let’s connect</p><h2>Let’s build the next system worth trusting.</h2><p>Open to roles, collaborations, and conversations around industrial engineering, AI, data science, supply chain, and operations technology.</p></div><div class="contact-actions"><a class="button primary" href="mailto:ndambirilewis@gmail.com">Email Lewis</a><a class="button" href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a class="button" href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div></section>
 
-<section id="education">
-  <div class="section-heading">
-    <h2>Formation Path</h2>
-  </div>
-
-  <div class="education">
-    <article class="education-main">
-      <span class="education-code">EIT / 2024-2026</span>
-      <h3>Data Science and AI for Competitive Manufacturing</h3>
-      <p>EIT Manufacturing Master School. A double-degree track connecting data science, artificial intelligence, industrial engineering, international mobility, and manufacturing innovation.</p>
-    </article>
-    <article>
-      <span class="education-code">Centrale Nantes</span>
-      <h3>M.Sc. Industrial Engineering</h3>
-      <p>Smart and connected enterprise, operations research, simulation, enterprise modeling, innovation engineering, and project management.</p>
-    </article>
-    <article>
-      <span class="education-code">University of Trento</span>
-      <h3>M.Sc. Computer Science</h3>
-      <p>ICT innovation, HPC for data science, AI and innovation, service design, software systems, and entrepreneurship.</p>
-    </article>
-  </div>
-</section>
-
-<section class="contact-section" id="contact" aria-labelledby="contact-title">
-  <div>
-    <p class="eyebrow">Let’s connect</p>
-    <h2 id="contact-title">Let’s build the next system worth trusting.</h2>
-    <p>Open to roles, collaborations, and conversations around industrial engineering, AI, data science, supply chain, and operations technology.</p>
-  </div>
-  <div class="contact-actions">
-    <a class="button primary" href="mailto:ndambirilewis@gmail.com">Email Lewis</a>
-    <a class="button" href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a class="button" href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-  </div>
-</section>
-
-<footer>
-  <span>© 2026 Lewis NDAMBIRI</span>
-  <a href="#top" aria-label="Back to top">Back to top ↑</a>
-</footer>
+<footer><span>© 2026 Lewis NDAMBIRI</span><a href="#top">Back to top ↑</a></footer>
