@@ -180,12 +180,64 @@
     update();
   }
 
+  function setupContactForm() {
+    const form = document.querySelector("[data-contact-form]");
+    if (!form) return;
+
+    const status = form.querySelector("[data-form-status]");
+    const submit = form.querySelector("button[type='submit']");
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      status.classList.remove("is-success", "is-error");
+      status.textContent = "";
+
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+
+      if (form.elements.website.value) return;
+
+      if (form.action.includes("REPLACE_WITH_FORM_ID")) {
+        status.classList.add("is-error");
+        status.textContent = "Local preview ready. Add a Formspree form ID before publishing.";
+        return;
+      }
+
+      submit.disabled = true;
+      submit.setAttribute("aria-busy", "true");
+      status.textContent = "Sending...";
+
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: { Accept: "application/json" }
+        });
+
+        if (!response.ok) throw new Error("Contact form request failed");
+
+        form.reset();
+        status.classList.add("is-success");
+        status.textContent = "Message sent. Thank you.";
+      } catch {
+        status.classList.add("is-error");
+        status.textContent = "Message not sent. Please use LinkedIn instead.";
+      } finally {
+        submit.disabled = false;
+        submit.removeAttribute("aria-busy");
+      }
+    });
+  }
+
   enhanceStacks();
   addInteractiveGlow();
   addReveal();
   addActiveNav();
   animateMetrics();
   addSpinnerMotion();
+  setupContactForm();
 
   if (!canvas) return;
 

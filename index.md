@@ -42,7 +42,6 @@ description: Industrial engineering, applied AI, automation, and operations syst
     <div class="profile-links profile-links-external" aria-label="Profile links">
       <a href="https://github.com/lewisndambiri" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.15-1.11-1.45-1.11-1.45-.9-.62.07-.61.07-.61 1 .07 1.52 1 1.52 1 .89 1.5 2.33 1.07 2.9.82.09-.63.35-1.07.64-1.32-2.22-.25-4.56-1.09-4.56-4.86 0-1.07.39-1.95 1.02-2.64-.1-.25-.44-1.25.1-2.61 0 0 .84-.26 2.75 1a9.7 9.7 0 0 1 5 0c1.91-1.26 2.75-1 2.75-1 .54 1.36.2 2.36.1 2.61.63.69 1.02 1.57 1.02 2.64 0 3.78-2.35 4.6-4.58 4.85.36.3.68.86.68 1.74v2.58c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
       <a href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5H3.4V21h3.1V8.5ZM5 3A1.8 1.8 0 1 0 5 6.6 1.8 1.8 0 0 0 5 3ZM21 13.8c0-3.8-2-5.6-4.8-5.6-2.2 0-3.2 1.2-3.7 2V8.5H9.4V21h3.1v-6.2c0-1.6.3-3.2 2.3-3.2 2 0 2 1.9 2 3.3V21H21v-7.2Z"/></svg></a>
-      <a href="mailto:ndambirilewis@gmail.com" aria-label="Email Lewis" title="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></a>
       <a href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="View resume" title="Resume"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg></a>
     </div>
   </div>
@@ -106,6 +105,29 @@ description: Industrial engineering, applied AI, automation, and operations syst
 
 <section class="section-band" id="education"><div class="section-heading"><p class="eyebrow">07 / Education</p></div><div class="education"><article class="education-main"><div class="education-brand"><img src="/assets/img/brands/eit-manufacturing.png" alt="EIT Manufacturing"><span class="education-code">2024-2026</span></div><h3>Data Science and AI for Competitive Manufacturing</h3><p>EIT Manufacturing Master School. A double-degree path combining data science, artificial intelligence, industrial engineering, international mobility, and manufacturing innovation.</p></article><article><div class="education-brand"><img src="/assets/img/brands/centrale-nantes.png" alt="Centrale Nantes"><span class="education-code">Nantes, France</span></div><h3>M.Sc. Industrial Engineering</h3><p>Operations research, simulation, enterprise modeling, innovation engineering, and project management.</p></article><article><div class="education-brand"><img src="/assets/img/brands/unitrento.png" alt="University of Trento"><span class="education-code">Trento, Italy</span></div><h3>M.Sc. Computer Science</h3><p>HPC for data science, AI and innovation, service design, software systems, and entrepreneurship.</p></article></div></section>
 
-<section class="contact-section" id="contact"><div><p class="eyebrow">08 / Let’s connect</p><h2>Let’s build the next system worth trusting.</h2><p>Open to roles, collaborations, and conversations around industrial engineering, AI, data science, supply chain, and operations technology.</p></div><div class="contact-actions"><a class="button primary" href="mailto:ndambirilewis@gmail.com">Email Lewis</a><a class="button" href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a class="button" href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></div></section>
+<section class="contact-section" id="contact">
+  <div class="contact-copy">
+    <p class="eyebrow">08 / Let’s connect</p>
+    <h2>Let’s build something useful.</h2>
+    <p>Open to roles, collaborations, and thoughtful conversations around industrial engineering, applied AI, supply chains, and operations technology. A brief note is enough to begin.</p>
+    <div class="contact-links" aria-label="Alternative contact links">
+      <a href="https://linkedin.com/in/lewisndambiri/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/lewisndambiri" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <a href="Docs/ndambiri_lewis_resume.pdf" target="_blank" rel="noopener noreferrer">Resume <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <form class="contact-form" action="https://formspree.io/f/xgaeaklw" method="post" data-contact-form>
+    <div class="form-row">
+      <label><span>Name</span><input type="text" name="name" autocomplete="name" required></label>
+      <label><span>Reply email</span><input type="email" name="email" autocomplete="email" required></label>
+    </div>
+    <label><span>What would you like to discuss?</span><textarea name="message" rows="5" maxlength="1200" required></textarea></label>
+    <input class="form-trap" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="form-submit">
+      <button class="button primary" type="submit">Send message <span aria-hidden="true">↗</span></button>
+      <p class="form-status" data-form-status aria-live="polite"></p>
+    </div>
+  </form>
+</section>
 
 <footer><span>© 2026 Lewis NDAMBIRI</span><a href="#top">Back to top ↑</a></footer>
